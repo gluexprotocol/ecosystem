@@ -1,388 +1,439 @@
 [
-    {
-      "identifier": "aave",
-      "name": "Aave",
-      "description": "Aave is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.",
-      "icon": "/protocol/aave.png",
-      "chains": [
-        "arbitrum",
-        "avalanche",
-        "ethereum",
-        "polygon",
-        "gnosis",
-        "optimism"
-      ],
-      "category": ["LENDING", "BORROWING"],
-      "website": "https://aave.com/",
-      "docs": "https://docs.aave.com/",
-      "socials": {
-        "twitter": "https://x.com/aave",
-        "discord": "https://discord.com/invite/aave",
-        "telegram": "",
-        "github": "https://github.com/aave"
-      },
-      "reference": ["aave_v2", "aave_v3"]
+  {
+    "identifier": "aave",
+    "name": "Aave",
+    "description": "Aave is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.",
+    "icon": "/protocol/aave.png",
+    "chains": [
+      "arbitrum",
+      "avalanche",
+      "ethereum",
+      "polygon",
+      "gnosis",
+      "optimism"
+    ],
+    "category": ["LENDING", "BORROWING"],
+    "website": "https://aave.com/",
+    "docs": "https://docs.aave.com/",
+    "socials": {
+      "twitter": "https://x.com/aave",
+      "discord": "https://discord.com/invite/aave",
+      "telegram": "",
+      "github": "https://github.com/aave"
     },
-    {
-      "identifier": "aura_finance",
-      "name": "Aura Finance",
-      "description": "Aura Finance is a protocol built on top of the Balancer system to provide maximum incentives to Balancer liquidity providers and BAL stakers (into veBAL) through social aggregation of BAL deposits and Aura's native token.",
-      "icon": "/protocol/aura.png",
-      "chains": ["arbitrum", "base", "ethereum"],
-      "category": ["Yield Aggregator", "DeFi"],
-      "website": "https://aura.finance/",
-      "docs": "https://docs.aura.finance/",
-      "socials": {
-        "twitter": "https://x.com/AuraFinance",
-        "discord": "https://discord.com/invite/aurafinanceofficial",
-        "telegram": "",
-        "github": "https://github.com/aurafinance"
-      },
-      "reference": ["aura_bal_vault"]
+    "reference": ["aave_v2", "aave_v3"]
+  },
+  {
+    "identifier": "aura_finance",
+    "name": "Aura Finance",
+    "description": "Aura Finance is a protocol built on top of the Balancer system to provide maximum incentives to Balancer liquidity providers and BAL stakers (into veBAL) through social aggregation of BAL deposits and Aura's native token.",
+    "icon": "/protocol/aura.png",
+    "chains": ["arbitrum", "base", "ethereum"],
+    "category": ["Yield Aggregator", "DeFi"],
+    "website": "https://aura.finance/",
+    "docs": "https://docs.aura.finance/",
+    "socials": {
+      "twitter": "https://x.com/AuraFinance",
+      "discord": "https://discord.com/invite/aurafinanceofficial",
+      "telegram": "",
+      "github": "https://github.com/aurafinance"
     },
-    {
-      "identifier": "balancer",
-      "name": "Balancer",
-      "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum that represents a flexible building block for programmable liquidity. By separating the AMM curve logic and math from the core swapping functionality, Balancer becomes an extensible AMM that can incorporate any number of swap curves and pool types.",
-      "icon": "/protocol/balancer.png",
-      "chains": ["arbitrum", "ethereum", "polygon", "gnosis"],
-      "category": ["AMM", "DEX"],
-      "website": "https://balancer.fi/",
-      "docs": "https://docs.balancer.fi/",
-      "socials": {
-        "twitter": "https://x.com/Balancer",
-        "discord": "https://discord.balancer.fi/",
-        "telegram": "https://t.me/balancerdefi",
-        "github": "https://github.com/balancer"
-      },
-      "reference": [
-        "balancer_v2_composable_stable_v1",
-        "balancer_v2_composable_stable_v2",
-        "balancer_v2_composable_stable_v3",
-        "balancer_v2_weighted_v1",
-        "balancer_v2_weighted_v2",
-        "balancer_v3_stable"
-      ]
+    "reference": ["aura_bal_vault"]
+  },
+  {
+    "identifier": "balancer",
+    "name": "Balancer",
+    "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum that represents a flexible building block for programmable liquidity. By separating the AMM curve logic and math from the core swapping functionality, Balancer becomes an extensible AMM that can incorporate any number of swap curves and pool types.",
+    "icon": "/protocol/balancer.png",
+    "chains": ["arbitrum", "ethereum", "polygon", "gnosis"],
+    "category": ["AMM", "DEX"],
+    "website": "https://balancer.fi/",
+    "docs": "https://docs.balancer.fi/",
+    "socials": {
+      "twitter": "https://x.com/Balancer",
+      "discord": "https://discord.balancer.fi/",
+      "telegram": "https://t.me/balancerdefi",
+      "github": "https://github.com/balancer"
     },
-    {
-      "identifier": "bebop",
-      "name": "Bebop",
-      "description": "Bebop is a decentralized trading platform. We are on a mission to make superior trading products with efficient execution available to anyone.",
-      "icon": "/protocol/bebop.webp",
-      "chains": ["arbitrum", "bnb", "base", "ethereum", "optimism", "taiko"],
-      "category": ["DEX", "AMM"],
-      "website": "https://bebop.xyz/",
-      "docs": "https://docs.bebop.xyz/",
-      "socials": {
-        "twitter": "https://x.com/bebop_dex",
-        "discord": "https://discord.com/invite/bebop",
-        "telegram": "",
-        "github": "https://github.com/bebop-dex"
-      },
-      "reference": ["bebop_v3_fok", "bebop_v3_pf_lob"]
+    "reference": [
+      "balancer_v2_composable_stable_v1",
+      "balancer_v2_composable_stable_v2",
+      "balancer_v2_composable_stable_v3",
+      "balancer_v2_weighted_v1",
+      "balancer_v2_weighted_v2",
+      "balancer_v3_stable"
+    ]
+  },
+  {
+    "identifier": "bebop",
+    "name": "Bebop",
+    "description": "Bebop is a decentralized trading platform. We are on a mission to make superior trading products with efficient execution available to anyone.",
+    "icon": "/protocol/bebop.webp",
+    "chains": ["arbitrum", "bnb", "base", "ethereum", "optimism", "taiko"],
+    "category": ["DEX", "AMM"],
+    "website": "https://bebop.xyz/",
+    "docs": "https://docs.bebop.xyz/",
+    "socials": {
+      "twitter": "https://x.com/bebop_dex",
+      "discord": "https://discord.com/invite/bebop",
+      "telegram": "",
+      "github": "https://github.com/bebop-dex"
     },
-    {
-      "identifier": "camelot",
-      "name": "Camelot",
-      "description": "Camelot DEX is an innovative and highly flexible DEX built to support the Arbitrum ecosystem. Community driven and capital efficient.",
-      "icon": "/protocol/camelot.png",
-      "chains": ["arbitrum", "ethereum"],
-      "category": ["DEX", "AMM"],
-      "website": "https://camelot.exchange/",
-      "docs": "https://docs.camelot.exchange/",
-      "socials": {
-        "twitter": "https://x.com/camelotdex",
-        "discord": "https://discord.com/invite/r9V7rry3nz",
-        "telegram": "https://t.me/camelotdex",
-        "github": "https://github.com/CamelotLabs"
-      },
-      "reference": ["camelot_v3"]
+    "reference": ["bebop_v3_fok", "bebop_v3_pf_lob"]
+  },
+  {
+    "identifier": "camelot",
+    "name": "Camelot",
+    "description": "Camelot DEX is an innovative and highly flexible DEX built to support the Arbitrum ecosystem. Community driven and capital efficient.",
+    "icon": "/protocol/camelot.png",
+    "chains": ["arbitrum", "ethereum"],
+    "category": ["DEX", "AMM"],
+    "website": "https://camelot.exchange/",
+    "docs": "https://docs.camelot.exchange/",
+    "socials": {
+      "twitter": "https://x.com/camelotdex",
+      "discord": "https://discord.com/invite/r9V7rry3nz",
+      "telegram": "https://t.me/camelotdex",
+      "github": "https://github.com/CamelotLabs"
     },
-    {
-      "identifier": "fluid",
-      "name": "Fluid",
-      "description": "Fluid is the next-generation lending market with the highest LTVs and lowest liquidation penalties in the industry.",
-      "icon": "/protocol/fluid.png",
-      "chains": ["arbitrum", "base", "ethereum"],
-      "category": ["LENDING", "BORROWING"],
-      "website": "https://fluid.io/",
-      "docs": "https://docs.fluid.instadapp.io/",
-      "socials": {
-        "twitter": "https://x.com/0xFluid",
-        "discord": "https://discord.com/invite/C76CeZc",
-        "telegram": "",
-        "github": "https://github.com/Instadapp"
-      },
-      "reference": ["fluid_dex", "fluid_fusdc_usdc"]
+    "reference": ["camelot_v3"]
+  },
+  {
+    "identifier": "fluid",
+    "name": "Fluid",
+    "description": "Fluid is the next-generation lending market with the highest LTVs and lowest liquidation penalties in the industry.",
+    "icon": "/protocol/fluid.png",
+    "chains": ["arbitrum", "base", "ethereum"],
+    "category": ["LENDING", "BORROWING"],
+    "website": "https://fluid.io/",
+    "docs": "https://docs.fluid.instadapp.io/",
+    "socials": {
+      "twitter": "https://x.com/0xFluid",
+      "discord": "https://discord.com/invite/C76CeZc",
+      "telegram": "",
+      "github": "https://github.com/Instadapp"
     },
-    {
-      "identifier": "hashflow",
-      "name": "Hashflow",
-      "description": "a multichain decentralized exchange (DEX) that enables users to trade digital assets on leading blockchains.",
-      "icon": "/protocol/hashflow.png",
-      "chains": [
-        "arbitrum",
-        "avalanche",
-        "base",
-        "bnb",
-        "ethereum",
-        "optimism",
-        "polygon"
-      ],
-      "category": ["DEX", "AMM"],
-      "website": "https://hashflow.com/",
-      "docs": "https://docs.hashflow.com/",
-      "socials": {
-        "twitter": "https://x.com/hashflow",
-        "discord": "https://discord.com/invite/hashflow",
-        "telegram": "",
-        "github": "https://github.com/hashflownetwork/"
-      },
-      "reference": ["hashflow_v3_fok"]
+    "reference": ["fluid_dex", "fluid_fusdc_usdc"]
+  },
+  {
+    "identifier": "hashflow",
+    "name": "Hashflow",
+    "description": "a multichain decentralized exchange (DEX) that enables users to trade digital assets on leading blockchains.",
+    "icon": "/protocol/hashflow.png",
+    "chains": [
+      "arbitrum",
+      "avalanche",
+      "base",
+      "bnb",
+      "ethereum",
+      "optimism",
+      "polygon"
+    ],
+    "category": ["DEX", "AMM"],
+    "website": "https://hashflow.com/",
+    "docs": "https://docs.hashflow.com/",
+    "socials": {
+      "twitter": "https://x.com/hashflow",
+      "discord": "https://discord.com/invite/hashflow",
+      "telegram": "",
+      "github": "https://github.com/hashflownetwork/"
     },
-    {
-      "identifier": "maverick_protocol",
-      "name": "Maverick Protocol",
-      "description": "Maverick Protocol is DeFi's Liquidity Operating System, offering one-stop liquidity solutions for token projects, liquidity providers, and blockchain ecosystems to bootstrap efficient markets with optimized liquidity and reduced budget spending.",
-      "icon": "/protocol/maverick_.png",
-      "chains": ["base", "ethereum", "scroll", "arbitrum"],
-      "category": ["DEX"],
-      "website": "https://www.mav.xyz/",
-      "docs": "https://docs.mav.xyz/",
-      "socials": {
-        "twitter": "https://x.com/mavprotocol",
-        "discord": "https://discord.com/invite/dVvnmtwdRJ",
-        "telegram": "",
-        "github": "https://github.com/maverickprotocol"
-      },
-      "reference": ["maverick_v1", "maverick_v2"]
+    "reference": ["hashflow_v3_fok"]
+  },
+  {
+    "identifier": "maverick_protocol",
+    "name": "Maverick Protocol",
+    "description": "Maverick Protocol is DeFi's Liquidity Operating System, offering one-stop liquidity solutions for token projects, liquidity providers, and blockchain ecosystems to bootstrap efficient markets with optimized liquidity and reduced budget spending.",
+    "icon": "/protocol/maverick_.png",
+    "chains": ["base", "ethereum", "scroll", "arbitrum"],
+    "category": ["DEX"],
+    "website": "https://www.mav.xyz/",
+    "docs": "https://docs.mav.xyz/",
+    "socials": {
+      "twitter": "https://x.com/mavprotocol",
+      "discord": "https://discord.com/invite/dVvnmtwdRJ",
+      "telegram": "",
+      "github": "https://github.com/maverickprotocol"
     },
-    {
-      "identifier": "pancakeswap",
-      "name": "PancakeSwap",
-      "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to trade tokens, provide liquidity, and earn rewards through staking and farming, using an automated market maker (AMM) model.",
-      "icon": "/protocol/pancakeswap.png",
-      "chains": ["arbitrum", "base", "bnb", "ethereum", "linea"],
-      "category": ["DEX"],
-      "website": "https://pancakeswap.finance/",
-      "docs": "https://docs.pancakeswap.finance/",
-      "socials": {
-        "twitter": "https://x.com/pancakeswap",
-        "discord": "https://discord.com/invite/pancakeswap",
-        "telegram": "https://t.me/PancakeSwap",
-        "github": "https://github.com/pancakeswap"
-      },
-      "reference": ["pancakeswap_v2", "pancakeswap_v3"]
+    "reference": ["maverick_v1", "maverick_v2"]
+  },
+  {
+    "identifier": "pancakeswap",
+    "name": "PancakeSwap",
+    "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to trade tokens, provide liquidity, and earn rewards through staking and farming, using an automated market maker (AMM) model.",
+    "icon": "/protocol/pancakeswap.png",
+    "chains": ["arbitrum", "base", "bnb", "ethereum", "linea"],
+    "category": ["DEX"],
+    "website": "https://pancakeswap.finance/",
+    "docs": "https://docs.pancakeswap.finance/",
+    "socials": {
+      "twitter": "https://x.com/pancakeswap",
+      "discord": "https://discord.com/invite/pancakeswap",
+      "telegram": "https://t.me/PancakeSwap",
+      "github": "https://github.com/pancakeswap"
     },
-    {
-      "identifier": "peapods_finance",
-      "name": "Peapods Finance",
-      "description": "Peapods is a decentralized, permissionless, and trustless on-chain volatility farming protocol with zero dependency on oracles or external price feeds. Peapods enables users to capitalize on the inexhaustible volatility of crypto markets to unlock yield opportunities for any liquid asset. We refer to this model as volatility farming.",
-      "icon": "/protocol/peapods.png",
-      "chains": ["arbitrum", "base", "ethereum"],
-      "category": ["DeFi", "AMM"],
-      "website": "https://peapods.finance/",
-      "docs": "https://docs.peapods.finance/",
-      "socials": {
-        "twitter": "https://x.com/PeapodsFinance",
-        "telegram": "https://t.me/PeapodsFinance",
-        "discord": "https://discord.com/invite/PeapodsFinance",
-        "github": ""
-      },
-      "reference": ["peapods"]
+    "reference": ["pancakeswap_v2", "pancakeswap_v3"]
+  },
+  {
+    "identifier": "peapods_finance",
+    "name": "Peapods Finance",
+    "description": "Peapods is a decentralized, permissionless, and trustless on-chain volatility farming protocol with zero dependency on oracles or external price feeds. Peapods enables users to capitalize on the inexhaustible volatility of crypto markets to unlock yield opportunities for any liquid asset. We refer to this model as volatility farming.",
+    "icon": "/protocol/peapods.png",
+    "chains": ["arbitrum", "base", "ethereum"],
+    "category": ["DeFi", "AMM"],
+    "website": "https://peapods.finance/",
+    "docs": "https://docs.peapods.finance/",
+    "socials": {
+      "twitter": "https://x.com/PeapodsFinance",
+      "telegram": "https://t.me/PeapodsFinance",
+      "discord": "https://discord.com/invite/PeapodsFinance",
+      "github": ""
     },
-    {
-      "identifier": "pendle",
-      "name": "Pendle",
-      "description": "Pendle enables the permissionless tokenization and trading of yield, unlocking various strategies such as obtaining fixed yield, long crypto yields, or trade yields of any assets on Pendle.",
-      "icon": "/protocol/pendle.png",
-      "chains": ["arbitrum", "bnb", "base", "ethereum", "mantle", "avalanche"],
-      "category": ["DeFi"],
-      "website": "https://www.pendle.finance/",
-      "docs": "https://docs.pendle.finance/",
-      "socials": {
-        "twitter": "https://x.com/pendle_fi",
-        "discord": "https://discord.com/invite/EAujvncY2R",
-        "telegram": "",
-        "github": "https://github.com/pendle-finance"
-      },
-      "reference": ["pendle", "pendle_v3", "pendle_v4", "pendle_v5"]
+    "reference": ["peapods"]
+  },
+  {
+    "identifier": "pendle",
+    "name": "Pendle",
+    "description": "Pendle enables the permissionless tokenization and trading of yield, unlocking various strategies such as obtaining fixed yield, long crypto yields, or trade yields of any assets on Pendle.",
+    "icon": "/protocol/pendle.png",
+    "chains": ["arbitrum", "bnb", "base", "ethereum", "mantle", "avalanche"],
+    "category": ["DeFi"],
+    "website": "https://www.pendle.finance/",
+    "docs": "https://docs.pendle.finance/",
+    "socials": {
+      "twitter": "https://x.com/pendle_fi",
+      "discord": "https://discord.com/invite/EAujvncY2R",
+      "telegram": "",
+      "github": "https://github.com/pendle-finance"
     },
-    {
-      "identifier": "uniswap",
-      "name": "Uniswap",
-      "description": "The largest onchain marketplace. Buy and sell crypto on Ethereum and 11+ other chains.",
-      "icon": "/protocol/uniswap.png",
-      "chains": [
-        "arbitrum",
-        "avalanche",
-        "base",
-        "bnb",
-        "ethereum",
-        "gnosis",
-        "optimism",
-        "polygon",
-        "scroll",
-        "taiko",
-        "unichain"
-      ],
-      "category": ["DEX"],
-      "website": "https://uniswap.org/",
-      "docs": "https://docs.uniswap.org/",
-      "socials": {
-        "twitter": "https://x.com/Uniswap",
-        "discord": "https://discord.com/invite/FCfyBSbCU5",
-        "telegram": "https://t.me/balancerdefi",
-        "github": "https://github.com/Uniswap"
-      },
-      "reference": ["uniswap_v2", "uniswap_v3"]
+    "reference": ["pendle", "pendle_v3", "pendle_v4", "pendle_v5"]
+  },
+  {
+    "identifier": "uniswap",
+    "name": "Uniswap",
+    "description": "The largest onchain marketplace. Buy and sell crypto on Ethereum and 11+ other chains.",
+    "icon": "/protocol/uniswap.png",
+    "chains": [
+      "arbitrum",
+      "avalanche",
+      "base",
+      "bnb",
+      "ethereum",
+      "gnosis",
+      "optimism",
+      "polygon",
+      "scroll",
+      "taiko",
+      "unichain"
+    ],
+    "category": ["DEX"],
+    "website": "https://uniswap.org/",
+    "docs": "https://docs.uniswap.org/",
+    "socials": {
+      "twitter": "https://x.com/Uniswap",
+      "discord": "https://discord.com/invite/FCfyBSbCU5",
+      "telegram": "https://t.me/balancerdefi",
+      "github": "https://github.com/Uniswap"
     },
-    {
-      "identifier": "sushiswap",
-      "name": "SushiSwap",
-      "description": "A leading multi-chain decentralized exchange (DEX) deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need.",
-      "icon": "/protocol/sushiswap.png",
-      "chains": ["arbitrum", "base", "ethereum", "polygon"],
-      "category": ["DEX"],
-      "website": "https://www.sushi.com/ethereum/swap",
-      "docs": "https://docs.sushi.com/",
-      "socials": {
-        "twitter": "https://x.com/sushiswap",
-        "discord": "https://discord.com/invite/CD2YdZzb7Z",
-        "telegram": "https://t.me/sushiswap",
-        "github": "https://github.com/sushiswap"
-      },
-      "reference": ["sushiswap_v3", "sushiwap"]
+    "reference": ["uniswap_v2", "uniswap_v3"]
+  },
+  {
+    "identifier": "sushiswap",
+    "name": "SushiSwap",
+    "description": "A leading multi-chain decentralized exchange (DEX) deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need.",
+    "icon": "/protocol/sushiswap.png",
+    "chains": ["arbitrum", "base", "ethereum", "polygon"],
+    "category": ["DEX"],
+    "website": "https://www.sushi.com/ethereum/swap",
+    "docs": "https://docs.sushi.com/",
+    "socials": {
+      "twitter": "https://x.com/sushiswap",
+      "discord": "https://discord.com/invite/CD2YdZzb7Z",
+      "telegram": "https://t.me/sushiswap",
+      "github": "https://github.com/sushiswap"
     },
-    {
-      "identifier": "compound",
-      "name": "Compound",
-      "description": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.",
-      "icon": "/protocol/compound.png",
-      "chains": ["ethereum", "optimism", "polygon", "base", "arbitrum", "mantle"],
-      "category": ["LENDING", "BORROWING"],
-      "website": "https://compound.finance/",
-      "docs": "https://docs.compound.finance/",
-      "socials": {
-        "twitter": "https://x.com/compoundfinance",
-        "discord": "https://discord.com/invite/compound",
-        "telegram": "",
-        "github": "https://github.com/compound-finance"
-      },
-      "reference": ["compound_v3"]
+    "reference": ["sushiswap_v3", "sushiwap"]
+  },
+  {
+    "identifier": "compound",
+    "name": "Compound",
+    "description": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.",
+    "icon": "/protocol/compound.png",
+    "chains": ["ethereum", "optimism", "polygon", "base", "arbitrum", "mantle"],
+    "category": ["LENDING", "BORROWING"],
+    "website": "https://compound.finance/",
+    "docs": "https://docs.compound.finance/",
+    "socials": {
+      "twitter": "https://x.com/compoundfinance",
+      "discord": "https://discord.com/invite/compound",
+      "telegram": "",
+      "github": "https://github.com/compound-finance"
     },
-    {
-      "identifier": "curve",
-      "name": "Curve Finance",
-      "description": "Curve is DeFi's leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve's factory and incentivized by Curve's DAO. Users rely on Curve's proprietary formulas to provide high liquidity, low slippage, and low fee transactions among ERC-20 tokens.",
-      "icon": "/protocol/curve.png",
-      "chains": [
-        "base",
-        "bnb",
-        "ethereum",
-        "gnosis",
-        "optimism",
-        "polygon",
-        "sonic",
-        "taiko",
-        "avalanche",
-        "arbitrum"
-      ],
-      "category": ["AMM", "DEX"],
-      "website": "https://curve.fi/",
-      "docs": "https://docs.curve.fi/",
-      "socials": {
-        "twitter": "https://x.com/CurveFinance",
-        "discord": "https://discord.com/invite/9uEHakc",
-        "telegram": "https://t.me/curvefi",
-        "github": "https://github.com/curvefi"
-      },
-      "reference": [
-        "curve_main_stable_swap_plain",
-        "curve_main_stable_swap_plain_1",
-        "curve_stable_ng_meta",
-        "curve_stable_ng_plain",
-        "curve_stable_plain",
-        "curve_tri_crypto_ng",
-        "curve_two_crypto_ng",
-        "curve_crypto_plain"
-      ]
+    "reference": ["compound_v3"]
+  },
+  {
+    "identifier": "curve",
+    "name": "Curve Finance",
+    "description": "Curve is DeFi's leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve's factory and incentivized by Curve's DAO. Users rely on Curve's proprietary formulas to provide high liquidity, low slippage, and low fee transactions among ERC-20 tokens.",
+    "icon": "/protocol/curve.png",
+    "chains": [
+      "base",
+      "bnb",
+      "ethereum",
+      "gnosis",
+      "optimism",
+      "polygon",
+      "sonic",
+      "taiko",
+      "avalanche",
+      "arbitrum"
+    ],
+    "category": ["AMM", "DEX"],
+    "website": "https://curve.fi/",
+    "docs": "https://docs.curve.fi/",
+    "socials": {
+      "twitter": "https://x.com/CurveFinance",
+      "discord": "https://discord.com/invite/9uEHakc",
+      "telegram": "https://t.me/curvefi",
+      "github": "https://github.com/curvefi"
     },
-    {
-      "identifier": "beefy",
-      "name": "Beefy",
-      "description": "Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings.",
-      "icon": "/protocol/beefy.png",
-      "chains": [
-        "arbitrum",
-        "avalanche",
-        "base",
-        "bnb",
-        "ethereum",
-        "gnosis",
-        "linea",
-        "scroll"
-      ],
-      "category": ["Yield Aggregator"],
-      "website": "https://beefy.com/",
-      "docs": "https://docs.beefy.finance/",
-      "socials": {
-        "twitter": "https://x.com/beefyfinance",
-        "discord": "https://discord.com/invite/beefyfinance",
-        "telegram": "https://t.me/beefyfinance",
-        "github": "https://github.com/beefyfinance"
-      },
-      "reference": ["beefy_protocol", "beefy_vault_v7"]
+    "reference": [
+      "curve_main_stable_swap_plain",
+      "curve_main_stable_swap_plain_1",
+      "curve_stable_ng_meta",
+      "curve_stable_ng_plain",
+      "curve_stable_plain",
+      "curve_tri_crypto_ng",
+      "curve_two_crypto_ng",
+      "curve_crypto_plain"
+    ]
+  },
+  {
+    "identifier": "beefy",
+    "name": "Beefy",
+    "description": "Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings.",
+    "icon": "/protocol/beefy.png",
+    "chains": [
+      "arbitrum",
+      "avalanche",
+      "base",
+      "bnb",
+      "ethereum",
+      "gnosis",
+      "linea",
+      "scroll"
+    ],
+    "category": ["Yield Aggregator"],
+    "website": "https://beefy.com/",
+    "docs": "https://docs.beefy.finance/",
+    "socials": {
+      "twitter": "https://x.com/beefyfinance",
+      "discord": "https://discord.com/invite/beefyfinance",
+      "telegram": "https://t.me/beefyfinance",
+      "github": "https://github.com/beefyfinance"
     },
-    {
-      "identifier": "dodo",
-      "name": "DODO",
-      "description": "DODO is an On-Chain Liquidity Provider for everyone. DODO Aims to be the Best Decentralize Exchange (DEX) Ranking based on trading volumes, market share of DeFi markets.",
-      "icon": "/protocol/dodo.png",
-      "chains": ["ethereum", "arbitrum"],
-      "category": ["DEX"],
-      "website": "https://dodoex.io/",
-      "docs": "https://docs.dodoex.io/",
-      "socials": {
-        "twitter": "https://x.com/BreederDodo",
-        "discord": "https://discord.com/invite/tyKReUK",
-        "telegram": "https://t.me/dodoex_official",
-        "github": "https://github.com/DODOEX"
-      },
-      "reference": ["dodo_v1", "dodo_v2_dpp", "dodo_v2_dsp", "dodo_v2_dvm"]
+    "reference": ["beefy_protocol", "beefy_vault_v7"]
+  },
+  {
+    "identifier": "dodo",
+    "name": "DODO",
+    "description": "DODO is an On-Chain Liquidity Provider for everyone. DODO Aims to be the Best Decentralize Exchange (DEX) Ranking based on trading volumes, market share of DeFi markets.",
+    "icon": "/protocol/dodo.png",
+    "chains": ["ethereum", "arbitrum"],
+    "category": ["DEX"],
+    "website": "https://dodoex.io/",
+    "docs": "https://docs.dodoex.io/",
+    "socials": {
+      "twitter": "https://x.com/BreederDodo",
+      "discord": "https://discord.com/invite/tyKReUK",
+      "telegram": "https://t.me/dodoex_official",
+      "github": "https://github.com/DODOEX"
     },
-    {
-      "identifier": "fraxswap",
-      "name": "FraxSwap",
-      "description": "Fraxswap is the first constant product automated market maker with an embedded time-weighted average market maker (TWAMM) for conducting large trades over long periods of time trustlessly.",
-      "icon": "/protocol/fraxswap.png",
-      "chains": ["ethereum", "avalanche"],
-      "category": ["DEX"],
-      "website": "https://app.frax.finance/",
-      "docs": "https://docs.frax.com/",
-      "socials": {
-        "twitter": "https://x.com/fraxfinance",
-        "discord": "https://discord.com/invite/fraxfinance",
-        "telegram": "https://t.me/fraxfinance",
-        "github": "https://github.com/FraxFinance"
-      },
-      "reference": ["fraxswap"]
+    "reference": ["dodo_v1", "dodo_v2_dpp", "dodo_v2_dsp", "dodo_v2_dvm"]
+  },
+  {
+    "identifier": "fraxswap",
+    "name": "FraxSwap",
+    "description": "Fraxswap is the first constant product automated market maker with an embedded time-weighted average market maker (TWAMM) for conducting large trades over long periods of time trustlessly.",
+    "icon": "/protocol/fraxswap.png",
+    "chains": ["ethereum", "avalanche"],
+    "category": ["DEX"],
+    "website": "https://app.frax.finance/",
+    "docs": "https://docs.frax.com/",
+    "socials": {
+      "twitter": "https://x.com/fraxfinance",
+      "discord": "https://discord.com/invite/fraxfinance",
+      "telegram": "https://t.me/fraxfinance",
+      "github": "https://github.com/FraxFinance"
     },
-    {
-      "identifier": "pancakeswap",
-      "name": "PancakeSwap",
-      "description": "A decentralized exchange on the Binance Smart Chain.",
-      "icon": "/protocol/pancakeswap.png",
-      "chains": ["binance", "ethereum", "polygon"],
-      "category": ["DEX"],
-      "website": "https://pancakeswap.finance/",
-      "docs": "https://docs.pancakeswap.finance/",
-      "socials": {
-        "twitter": "https://x.com/pancakeswap",
-        "discord": "https://discord.com/invite/pancakeswap",
-        "github": "https://github.com/pancakeswap"
-      },
-      "reference": ["pancakeswap_v2", "pancakeswap_v3"]
-    }
-  ]
-  
+    "reference": ["fraxswap"]
+  },
+  {
+    "identifier": "quickswap",
+    "name": "Quickswap",
+    "description": "A decentralized exchange on the Binance Smart Chain.",
+    "icon": "/protocol/quickswap.png",
+    "chains": ["ethereum", "polygon"],
+    "category": ["DEX"],
+    "website": "https://quickswap.exchange/",
+    "docs": "https://docs.quickswap.exchange/",
+    "socials": {
+      "twitter": "https://x.com/QuickswapDEX",
+      "discord": "https://discord.com/invite/dSMd7AFH36",
+      "telegram": "https://t.me/QuickSwapDEX",
+      "github": "https://github.com/QuickSwap"
+    },
+    "reference": ["quickswap", "quickswap_v3"]
+  },
+  {
+    "identifier": "wagmi",
+    "name": "Wagmi",
+    "description": "WAGMI protocol is a decentralized exchange on various blockchains, focuses on maximizing liquidity efficiency. It employs advanced strategies and GMI mechanics for liquidity management and diversification, ensuring optimal yields through an auto-rebalancing mechanism responsive to market conditions. GMI, a pool of multi-pools, allows holders to earn from diverse liquidity sources, emphasizing WAGMI's commitment to innovation, user rewards, and expansion across blockchains for enhanced decentralization and accessibility.",
+    "icon": "/protocol/wagmi.png",
+    "chains": ["base", "ethereum", "optimism", "sonic"],
+    "category": ["DEX"],
+    "website": "https://app.wagmi.com/",
+    "docs": "https://docs.wagmi.com/wagmi",
+    "socials": {
+      "twitter": "https://x.com/wagmicom",
+      "discord": "https://discord.com/invite/GDwhREgj5E",
+      "telegram": "https://t.me/realwagmi",
+      "github": "https://github.com/RealWagmi"
+    },
+    "reference": ["wagmi"]
+  },
+  {
+    "identifier": "zerolend",
+    "name": "ZeroLend",
+    "description": "ZeroLend presents itself as a multi-chain DeFi protocol offering borrowing and lending functionalities for various assets. It has its own native stablecoin ($ONEZ) and emphasizes features like account abstraction for potential future benefits. It incorporates a governance model through $ZERO token, supports account abstraction for user-friendly features like gas-less transactions, and plans to integrate real-world assets and a privacy layer to maintain transaction confidentiality.",
+    "icon": "/protocol/zerolend.png",
+    "chains": ["base", "blast", "linea", "ethereum"],
+    "category": ["LENDING", "BORROWING"],
+    "website": "https://zerolend.xyz/",
+    "docs": "https://docs.zerolend.xyz/",
+    "socials": {
+      "twitter": "https://x.com/zerolendxyz",
+      "discord": "https://discord.com/invite/zerolend",
+      "telegram": "",
+      "github": "https://github.com/zerolend"
+    },
+    "reference": ["zerolend"]
+  },
+  {
+    "identifier": "0xproject",
+    "name": "0xProject",
+    "description": "0xProject is a suite of infrastructure products that provide APIs to developers which can help them fast-track the creation of decentralized exchanges. Their products include, but not limited to, Swap API, Tx Relay API, Tx History API, Price API, Token Registry API, and Orderbook API.",
+    "icon": "/protocol/0xproject.jpg",
+    "chains": ["arbitrum", "base", "ethereum"],
+    "category": ["DEV TOOL"],
+    "website": "https://0x.org/",
+    "docs": "https://0x.org/docs",
+    "socials": {
+      "twitter": "https://x.com/0xproject",
+      "discord": "",
+      "telegram": "",
+      "github": "https://github.com/0xProject"
+    },
+    "reference": ["zerox_v2_fok", "zeroex_pf_lob"]
+  }
+]
