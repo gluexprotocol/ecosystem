@@ -423,7 +423,7 @@
     "identifier": "0xproject",
     "name": "0xProject",
     "description": "0xProject is a suite of infrastructure products that provide APIs to developers which can help them fast-track the creation of decentralized exchanges. Their products include, but not limited to, Swap API, Tx Relay API, Tx History API, Price API, Token Registry API, and Orderbook API.",
-    "icon": "/protocol/0xproject.jpg",
+    "icon": "/protocol/0xproject.png",
     "chains": ["arbitrum", "base", "ethereum"],
     "category": ["DEV TOOL"],
     "website": "https://0x.org/",
