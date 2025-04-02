@@ -252,7 +252,7 @@
       "telegram": "https://t.me/sushiswap",
       "github": "https://github.com/sushiswap"
     },
-    "reference": ["sushiswap_v3", "sushiwap"]
+    "reference": ["sushiswap_v3", "sushiswap"]
   },
   {
     "identifier": "compound",
