@@ -504,6 +504,23 @@
     "reference": ["morpho", "morpho_v1_1"]
   },
   {
+    "identifier": "origin_protocol ",
+    "name": "Origin Protocol",
+    "description": "Origin Protocol is a decentralized finance (DeFi) platform designed to expand economic opportunities through a suite of financial products. These products work together seamlessly, utilizing permissionless and composable smart contracts to deliver an enhanced user experience across multiple blockchain networks.",
+    "icon": "/protocol/origin_protocol.png",
+    "chains": ["ethereum"],
+    "category": ["DeFi", "Yield Farming"],
+    "website": "https://www.originprotocol.com/",
+    "docs": "https://docs.originprotocol.com/",
+    "socials": {
+      "twitter": "https://x.com/originprotocol",
+      "discord": "https://discord.com/invite/ogn",
+      "telegram": "https://t.me/originprotocol",
+      "github": "https://github.com/originprotocol"
+    },
+    "reference": ["origin_swap"]
+  },
+  {
     "identifier": "pancakeswap",
     "name": "PancakeSwap",
     "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to trade tokens, provide liquidity, and earn rewards through staking and farming, using an automated market maker (AMM) model.",
@@ -555,6 +572,23 @@
     "reference": ["pendle", "pendle_v3", "pendle_v4", "pendle_v5"]
   },
   {
+    "identifier": "puffer_finance",
+    "name": "Puffer Finance",
+    "description": "A fast, secure preconfirmation service built on EigenLayer, enabling sub-second transaction confirmations and enhancing the scalability of based rollups.",
+    "icon": "/protocol/puffer_finance.png",
+    "chains": ["ethereum"],
+    "category": ["DeFi"],
+    "website": "https://www.puffer.fi/",
+    "docs": "https://docs.puffer.fi/",
+    "socials": {
+      "twitter": "https://x.com/Puffer_Finance",
+      "discord": "https://discord.com/invite/pufferfi",
+      "telegram": "https://t.me/puffer_fi",
+      "github": "https://github.com/PufferFinance"
+    },
+    "reference": ["puffer_finance"]
+  },
+  {
     "identifier": "ring_protocol",
     "name": "Ring Protocol",
     "description": "A decentralized exchange (DEX) on the Blast network, built on the Uniswap V2 model, allowing users to swap assets and provide liquidity with integrated yield mechanisms.",
@@ -572,6 +606,23 @@
     "reference": ["ring_v2"]
   },
   {
+    "identifier": "shibaswap",
+    "name": "Shibaswap",
+    "description": "ShibaSwap is a decentralized exchange (DEX) for seamless token swaps, liquidity, and staking within the Shiba Inu ecosystem.",
+    "icon": "/protocol/shibaswap.png",
+    "chains": ["ethereum"],
+    "category": ["DEX"],
+    "website": "https://shibaswap.com/",
+    "docs": "https://docs.shib.io/docs/shibarium/welcome/welcome-overview",
+    "socials": {
+      "twitter": "https://x.com/shibtoken",
+      "discord": "https://discord.com/invite/shibariumtech",
+      "telegram": "https://t.me/ShibariumTechnologies",
+      "github": "https://github.com/shibaone"
+    },
+    "reference": ["shibaswap"]
+  },
+  {
     "identifier": "Thruster",
     "name": "thruster",
     "description": "Thruster is a Blast-native DEX for the best Blast-native teams and tokens to build on. Thruster is deeply integrated across the Blast ecosystem.",
@@ -587,6 +638,23 @@
       "github": ""
     },
     "reference": ["thruster_v2_1", "thruster_v2_2", "thruster_v3"]
+  },
+  {
+    "identifier": "treehouse",
+    "name": "Treehouse",
+    "description": "Treehouse is a comprehensive platform designed for digital asset traders and investors, offering powerful portfolio management and market intelligence tools.",
+    "icon": "/protocol/treehouse.png",
+    "chains": ["ethereum"],
+    "category": ["WEB3", "DEV TOOL"],
+    "website": "https://www.treehouse.finance/",
+    "docs": "https://docs.treehouse.finance/protocol",
+    "socials": {
+      "twitter": "https://x.com/TreehouseFi",
+      "discord": "https://discord.com/invite/MtRzKakPT3",
+      "telegram": "https://t.me/TreehouseFi",
+      "github": ""
+    },
+    "reference": ["treehouse"]
   },
   {
     "identifier": "uniswap",
@@ -670,6 +738,57 @@
     "reference": ["quickswap", "quickswap_v3"]
   },
   {
+    "identifier": "usual_protocol",
+    "name": "Usual Protocol",
+    "description": "A secure, decentralized issuer that takes back the value captured by crypto giants—and redistributes it to the community through $USUAL.",
+    "icon": "/protocol/usual_protocol.png",
+    "chains": ["ethereum"],
+    "category": ["DeFi"],
+    "website": "https://usual.money/",
+    "docs": "https://docs.usual.money/",
+    "socials": {
+      "twitter": "https://x.com/usualmoney",
+      "discord": "https://discord.com/invite/tempusual",
+      "telegram": "https://t.me/UsualCommunity",
+      "github": ""
+    },
+    "reference": ["usualsp_usuals", "usualx_usual"]
+  },
+  {
+    "identifier": "uwu_lend",
+    "name": "UwU Lend",
+    "description": "UwU Lend is a decentralized non-custodial liquidity market protocol where users can participate as depositors, borrowers or xUwU stakers.",
+    "icon": "/protocol/uwu_lend.webp",
+    "chains": ["ethereum"],
+    "category": ["DeFi", "LENDING"],
+    "website": "https://uwulend.fi/",
+    "docs": "https://docs.uwulend.fi/",
+    "socials": {
+      "twitter": "https://x.com/uwu_lend",
+      "discord": "https://discord.com/invite/BQEVQXDYUG",
+      "telegram": "",
+      "github": "https://github.com/UwU-Lend"
+    },
+    "reference": ["uwu_lend"]
+  },
+  {
+    "identifier": "valantis",
+    "name": "Valantis",
+    "description": "WAGMI protocol is a decentralized exchange on various blockchains, focuses on maximizing liquidity efficiency. It employs advanced strategies and GMI mechanics for liquidity management and diversification, ensuring optimal yields through an auto-rebalancing mechanism responsive to market conditions. GMI, a pool of multi-pools, allows holders to earn from diverse liquidity sources, emphasizing WAGMI's commitment to innovation, user rewards, and expansion across blockchains for enhanced decentralization and accessibility.",
+    "icon": "/protocol/valantis.png",
+    "chains": ["ethereum"],
+    "category": ["DeFi", "AMM"],
+    "website": "https://www.valantis.xyz/",
+    "docs": "https://docs.valantis.xyz/",
+    "socials": {
+      "twitter": "https://x.com/ValantisLabs",
+      "discord": "https://discord.com/invite/9cUzQ7EgJQ",
+      "telegram": "",
+      "github": "https://github.com/ValantisLabs"
+    },
+    "reference": ["valantis_hot_amm", "valantis_hot_fok_usdc_weth"]
+  },
+  {
     "identifier": "wagmi",
     "name": "Wagmi",
     "description": "WAGMI protocol is a decentralized exchange on various blockchains, focuses on maximizing liquidity efficiency. It employs advanced strategies and GMI mechanics for liquidity management and diversification, ensuring optimal yields through an auto-rebalancing mechanism responsive to market conditions. GMI, a pool of multi-pools, allows holders to earn from diverse liquidity sources, emphasizing WAGMI's commitment to innovation, user rewards, and expansion across blockchains for enhanced decentralization and accessibility.",
@@ -685,6 +804,31 @@
       "github": "https://github.com/RealWagmi"
     },
     "reference": ["wagmi"]
+  },
+  {
+    "identifier": "yearn_finance",
+    "name": "Yearn Finance",
+    "description": "Yearn Finance is a multi-chain yield aggregator that automates yield using investment pools and reacts to opportunities in the marketplace. It allows for interest earned on deposited tokens, no withdrawal fees, and offers the ability to build investment strategies to increase yield in Yearn vaults.",
+    "icon": "/protocol/yearn_finance.png",
+    "chains": ["ethereum"],
+    "category": ["DeFi", "Yield Farming"],
+    "website": "https://yearn.fi/",
+    "docs": "https://docs.yearn.fi/",
+    "socials": {
+      "twitter": "https://x.com/yearnfi",
+      "discord": "https://discord.com/invite/b8ENPNqG5c",
+      "telegram": "https://t.me/yearnfinance/",
+      "github": "https://github.com/yearn"
+    },
+    "reference": [
+      "yearn_v2_balancer",
+      "yearn_v2_curve",
+      "yearn_v3_0_1",
+      "yearn_v3_0_2",
+      "yearn_v3_0_3",
+      "yearn_v3_0_4",
+      "yearn_yeth_styeth"
+    ]
   },
   {
     "identifier": "zerolend",
