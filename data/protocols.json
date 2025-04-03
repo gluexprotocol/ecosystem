@@ -798,20 +798,21 @@
   {
     "identifier": "sparklend",
     "name": "Sparklend",
-    "description": "A decentralized lending protocol designed for optimized borrowing and lending.",
-    "icon": "/protocol/sparklend.webp",
+    "description": "",
+    "icon": "/protocol/sparklend.png",
     "chains": ["ethereum", "gnosis"],
-    "category": ["Lending"],
-    "website": "",
-    "docs": "",
+    "category": ["LENDING"],
+    "website": "https://spark.fi/",
+    "docs": "https://docs.spark.fi/",
     "socials": {
-      "twitter": "",
-      "discord": "",
+      "twitter": "https://x.com/sparkdotfi",
+      "discord": "https://discord.com/invite/sparkdotfi",
       "telegram": "",
-      "github": ""
+      "github": "https://github.com/sparkdotfi/"
     },
     "reference": ["sparklend"]
   },
+  ,
   {
     "identifier": "stader",
     "name": "Stader",
