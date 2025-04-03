@@ -41,6 +41,23 @@
     "reference": ["aerodrome", "aerodrome_basic_volatile"]
   },
   {
+    "identifier": "affine",
+    "name": "Affine",
+    "description": "Affine DeFi is a platform focused on building DeFi products, particularly in the liquid restaking and yield generation markets, aiming to make DeFi simpler for users and extend the security of Ethereum to other decentralized services.",
+    "icon": "/protocol/affine.png",
+    "chains": ["ethereum"],
+    "category": ["WEB3"],
+    "website": "https://affinedefi.com/",
+    "docs": "https://docs.affinedefi.com/",
+    "socials": {
+      "twitter": "https://x.com/AffineDeFi",
+      "discord": "https://discord.com/invite/RvSFFfUdvX",
+      "telegram": "https://t.me/AffineDeFi_group",
+      "github": "https://github.com/AffineLabs"
+    },
+    "reference": ["affine_ultreths_eth"]
+  },
+  {
     "identifier": "alien_base",
     "name": "Alien Base",
     "description": "A next-generation decentralized exchange and yield farming platform.",
@@ -75,6 +92,23 @@
     "reference": ["aura_bal_vault"]
   },
   {
+    "identifier": "apeswap",
+    "name": "ApeSwap",
+    "description": "ApeSwap is a multichain DeFi Hub offering an accessible, transparent, and secure experience for everyone.",
+    "icon": "/protocol/apeswap.png",
+    "chains": ["ethereum"],
+    "category": ["DEX", "DeFi"],
+    "website": "https://apeswap.finance/",
+    "docs": "https://docs.ape.bond/apeswap-finance/welcome/master",
+    "socials": {
+      "twitter": "https://x.com/ApeBond",
+      "discord": "https://discord.com/invite/g3A5T6VSFr",
+      "telegram": "https://t.me/ape_bond",
+      "github": "https://github.com/apeswapfinance"
+    },
+    "reference": ["apeswap"]
+  },
+  {
     "identifier": "balancer",
     "name": "Balancer",
     "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum that represents a flexible building block for programmable liquidity. By separating the AMM curve logic and math from the core swapping functionality, Balancer becomes an extensible AMM that can incorporate any number of swap curves and pool types.",
@@ -90,12 +124,20 @@
       "github": "https://github.com/balancer"
     },
     "reference": [
+      "balancer_cowamm",
       "balancer_v2_composable_stable_v1",
-      "balancer_v2_composable_stable_v2",
       "balancer_v2_composable_stable_v3",
+      "balancer_v2_composable_stable_v4",
+      "balancer_v2_composable_stable_v5",
+      "balancer_v2_composable_stable_v6",
+      "balancer_v2_weighted_2",
       "balancer_v2_weighted_v1",
       "balancer_v2_weighted_v2",
+      "balancer_v2_weighted_v3",
+      "balancer_v2_weighted_v4",
       "balancer_v3_stable",
+      "balancer_v3_weighted",
+      "balancer_v2_lbp",
       "bex_composable_stable_v6",
       "bex_weighted_v5",
       "burrbear_composable_stable_v6",
@@ -412,6 +454,23 @@
     "reference": ["kelp_wrseth_eth", "kelp_rseth_eth"]
   },
   {
+    "identifier": "kyberswap",
+    "name": "KyberSwap",
+    "description": "KyberSwap is a multi-chain aggregator and DeFi hub that empowers users with the insights and tools to achieve financial autonomy.",
+    "icon": "/protocol/kyberswap.png",
+    "chains": ["ethereum"],
+    "category": ["DEX", "DeFi"],
+    "website": "https://kyberswap.com/",
+    "docs": "https://docs.kyberswap.com/",
+    "socials": {
+      "twitter": "https://x.com/KyberNetwork",
+      "discord": "https://discord.com/invite/NB3vc8J9uv",
+      "telegram": "https://t.me/kybernetwork",
+      "github": "https://github.com/kybernetwork"
+    },
+    "reference": ["kyberswap_classic"]
+  },
+  {
     "identifier": "lido",
     "name": "Lido",
     "description": "Lido is a leading liquid staking platform that allows users to earn interest on their cryptocurrencies across multiple blockchains. Lido issues staked tokens (e.g. stETH) in return for the original assets, which can used across the DeFi ecosystem for trading, lending, and other activities to earn more rewards.",
@@ -538,6 +597,23 @@
     "reference": ["pancakeswap_v2", "pancakeswap_v3"]
   },
   {
+    "identifier": "pangolin",
+    "name": "Pangolin",
+    "description": "Pangolin (PNG) is the native token of a decentralized exchange (DEX) built on the Avalanche blockchain. The primary use case of PNG tokens is governance, allowing holders to vote on various decisions and participate in the platform's development.",
+    "icon": "/protocol/pangolin.png",
+    "chains": ["avalanche"],
+    "category": ["DEX", "AMM"],
+    "website": "https://pangolin.exchange/",
+    "docs": "https://docs.pangolin.exchange/",
+    "socials": {
+      "twitter": "https://x.com/pangolindex",
+      "discord": "https://discord.com/invite/jC2gJneDAp",
+      "telegram": "https://t.me/pangolindexV2",
+      "github": "https://github.com/pangolindex"
+    },
+    "reference": ["pangolin"]
+  },
+  {
     "identifier": "peapods_finance",
     "name": "Peapods Finance",
     "description": "Peapods is a decentralized, permissionless, and trustless on-chain volatility farming protocol with zero dependency on oracles or external price feeds. Peapods enables users to capitalize on the inexhaustible volatility of crypto markets to unlock yield opportunities for any liquid asset. We refer to this model as volatility farming.",
@@ -559,7 +635,7 @@
     "name": "Pendle",
     "description": "Pendle enables the permissionless tokenization and trading of yield, unlocking various strategies such as obtaining fixed yield, long crypto yields, or trade yields of any assets on Pendle.",
     "icon": "/protocol/pendle.png",
-    "chains": ["arbitrum", "bnb", "base", "ethereum", "mantle", "avalanche"],
+    "chains": ["arbitrum", "bnb", "base", "ethereum", "mantle"],
     "category": ["DeFi"],
     "website": "https://www.pendle.finance/",
     "docs": "https://docs.pendle.finance/",
@@ -623,8 +699,8 @@
     "reference": ["shibaswap"]
   },
   {
-    "identifier": "Thruster",
-    "name": "thruster",
+    "identifier": "thruster",
+    "name": "Thruster",
     "description": "Thruster is a Blast-native DEX for the best Blast-native teams and tokens to build on. Thruster is deeply integrated across the Blast ecosystem.",
     "icon": "/protocol/thruster.png",
     "chains": ["blast"],
@@ -703,6 +779,57 @@
     "reference": ["seamless_aave", "seamless_wsusdbc", "seamless_wsweth"]
   },
   {
+    "identifier": "solidly",
+    "name": "Solidly",
+    "description": "Solidly is a fully audited omnichain-DEX with up to 50% gas savings compared to Uniswap. It offers state-of-the-art IL & JIT-Protection.",
+    "icon": "/protocol/solidly.png",
+    "chains": ["optimism", "ethereum"],
+    "category": ["DEX", "AMM"],
+    "website": "https://solidly.com/",
+    "docs": "https://docs.solidly.com/",
+    "socials": {
+      "twitter": "https://x.com/SolidlyLabs",
+      "discord": "https://discord.com/invite/M7gCvhspWd",
+      "telegram": "",
+      "github": "https://github.com/SolidlyLabs"
+    },
+    "reference": ["solidly_v3"]
+  },
+  {
+    "identifier": "sparklend",
+    "name": "Sparklend",
+    "description": "A decentralized lending protocol designed for optimized borrowing and lending.",
+    "icon": "/protocol/sparklend.webp",
+    "chains": ["ethereum", "gnosis"],
+    "category": ["Lending"],
+    "website": "",
+    "docs": "",
+    "socials": {
+      "twitter": "",
+      "discord": "",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": ["sparklend"]
+  },
+  {
+    "identifier": "stader",
+    "name": "Stader",
+    "description": "Stader Network is a non-custodial, multi-chain liquid staking platform that allows users to stake their crypto assets across multiple Proof-of-Stake (PoS) blockchains, offering access to staking and DeFi opportunities.",
+    "icon": "/protocol/stader.png",
+    "chains": ["ethereum"],
+    "category": ["STAKING", "DeFi"],
+    "website": "https://staderlabs.com/",
+    "docs": "https://www.staderlabs.com/docs/",
+    "socials": {
+      "twitter": "https://x.com/staderlabs",
+      "discord": "https://discord.com/invite/xJURAhSmav",
+      "telegram": "https://t.me/staderlabs",
+      "github": "https://github.com/stader-labs"
+    },
+    "reference": ["stader_ethx_eth"]
+  },
+  {
     "identifier": "sushiswap",
     "name": "SushiSwap",
     "description": "A leading multi-chain decentralized exchange (DEX) deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need.",
@@ -719,7 +846,23 @@
     },
     "reference": ["sushiswap_v3", "sushiswap"]
   },
-
+  {
+    "identifier": "swell_network",
+    "name": "Swell Network",
+    "description": "Swell Network is a decentralized protocol enabling liquid staking and restaking of Ethereum (ETH) and Bitcoin (BTC) within the DeFi space, offering users a way to earn passive income and participate in the security of the Ethereum network without locking their assets.",
+    "icon": "/protocol/swell.png",
+    "chains": ["ethereum"],
+    "category": ["Staking"],
+    "website": "https://www.swellnetwork.io/",
+    "docs": "https://docs.swellnetwork.io/",
+    "socials": {
+      "twitter": "https://x.com/swellnetworkio",
+      "discord": "https://discord.com/invite/swellnetworkdao",
+      "telegram": "https://t.me/swellnetwork",
+      "github": "https://github.com/SwellNetwork"
+    },
+    "reference": ["swell_rsweth_eth"]
+  },
   {
     "identifier": "quickswap",
     "name": "Quickswap",
@@ -774,7 +917,7 @@
   {
     "identifier": "valantis",
     "name": "Valantis",
-    "description": "WAGMI protocol is a decentralized exchange on various blockchains, focuses on maximizing liquidity efficiency. It employs advanced strategies and GMI mechanics for liquidity management and diversification, ensuring optimal yields through an auto-rebalancing mechanism responsive to market conditions. GMI, a pool of multi-pools, allows holders to earn from diverse liquidity sources, emphasizing WAGMI's commitment to innovation, user rewards, and expansion across blockchains for enhanced decentralization and accessibility.",
+    "description": "Valantis is a modular decentralized exchange (DEX) protocol designed to enable developers to build customized on-chain liquidity infrastructures efficiently. By utilizing a modular framework, Valantis allows for the creation of bespoke DEX designs without the traditional limitations of liquidity fragmentation.",
     "icon": "/protocol/valantis.png",
     "chains": ["ethereum"],
     "category": ["DeFi", "AMM"],
@@ -787,6 +930,23 @@
       "github": "https://github.com/ValantisLabs"
     },
     "reference": ["valantis_hot_amm", "valantis_hot_fok_usdc_weth"]
+  },
+  {
+    "identifier": "velodrome",
+    "name": "Velodrome",
+    "description": "A decentralized exchange with a unique incentive structure for liquidity providers.",
+    "icon": "/protocol/velodrome.png",
+    "chains": ["optimism"],
+    "category": ["DEX", "AMM"],
+    "website": "https://velodrome.finance/",
+    "docs": "https://velodrome.finance/docs",
+    "socials": {
+      "twitter": "https://x.com/VelodromeFi",
+      "discord": "https://discord.com/invite/velodrome",
+      "telegram": "https://t.me/velodromesupport",
+      "github": "https://github.com/velodrome-finance"
+    },
+    "reference": ["velodrome_v3"]
   },
   {
     "identifier": "wagmi",
