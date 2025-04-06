@@ -162,6 +162,32 @@
     "reference": ["bebop_v3_fok", "bebop_v3_pf_lob"]
   },
   {
+    "identifier": "beets",
+    "name": "Beets",
+    "description": "Beets is the flagship hub for liquid staking and AMM innovation on Sonic. The Beets tech stack currently includes a decentralized exchange (DEX) for seamless asset trading and innovative yield generation, along with a Liquid Staking Token protocol that offers the easiest way for users to access native Sonic blockchain staking rewards.",
+    "icon": "/protocol/beets.png",
+    "chains": ["optimism"],
+    "category": ["DEX", "YIELD_AGGREGATOR"],
+    "website": "https://beets.fi/",
+    "docs": "https://docs.beets.fi/",
+    "socials": {
+      "twitter": "https://x.com/beets_fi",
+      "discord": "https://beets.fi/discord",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "beets_v2_composable_stable_v4",
+      "beets_v2_composable_stable_v5",
+      "beets_v2_composable_stable_v6",
+      "beets_v2_weighted_2",
+      "beets_v2_weighted_v1",
+      "beets_v2_weighted_v2",
+      "beets_v2_weighted_v3",
+      "beets_v2_weighted_v4"
+    ]
+  },
+  {
     "identifier": "benqi",
     "name": "BENQI",
     "description": "BENQI is a suite of DeFi protocols built on Avalanche. It consists of the BENQI Liquidity Market (BLM) and BENQI Liquid Staking (BLS).",
@@ -177,6 +203,23 @@
       "github": "https://github.com/Benqi-fi"
     },
     "reference": ["benqi_avax_savax", "benqi_core_markets"]
+  },
+  {
+    "identifier": "bex",
+    "name": "Bex",
+    "description": "Berachain's native decentralized exchange (DEX), BEX, allows trading of any arbitrary pair of crypto assets via swapping and providing liquidity into liquidity pools.",
+    "icon": "/protocol/bex.png",
+    "chains": ["berachain"],
+    "category": ["DEX"],
+    "website": "https://hub.berachain.com/swap/",
+    "docs": "https://docs.bex.berachain.com/",
+    "socials": {
+      "twitter": "https://x.com/berachain",
+      "discord": "https://discord.com/invite/berachain",
+      "telegram": "https://t.me/BerachainPortal",
+      "github": "https://github.com/berachain"
+    },
+    "reference": ["bex_composable_stable_v6", "bex_weighted_v5"]
   },
   {
     "identifier": "camelot",
@@ -315,7 +358,23 @@
       "curve_crvusd"
     ]
   },
-
+  {
+    "identifier": "defiswap",
+    "name": "Defiswap",
+    "description": "DeFiSwap.io is a decentralized exchange (DEX) that allows users to swap or trade cryptocurrency and other digital assets, focusing on DeFi (decentralized finance) tokens and aiming to provide a platform for direct peer-to-peer value exchange without intermediaries.",
+    "icon": "/protocol/defiswap.png",
+    "chains": ["ethereum"],
+    "category": ["DEX"],
+    "website": "https://defiswap.io",
+    "docs": "https://docs.defiswap.io/",
+    "socials": {
+      "twitter": "",
+      "discord": "",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": ["defiswap"]
+  },
   {
     "identifier": "dodo",
     "name": "DODO",
@@ -452,6 +511,23 @@
       "github": "https://github.com/Kelp-DAO"
     },
     "reference": ["kelp_wrseth_eth", "kelp_rseth_eth"]
+  },
+  {
+    "identifier": "kodiak",
+    "name": "Kodiak",
+    "description": "Kodiak is a decentralized exchange (DEX) on the Berachain blockchain that provides centralized liquidity and automated liquidity management, offering traders deep liquidity and best trade execution, while giving protocols and liquidity providers flexibility and control.",
+    "icon": "/protocol/kodiak.png",
+    "chains": ["berachain"],
+    "category": ["DEX"],
+    "website": "https://www.kodiak.finance/",
+    "docs": "https://documentation.kodiak.finance/",
+    "socials": {
+      "twitter": "https://x.com/KodiakFi",
+      "discord": "https://discord.com/invite/kodiak",
+      "telegram": "",
+      "github": "https://github.com/Kodiak-Finance"
+    },
+    "reference": ["kodiak_v3", "kodiak_uniswap_v2"]
   },
   {
     "identifier": "kyberswap",
@@ -699,6 +775,47 @@
     "reference": ["shibaswap"]
   },
   {
+    "identifier": "stakestone",
+    "name": "Stakestone",
+    "description": "",
+    "icon": "/protocol/stakestone.png",
+    "chains": ["ethereum"],
+    "category": ["LIQUID STAKING"],
+    "website": "https://stakestone.io/",
+    "docs": "https://docs.stakestone.io/stakestone",
+    "socials": {
+      "twitter": "https://x.com/Stake_stone",
+      "discord": "https://discord.com/invite/Z2ZPgx7QFy",
+      "telegram": "https://t.me/+afYqz2KG_YNlNzNl",
+      "github": ""
+    },
+    "reference": ["stakestone_stone_eth"]
+  },
+  {
+    "identifier": "tenderswap",
+    "name": "Tenderswap",
+    "description": "Instantly unstake your LSTs for a small fee, no more unstaking periods! It is a novel decentralised exchange, specifically tailored for LSTs and LRTs, that unifies liquidity for various derivatives of the same base token.",
+    "icon": "/protocol/tenderize.png",
+    "chains": ["ethereum"],
+    "category": ["DEX"],
+    "website": "https://www.tenderize.me/",
+    "docs": "https://docs.tenderize.me/",
+    "socials": {
+      "twitter": "https://x.com/tenderize_me",
+      "discord": "https://discord.com/invite/WXR5VBttP5",
+      "telegram": "https://t.me/tenderizeofficial",
+      "github": "https://github.com/Tenderize"
+    },
+    "reference": [
+      "tenderswap_lpeth_eeth",
+      "tenderswap_lpeth_eth",
+      "tenderswap_lpeth_ethx",
+      "tenderswap_lpeth_meth",
+      "tenderswap_lpeth_steth",
+      "tenderswap_lpeth_sweth"
+    ]
+  },
+  {
     "identifier": "thruster",
     "name": "Thruster",
     "description": "Thruster is a Blast-native DEX for the best Blast-native teams and tokens to build on. Thruster is deeply integrated across the Blast ecosystem.",
@@ -762,6 +879,23 @@
     "reference": ["uniswap_v2", "uniswap_v3"]
   },
   {
+    "identifier": "sakeswap",
+    "name": "Sakeswap",
+    "description": "SakeSwap is an Automated Market Maker protocol that brings trading slippage capture and a more efficient incentive mechanism. The SAKE token is the native coin on SakeSwap's platform and has two primary functions: Provide users with governance rights and a portion of the fees paid to the protocol.",
+    "icon": "/protocol/sakeswap.png",
+    "chains": ["ethereum"],
+    "category": ["DEX", "AMM"],
+    "website": "https://sakeperp.fi/",
+    "docs": "https://sakeperp.gitbook.io/sakeperp",
+    "socials": {
+      "twitter": "https://x.com/sakeswap",
+      "discord": "https://discord.com/invite/uYFVyNX",
+      "telegram": "https://t.me/joinchat/RKkt2Oi4_4sxkXbF",
+      "github": "https://github.com/Sakeswap/"
+    },
+    "reference": ["sakeswap"]
+  },
+  {
     "identifier": "seamless_protocol",
     "name": "Seamless Protocol",
     "description": "Seamless Protocol is a decentralized, community-governed lending and borrowing platform native to the Base blockchain, offering users a way to supply, borrow, and manage their assets, with a focus on capital efficiency and a user-friendly experience.",
@@ -812,7 +946,6 @@
     },
     "reference": ["sparklend"]
   },
-  ,
   {
     "identifier": "stader",
     "name": "Stader",
@@ -846,6 +979,23 @@
       "github": "https://github.com/sushiswap"
     },
     "reference": ["sushiswap_v3", "sushiswap"]
+  },
+  {
+    "identifier": "swapr",
+    "name": "Swapr",
+    "description": "Swapr is a multi-chain AMM with a suite of unique features including LP governance, DIY farming, and much more. Swapr is the first automated market maker (AMM) to allow for adjustable swap fees through governance and has been organically developed within the DXdao community.",
+    "icon": "/protocol/swapr.svg",
+    "chains": ["ethereum"],
+    "category": ["DEX"],
+    "website": "https://swapr.eth.limo/",
+    "docs": "https://dxdocs.eth.limo/docs/Products/swapr/",
+    "socials": {
+      "twitter": "https://twitter.com/SwaprEth",
+      "discord": "https://discord.gg/CGmYqkQy2K",
+      "telegram": "",
+      "github": "https://github.com/Swapr-core"
+    },
+    "reference": ["swapr"]
   },
   {
     "identifier": "swell_network",
