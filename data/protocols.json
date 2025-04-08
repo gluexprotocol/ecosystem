@@ -443,7 +443,7 @@
       "telegram": "https://t.me/fraxfinance",
       "github": "https://github.com/FraxFinance"
     },
-    "reference": ["fraxswap", "frxeth_eth"]
+    "reference": ["fraxswap", "frxeth_eth", "sfrax_frax", "sfrxeth_frxeth"]
   },
   {
     "identifier": "fluid",
@@ -461,6 +461,23 @@
       "github": "https://github.com/Instadapp"
     },
     "reference": ["fluid_dex", "fluid_fusdc_usdc"]
+  },
+  {
+    "identifier": "flux_finance",
+    "name": "Flux Finance",
+    "description": "Flux Finance is a decentralized, secure, non-custodial digital asset lending protocol. It allows users to deposit assets to earn interest and borrow assets by collateralizing their holdings. Flux is a fork of Compound V2 with additional functionality to support both permissionless and permissioned tokens.",
+    "icon": "/protocol/flux_finance.png",
+    "chains": ["ethereum"],
+    "category": ["Lending"],
+    "website": "https://fluxfinance.com/",
+    "docs": "https://docs.fluxfinance.com/",
+    "socials": {
+      "twitter": "https://x.com/FluxDeFi",
+      "discord": "https://discord.com/invite/YzhZaFbB92",
+      "telegram": "https://t.me/ondocommunity",
+      "github": "https://github.com/flux-finance"
+    },
+    "reference": ["flux_finance"]
   },
   {
     "identifier": "hashflow",
@@ -486,6 +503,23 @@
       "github": "https://github.com/hashflownetwork/"
     },
     "reference": ["hashflow_v3_fok"]
+  },
+  {
+    "identifier": "integral",
+    "name": "Integral",
+    "description": "Integral is a decentralized exchange (DEX) designed for executing large cryptocurrency trades with zero price impact. It introduces a novel exchange platform tailored to accommodate large trades on blockchain networks such as Ethereum Mainnet and Arbitrum. Integral supports execution methods like Time-Weighted Average Price (TWAP), instant atomic orders, and limit orders to minimize price impact and secure better pricing.",
+    "icon": "/protocol/integral.png",
+    "chains": ["ethereum", "arbitrum"],
+    "category": ["DEX"],
+    "website": "https://integral.link/",
+    "docs": "https://docs.integral.link/size",
+    "socials": {
+      "twitter": "https://x.com/integralhq",
+      "discord": "https://discord.com/invite/ANf3VufDvm",
+      "telegram": "https://t.me/integralresistance",
+      "github": "https://github.com/integralhq"
+    },
+    "reference": ["integral"]
   },
   {
     "identifier": "kelp_dao",
@@ -586,6 +620,23 @@
       "maker_psm",
       "maker_usds_susds"
     ]
+  },
+  {
+    "identifier": "meth_protocol",
+    "name": "mETH Protocol",
+    "description": "mETH Protocol, formerly known as Mantle LSP, is a permissionless, vertically integrated protocol for ETH liquid staking and liquid restaking. It offers mETH, a value-accumulating receipt token for ETH staking, and cmETH, a unified receipt token for a portfolio of restaking positions.",
+    "icon": "/protocol/meth_protocol.png",
+    "chains": ["ethereum"],
+    "category": ["LIQUID STAKING"],
+    "website": "https://www.methprotocol.xyz/",
+    "docs": "https://docs.mantle.xyz/meth/introduction/overview",
+    "socials": {
+      "twitter": "https://x.com/mETHProtocol",
+      "discord": "https://discord.com/invite/methprotocol",
+      "telegram": "https://t.me/mETHProtocol_official",
+      "github": ""
+    },
+    "reference": ["mantle_meth_eth"]
   },
   {
     "identifier": "maverick_protocol",
@@ -790,6 +841,23 @@
       "github": ""
     },
     "reference": ["stakestone_stone_eth"]
+  },
+  {
+    "identifier": "Symbiotic",
+    "name": "symbiotic",
+    "description": "Symbiotic is a restaking protocol that enables users to enhance blockchain network security and capital efficiency by enabling using existing economic security, such as Ethereum Liquid Staking Tokens (LSTs) and ERC-20 tokens, to secure additional networks.",
+    "icon": "/protocol/symbiotic.webp",
+    "chains": ["ethereum"],
+    "category": ["RESTAKING"],
+    "website": "https://symbiotic.fi/",
+    "docs": "https://docs.symbiotic.fi/",
+    "socials": {
+      "twitter": "https://x.com/symbioticfi",
+      "discord": "https://discord.com/invite/officialsymbioticfi",
+      "telegram": "https://t.me/symbioticannouncements",
+      "github": "https://github.com/symbioticfi"
+    },
+    "reference": ["symbiotic"]
   },
   {
     "identifier": "tenderswap",
