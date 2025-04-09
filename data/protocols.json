@@ -505,6 +505,23 @@
     "reference": ["hashflow_v3_fok"]
   },
   {
+    "identifier": "hyperlend",
+    "name": "Hyperlend",
+    "description": "HyperLend is a decentralized finance (DeFi) platform focused on lending and borrowing digital assets. It operates on the Hyperliquid EVM blockchain, offering efficient and secure money-market services.",
+    "icon": "/protocol/hyperlend.png",
+    "chains": ["hyperevm"],
+    "category": ["LENDING", "BORROWING"],
+    "website": "https://hyperlend.finance/",
+    "docs": "https://docs.hyperlend.finance/",
+    "socials": {
+      "twitter": "https://x.com/hyperlendx",
+      "discord": "https://discord.com/invite/hyperlendfinance",
+      "telegram": "https://t.me/hyperlendx",
+      "github": "https://github.com/hyperlendx"
+    },
+    "reference": ["hyperlend"]
+  },
+  {
     "identifier": "integral",
     "name": "Integral",
     "description": "Integral is a decentralized exchange (DEX) designed for executing large cryptocurrency trades with zero price impact. It introduces a novel exchange platform tailored to accommodate large trades on blockchain networks such as Ethereum Mainnet and Arbitrum. Integral supports execution methods like Time-Weighted Average Price (TWAP), instant atomic orders, and limit orders to minimize price impact and secure better pricing.",
@@ -619,6 +636,28 @@
       "maker_mkr_sky",
       "maker_psm",
       "maker_usds_susds"
+    ]
+  },
+  {
+    "identifier": "mendi_finance",
+    "name": "Mendi Finance",
+    "description": "Mendi Finance is a decentralized lending protocol for individuals, institutions and protocols to access financial services. It is a permissionless, open source protocol serving users on Linea.",
+    "icon": "/protocol/mendi_finance.png",
+    "chains": ["linea"],
+    "category": ["LENDING"],
+    "website": "https://mendi.finance/",
+    "docs": "https://docs.mendi.finance/",
+    "socials": {
+      "twitter": "https://x.com/malda_xyz",
+      "discord": "https://discord.com/invite/G3vWy8cbnK",
+      "telegram": "https://t.me/malda_xyz",
+      "github": "https://github.com/mendi-finance/"
+    },
+    "reference": [
+      "mendi_adjusted",
+      "mendi_medai_dai",
+      "mendi_mewbtc_wbtc",
+      "mendi_pools"
     ]
   },
   {
