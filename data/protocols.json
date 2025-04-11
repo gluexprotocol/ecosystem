@@ -1040,7 +1040,7 @@
     "identifier": "sparklend",
     "name": "Sparklend",
     "description": "SparkLend is a decentralized finance (DeFi) platform within the DAI ecosystem, created by the MakerDAO community, allowing users to deposit DAI to earn rewards, borrow DAI using crypto assets as collateral, and access other financial services.",
-    "icon": "/protocol/sparklend.webp",
+    "icon": "/protocol/sparklend.png",
     "chains": ["ethereum", "gnosis"],
     "category": ["LENDING"],
     "website": "https://spark.fi/",
