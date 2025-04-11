@@ -564,6 +564,23 @@
     "reference": ["kelp_wrseth_eth", "kelp_rseth_eth"]
   },
   {
+    "identifier": "kinza_finance",
+    "name": "Kinza Finance",
+    "description": "Kinza Finance is a next-generation decentralized lending protocol built on the BNB Chain. It emphasizes security and aims to connect the demand and supply of liquidity to create an efficient on-chain money market.",
+    "icon": "/protocol/kinza.png",
+    "chains": ["bsc", "ethereum", "mantle"],
+    "category": ["DeFi"],
+    "website": "https://app.kinza.finance/",
+    "docs": "https://docs.kinza.finance/",
+    "socials": {
+      "twitter": "https://x.com/kinzafinance",
+      "discord": "https://discord.com/invite/JFXTEp8Nub",
+      "telegram": "https://t.me/kinza_finance",
+      "github": "https://github.com/Kinza-Finance"
+    },
+    "reference": []
+  },
+  {
     "identifier": "kodiak",
     "name": "Kodiak",
     "description": "Kodiak is a decentralized exchange (DEX) on the Berachain blockchain that provides centralized liquidity and automated liquidity management, offering traders deep liquidity and best trade execution, while giving protocols and liquidity providers flexibility and control.",
@@ -613,6 +630,23 @@
       "github": "https://github.com/lidofinance"
     },
     "reference": ["lido_steth_weth", "lido_steth_wsteth"]
+  },
+  {
+    "identifier": "lfj",
+    "name": "LFJ",
+    "description": "A decentralized cryptocurrency exchange established in 2021. Currently, there are 203 coins and 263 trading pairs available on the exchange.",
+    "icon": "/protocol/lfg.png",
+    "chains": ["avalanche", "ethereum", "bsc", "arbitrum"],
+    "category": ["DEX"],
+    "website": "https://lfj.gg/",
+    "docs": "https://docs.lfj.gg/",
+    "socials": {
+      "twitter": "https://x.com/lfj_gg?lang=en",
+      "discord": "https://docs.lfj.gg/",
+      "telegram": "https://t.me/lfj_gg",
+      "github": "https://github.com/traderjoe-xyz/"
+    },
+    "reference": []
   },
   {
     "identifier": "makerdao",
@@ -746,6 +780,23 @@
     "reference": ["origin_swap"]
   },
   {
+    "identifier": "pac_finance",
+    "name": "Pac Finance",
+    "description": "Pac Finance is a decentralized finance (DeFi) protocol operating on the Blast Layer 2 network. It introduces a self-repaying and hybrid lending model, allowing users to borrow assets that automatically repay over time through integrated yield mechanisms.",
+    "icon": "/protocol/pac_finance.png",
+    "chains": ["blast"],
+    "category": ["LENDING"],
+    "website": "https://app.pac.finance/",
+    "docs": "https://docs.pac.finance/",
+    "socials": {
+      "twitter": "https://x.com/pac_finance",
+      "discord": "https://discord.com/invite/PVvGxRMTDA",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": []
+  },
+  {
     "identifier": "pancakeswap",
     "name": "PancakeSwap",
     "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to trade tokens, provide liquidity, and earn rewards through staking and farming, using an automated market maker (AMM) model.",
@@ -829,6 +880,23 @@
       "github": "https://github.com/PufferFinance"
     },
     "reference": ["puffer_finance"]
+  },
+  {
+    "identifier": "ramses_legacy",
+    "name": "Ramses Legacy",
+    "description": "Ramses Legacy is a decentralized exchange (DEX) protocol built on the Arbitrum blockchain. It serves as a next-generation automated market maker (AMM), combining the secure and battle-tested features of Uniswap v3 with a custom incentive engine, vote-lock governance model, and streamlined user experience.",
+    "icon": "/protocol/ramses_legacy.png",
+    "chains": ["arbitrum"],
+    "category": ["DEX", "AMM"],
+    "website": "https://www.ramses.exchange/",
+    "docs": "https://docs.ramses.exchange/",
+    "socials": {
+      "twitter": "https://x.com/RamsesExchange",
+      "discord": "https://discord.com/invite/tJRPmcV33Y",
+      "telegram": "https://t.me/ExchangeRamses",
+      "github": "https://github.com/RamsesExchange"
+    },
+    "reference": []
   },
   {
     "identifier": "ring_protocol",
