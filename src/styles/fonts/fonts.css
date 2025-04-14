@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Aeonik";
+	src: url("../assets/fonts/Aeonik-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Aux Mono";
+	src: url("../assets/fonts/AuxMono-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Darker Grotesque";
+	src: url("../assets/fonts/DarkerGrotesque-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}

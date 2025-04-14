@@ -10,20 +10,23 @@ Please complete the checklist below and provide all relevant information.
 
 - [ ] New protocol integration
 - [ ] Update to existing protocol entry
-- [ ] Metadata correction (e.g. logo, links, chains)
+- [ ] Metadata correction (eg: logo, links, chains)
 - [ ] Other (please describe):
 
 ---
 
 ## Protocol Details
 
-**Name:**  
+**Name:**
+
 _Example: Velodrome v3_
 
-**Short Description:**  
-_One-line summary of the protocol and what it does._
+**Short Description:**
 
-**GlueX Integration Type(s):**  
+_One-line summary of the protocol and what it does_
+
+**GlueX Integration Type(s):**
+
 _Select all that apply:_
 
 - [ ] Liquidity Module
@@ -33,16 +36,19 @@ _Select all that apply:_
 - [ ] Widget Integration
 - [ ] Other (explain):
 
-**Supported Chains:**  
+**Supported Chains:**
+
 _Example: Optimism, Arbitrum, Polygon_
 
 **Relevant Links:**
 
 - Website:
 - Docs:
-- GitHub (if public):
+- Github (if public):
 - Integration PR (if applicable):
 - Twitter (optional):
+- Discord (optional):
+- Telegram (optional):
 
 ---
 
@@ -65,5 +71,4 @@ _Example: Optimism, Arbitrum, Polygon_
 
 ## Additional Notes
 
-_Use this space to provide any extra context or supporting info for the GlueX team._
-
+_Use this space to provide any extra context or supporting info for the GlueX team_
