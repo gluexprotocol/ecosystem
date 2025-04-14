@@ -12,7 +12,7 @@
       "gnosis",
       "optimism"
     ],
-    "category": ["LENDING", "BORROWING"],
+    "category": ["LENDING"],
     "website": "https://aave.com/",
     "docs": "https://docs.aave.com/",
     "socials": {
@@ -46,7 +46,7 @@
     "description": "Affine DeFi is a platform focused on building DeFi products, particularly in the liquid restaking and yield generation markets, aiming to make DeFi simpler for users and extend the security of Ethereum to other decentralized services.",
     "icon": "/protocol/affine.png",
     "chains": ["ethereum"],
-    "category": ["WEB3"],
+    "category": ["RESTAKING", "YIELD"],
     "website": "https://affinedefi.com/",
     "docs": "https://docs.affinedefi.com/",
     "socials": {
@@ -80,7 +80,7 @@
     "description": "Aura Finance is a protocol built on top of the Balancer system to provide maximum incentives to Balancer liquidity providers and BAL stakers (into veBAL) through social aggregation of BAL deposits and Aura's native token.",
     "icon": "/protocol/aura.png",
     "chains": ["arbitrum", "base", "ethereum"],
-    "category": ["YIELD", "DEFI"],
+    "category": ["YIELD"],
     "website": "https://aura.finance/",
     "docs": "https://docs.aura.finance/",
     "socials": {
@@ -97,7 +97,7 @@
     "description": "ApeSwap is a multichain DeFi Hub offering an accessible, transparent, and secure experience for everyone.",
     "icon": "/protocol/apeswap.png",
     "chains": ["ethereum"],
-    "category": ["DEX", "DEFI"],
+    "category": ["DEX"],
     "website": "https://apeswap.finance/",
     "docs": "https://docs.ape.bond/apeswap-finance/welcome/master",
     "socials": {
@@ -266,7 +266,7 @@
     "description": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.",
     "icon": "/protocol/compound.png",
     "chains": ["ethereum", "optimism", "polygon", "base", "arbitrum", "mantle"],
-    "category": ["LENDING", "BORROWING"],
+    "category": ["LENDING"],
     "website": "https://compound.finance/",
     "docs": "https://docs.compound.finance/",
     "socials": {
@@ -398,7 +398,7 @@
     "description": "Ether.fi is a decentralized liquid restaking platform focused on non-custodial Ethereum staking.",
     "icon": "/protocol/etherfi.png",
     "chains": ["ethereum"],
-    "category": ["STAKING", "YIELD", "DEFI"],
+    "category": ["STAKING", "YIELD"],
     "website": "https://www.ether.fi/",
     "docs": "https://etherfi.gitbook.io/gov",
     "socials": {
@@ -416,7 +416,7 @@
     "description": "Euler Finance is a DeFi lending protocol for permissionless lending and borrowing of crypto assets with smaller markets.",
     "icon": "/protocol/euler_finance.png",
     "chains": ["ethereum"],
-    "category": ["LENDING", "BORROWING", "DEFI"],
+    "category": ["LENDING"],
     "website": "https://www.euler.finance/",
     "docs": "https://docs.euler.finance/",
     "socials": {
@@ -451,7 +451,7 @@
     "description": "Fluid is the next-generation lending market with the highest LTVs and lowest liquidation penalties in the industry.",
     "icon": "/protocol/fluid.png",
     "chains": ["arbitrum", "base", "ethereum"],
-    "category": ["LENDING", "BORROWING"],
+    "category": ["LENDING"],
     "website": "https://fluid.io/",
     "docs": "https://docs.fluid.instadapp.io/",
     "socials": {
@@ -510,7 +510,7 @@
     "description": "HyperLend is a decentralized finance (DeFi) platform focused on lending and borrowing digital assets. It operates on the Hyperliquid EVM blockchain, offering efficient and secure money-market services.",
     "icon": "/protocol/hyperlend.png",
     "chains": ["hyperevm"],
-    "category": ["LENDING", "BORROWING"],
+    "category": ["LENDING"],
     "website": "https://hyperlend.finance/",
     "docs": "https://docs.hyperlend.finance/",
     "socials": {
@@ -552,7 +552,7 @@
       "optimism",
       "scroll"
     ],
-    "category": ["DEFI", "STAKING"],
+    "category": ["DEX", "STAKING"],
     "website": "https://kerneldao.com/kelp/",
     "docs": "https://kerneldao.gitbook.io/kernel",
     "socials": {
@@ -569,7 +569,7 @@
     "description": "Kinza Finance is a next-generation decentralized lending protocol built on the BNB Chain. It emphasizes security and aims to connect the demand and supply of liquidity to create an efficient on-chain money market.",
     "icon": "/protocol/kinza.png",
     "chains": ["bsc", "ethereum", "mantle"],
-    "category": ["DEFI"],
+    "category": ["LENDING"],
     "website": "https://app.kinza.finance/",
     "docs": "https://docs.kinza.finance/",
     "socials": {
@@ -603,7 +603,7 @@
     "description": "KyberSwap is a multi-chain aggregator and DeFi hub that empowers users with the insights and tools to achieve financial autonomy.",
     "icon": "/protocol/kyberswap.png",
     "chains": ["ethereum"],
-    "category": ["DEX", "DEFI"],
+    "category": ["DEX"],
     "website": "https://kyberswap.com/",
     "docs": "https://docs.kyberswap.com/",
     "socials": {
@@ -620,7 +620,7 @@
     "description": "Lido is a leading liquid staking platform that allows users to earn interest on their cryptocurrencies across multiple blockchains. Lido issues staked tokens (e.g. stETH) in return for the original assets, which can used across the DeFi ecosystem for trading, lending, and other activities to earn more rewards.",
     "icon": "/protocol/lido.png",
     "chains": ["ethereum"],
-    "category": ["DEFI", "STAKING"],
+    "category": ["STAKING"],
     "website": "https://lido.fi/",
     "docs": "https://docs.lido.fi/",
     "socials": {
@@ -654,7 +654,7 @@
     "description": "MakerDAO operates as a decentralized organization on the Ethereum blockchain, aiming to stabilize the value of its cryptocurrency, DAI, against the US dollar. This aims to minimize price fluctuations often associated with cryptocurrencies.",
     "icon": "/protocol/makerdao.png",
     "chains": ["ethereum"],
-    "category": ["DEFI", "LENDING", "BORROWING"],
+    "category": ["LENDING"],
     "website": "https://makerdao.com/",
     "docs": "https://docs.makerdao.com/",
     "socials": {
@@ -751,7 +751,7 @@
     "description": "A permissionless and non-custodial lending protocol. Earn interest on over-collateralized lending and borrow digital assets using immutable infrastructure.",
     "icon": "/protocol/morpho.png",
     "chains": ["base", "ethereum"],
-    "category": ["LENDING", "BORROWING"],
+    "category": ["LENDING"],
     "website": "https://morpho.org/",
     "docs": "https://docs.morpho.org/",
     "socials": {
@@ -768,7 +768,7 @@
     "description": "Origin Protocol is a decentralized finance (DeFi) platform designed to expand economic opportunities through a suite of financial products. These products work together seamlessly, utilizing permissionless and composable smart contracts to deliver an enhanced user experience across multiple blockchain networks.",
     "icon": "/protocol/origin_protocol.png",
     "chains": ["ethereum"],
-    "category": ["DEFI", "YIELD"],
+    "category": ["YIELD"],
     "website": "https://www.originprotocol.com/",
     "docs": "https://docs.originprotocol.com/",
     "socials": {
@@ -836,7 +836,7 @@
     "description": "Peapods is a decentralized, permissionless, and trustless on-chain volatility farming protocol with zero dependency on oracles or external price feeds. Peapods enables users to capitalize on the inexhaustible volatility of crypto markets to unlock yield opportunities for any liquid asset. We refer to this model as volatility farming.",
     "icon": "/protocol/peapods.png",
     "chains": ["arbitrum", "base", "ethereum"],
-    "category": ["DEFI", "AMM"],
+    "category": ["AMM"],
     "website": "https://peapods.finance/",
     "docs": "https://docs.peapods.finance/",
     "socials": {
@@ -853,7 +853,7 @@
     "description": "Pendle enables the permissionless tokenization and trading of yield, unlocking various strategies such as obtaining fixed yield, long crypto yields, or trade yields of any assets on Pendle.",
     "icon": "/protocol/pendle.png",
     "chains": ["arbitrum", "bnb", "base", "ethereum", "mantle"],
-    "category": ["DEFI"],
+    "category": ["DERIVATIVES"],
     "website": "https://www.pendle.finance/",
     "docs": "https://docs.pendle.finance/",
     "socials": {
@@ -870,7 +870,7 @@
     "description": "A fast, secure preconfirmation service built on EigenLayer, enabling sub-second transaction confirmations and enhancing the scalability of based rollups.",
     "icon": "/protocol/puffer_finance.png",
     "chains": ["ethereum"],
-    "category": ["DEFI"],
+    "category": ["RESTAKING"],
     "website": "https://www.puffer.fi/",
     "docs": "https://docs.puffer.fi/",
     "socials": {
@@ -904,7 +904,7 @@
     "description": "A decentralized exchange (DEX) on the Blast network, built on the Uniswap V2 model, allowing users to swap assets and provide liquidity with integrated yield mechanisms.",
     "icon": "/protocol/ringprotocol.png",
     "chains": ["blast"],
-    "category": ["DEFI", "DEX"],
+    "category": ["DEX"],
     "website": "https://ring.exchange/",
     "docs": "https://ringprotocol.gitbook.io/ring",
     "socials": {
@@ -955,7 +955,7 @@
     "description": "Symbiotic is a restaking protocol that enables users to enhance blockchain network security and capital efficiency by enabling using existing economic security, such as Ethereum Liquid Staking Tokens (LSTs) and ERC-20 tokens, to secure additional networks.",
     "icon": "/protocol/symbiotic.webp",
     "chains": ["ethereum"],
-    "category": ["STAKING"],
+    "category": ["RESTAKING"],
     "website": "https://symbiotic.fi/",
     "docs": "https://docs.symbiotic.fi/",
     "socials": {
@@ -1013,7 +1013,7 @@
     "description": "Treehouse is a comprehensive platform designed for digital asset traders and investors, offering powerful portfolio management and market intelligence tools.",
     "icon": "/protocol/treehouse.png",
     "chains": ["ethereum"],
-    "category": ["WEB3", "DEV_TOOL"],
+    "category": ["YIELD"],
     "website": "https://www.treehouse.finance/",
     "docs": "https://docs.treehouse.finance/protocol",
     "socials": {
@@ -1076,7 +1076,7 @@
     "description": "Seamless Protocol is a decentralized, community-governed lending and borrowing platform native to the Base blockchain, offering users a way to supply, borrow, and manage their assets, with a focus on capital efficiency and a user-friendly experience.",
     "icon": "/protocol/seamless.png",
     "chains": ["base"],
-    "category": ["LENDING", "BORROWING"],
+    "category": ["LENDING"],
     "website": "https://www.seamlessprotocol.com/",
     "docs": "https://docs.seamlessprotocol.com/",
     "socials": {
@@ -1127,7 +1127,7 @@
     "description": "Stader Network is a non-custodial, multi-chain liquid staking platform that allows users to stake their crypto assets across multiple Proof-of-Stake (PoS) blockchains, offering access to staking and DeFi opportunities.",
     "icon": "/protocol/stader.png",
     "chains": ["ethereum"],
-    "category": ["STAKING", "DEFI"],
+    "category": ["STAKING"],
     "website": "https://staderlabs.com/",
     "docs": "https://www.staderlabs.com/docs/",
     "socials": {
@@ -1212,7 +1212,7 @@
     "description": "A secure, decentralized issuer that takes back the value captured by crypto giants—and redistributes it to the community through $USUAL.",
     "icon": "/protocol/usual_protocol.png",
     "chains": ["ethereum"],
-    "category": ["DEFI"],
+    "category": ["DEX"],
     "website": "https://usual.money/",
     "docs": "https://docs.usual.money/",
     "socials": {
@@ -1229,7 +1229,7 @@
     "description": "UwU Lend is a decentralized non-custodial liquidity market protocol where users can participate as depositors, borrowers or xUwU stakers.",
     "icon": "/protocol/uwu_lend.webp",
     "chains": ["ethereum"],
-    "category": ["DEFI", "LENDING"],
+    "category": ["LENDING"],
     "website": "https://uwulend.fi/",
     "docs": "https://docs.uwulend.fi/",
     "socials": {
@@ -1246,7 +1246,7 @@
     "description": "Valantis is a modular decentralized exchange (DEX) protocol designed to enable developers to build customized on-chain liquidity infrastructures efficiently. By utilizing a modular framework, Valantis allows for the creation of bespoke DEX designs without the traditional limitations of liquidity fragmentation.",
     "icon": "/protocol/valantis.png",
     "chains": ["ethereum"],
-    "category": ["DEFI", "AMM"],
+    "category": ["DEX", "AMM"],
     "website": "https://www.valantis.xyz/",
     "docs": "https://docs.valantis.xyz/",
     "socials": {
@@ -1297,7 +1297,7 @@
     "description": "Yearn Finance is a multi-chain yield aggregator that automates yield using investment pools and reacts to opportunities in the marketplace. It allows for interest earned on deposited tokens, no withdrawal fees, and offers the ability to build investment strategies to increase yield in Yearn vaults.",
     "icon": "/protocol/yearn_finance.png",
     "chains": ["ethereum"],
-    "category": ["DEFI", "YIELD"],
+    "category": ["YIELD"],
     "website": "https://yearn.fi/",
     "docs": "https://docs.yearn.fi/",
     "socials": {
@@ -1322,7 +1322,7 @@
     "description": "ZeroLend presents itself as a multi-chain DeFi protocol offering borrowing and lending functionalities for various assets. It has its own native stablecoin ($ONEZ) and emphasizes features like account abstraction for potential future benefits. It incorporates a governance model through $ZERO token, supports account abstraction for user-friendly features like gas-less transactions, and plans to integrate real-world assets and a privacy layer to maintain transaction confidentiality.",
     "icon": "/protocol/zerolend.png",
     "chains": ["base", "blast", "linea", "ethereum"],
-    "category": ["LENDING", "BORROWING"],
+    "category": ["LENDING"],
     "website": "https://zerolend.xyz/",
     "docs": "https://docs.zerolend.xyz/",
     "socials": {
@@ -1339,7 +1339,7 @@
     "description": "0xProject is a suite of infrastructure products that provide APIs to developers which can help them fast-track the creation of decentralized exchanges. Their products include, but not limited to, Swap API, Tx Relay API, Tx History API, Price API, Token Registry API, and Orderbook API.",
     "icon": "/protocol/0xproject.png",
     "chains": ["arbitrum", "base", "ethereum"],
-    "category": ["DEV_TOOL"],
+    "category": ["DEX"],
     "website": "https://0x.org/",
     "docs": "https://0x.org/docs",
     "socials": {
