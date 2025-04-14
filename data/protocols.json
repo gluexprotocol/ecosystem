@@ -63,7 +63,7 @@
     "description": "A next-generation decentralized exchange and yield farming platform.",
     "icon": "/protocol/alienbase.png",
     "chains": ["base"],
-    "category": ["DEX", "Yield Farming"],
+    "category": ["DEX", "YIELD"],
     "website": "https://alienbase.xyz/",
     "docs": "https://docs.alienbase.xyz/",
     "socials": {
@@ -80,7 +80,7 @@
     "description": "Aura Finance is a protocol built on top of the Balancer system to provide maximum incentives to Balancer liquidity providers and BAL stakers (into veBAL) through social aggregation of BAL deposits and Aura's native token.",
     "icon": "/protocol/aura.png",
     "chains": ["arbitrum", "base", "ethereum"],
-    "category": ["Yield Aggregator", "DeFi"],
+    "category": ["YIELD", "DEFI"],
     "website": "https://aura.finance/",
     "docs": "https://docs.aura.finance/",
     "socials": {
@@ -97,7 +97,7 @@
     "description": "ApeSwap is a multichain DeFi Hub offering an accessible, transparent, and secure experience for everyone.",
     "icon": "/protocol/apeswap.png",
     "chains": ["ethereum"],
-    "category": ["DEX", "DeFi"],
+    "category": ["DEX", "DEFI"],
     "website": "https://apeswap.finance/",
     "docs": "https://docs.ape.bond/apeswap-finance/welcome/master",
     "socials": {
@@ -167,7 +167,7 @@
     "description": "Beets is the flagship hub for liquid staking and AMM innovation on Sonic. The Beets tech stack currently includes a decentralized exchange (DEX) for seamless asset trading and innovative yield generation, along with a Liquid Staking Token protocol that offers the easiest way for users to access native Sonic blockchain staking rewards.",
     "icon": "/protocol/beets.png",
     "chains": ["optimism"],
-    "category": ["DEX", "YIELD_AGGREGATOR"],
+    "category": ["DEX", "YIELD"],
     "website": "https://beets.fi/",
     "docs": "https://docs.beets.fi/",
     "socials": {
@@ -309,7 +309,7 @@
       "linea",
       "scroll"
     ],
-    "category": ["Yield Aggregator"],
+    "category": ["YIELD"],
     "website": "https://beefy.com/",
     "docs": "https://docs.beefy.finance/",
     "socials": {
@@ -398,7 +398,7 @@
     "description": "Ether.fi is a decentralized liquid restaking platform focused on non-custodial Ethereum staking.",
     "icon": "/protocol/etherfi.png",
     "chains": ["ethereum"],
-    "category": ["STAKING", "Yield Farming", "DeFi"],
+    "category": ["STAKING", "YIELD", "DEFI"],
     "website": "https://www.ether.fi/",
     "docs": "https://etherfi.gitbook.io/gov",
     "socials": {
@@ -416,7 +416,7 @@
     "description": "Euler Finance is a DeFi lending protocol for permissionless lending and borrowing of crypto assets with smaller markets.",
     "icon": "/protocol/euler_finance.png",
     "chains": ["ethereum"],
-    "category": ["LENDING", "BORROWING", "DeFi"],
+    "category": ["LENDING", "BORROWING", "DEFI"],
     "website": "https://www.euler.finance/",
     "docs": "https://docs.euler.finance/",
     "socials": {
@@ -468,7 +468,7 @@
     "description": "Flux Finance is a decentralized, secure, non-custodial digital asset lending protocol. It allows users to deposit assets to earn interest and borrow assets by collateralizing their holdings. Flux is a fork of Compound V2 with additional functionality to support both permissionless and permissioned tokens.",
     "icon": "/protocol/flux_finance.png",
     "chains": ["ethereum"],
-    "category": ["Lending"],
+    "category": ["LENDING"],
     "website": "https://fluxfinance.com/",
     "docs": "https://docs.fluxfinance.com/",
     "socials": {
@@ -552,7 +552,7 @@
       "optimism",
       "scroll"
     ],
-    "category": ["DeFi", "STAKING"],
+    "category": ["DEFI", "STAKING"],
     "website": "https://kerneldao.com/kelp/",
     "docs": "https://kerneldao.gitbook.io/kernel",
     "socials": {
@@ -569,7 +569,7 @@
     "description": "Kinza Finance is a next-generation decentralized lending protocol built on the BNB Chain. It emphasizes security and aims to connect the demand and supply of liquidity to create an efficient on-chain money market.",
     "icon": "/protocol/kinza.png",
     "chains": ["bsc", "ethereum", "mantle"],
-    "category": ["DeFi"],
+    "category": ["DEFI"],
     "website": "https://app.kinza.finance/",
     "docs": "https://docs.kinza.finance/",
     "socials": {
@@ -603,7 +603,7 @@
     "description": "KyberSwap is a multi-chain aggregator and DeFi hub that empowers users with the insights and tools to achieve financial autonomy.",
     "icon": "/protocol/kyberswap.png",
     "chains": ["ethereum"],
-    "category": ["DEX", "DeFi"],
+    "category": ["DEX", "DEFI"],
     "website": "https://kyberswap.com/",
     "docs": "https://docs.kyberswap.com/",
     "socials": {
@@ -620,7 +620,7 @@
     "description": "Lido is a leading liquid staking platform that allows users to earn interest on their cryptocurrencies across multiple blockchains. Lido issues staked tokens (e.g. stETH) in return for the original assets, which can used across the DeFi ecosystem for trading, lending, and other activities to earn more rewards.",
     "icon": "/protocol/lido.png",
     "chains": ["ethereum"],
-    "category": ["DeFi", "STAKING"],
+    "category": ["DEFI", "STAKING"],
     "website": "https://lido.fi/",
     "docs": "https://docs.lido.fi/",
     "socials": {
@@ -654,7 +654,7 @@
     "description": "MakerDAO operates as a decentralized organization on the Ethereum blockchain, aiming to stabilize the value of its cryptocurrency, DAI, against the US dollar. This aims to minimize price fluctuations often associated with cryptocurrencies.",
     "icon": "/protocol/makerdao.png",
     "chains": ["ethereum"],
-    "category": ["DeFi", "LENDING", "BORROWING"],
+    "category": ["DEFI", "LENDING", "BORROWING"],
     "website": "https://makerdao.com/",
     "docs": "https://docs.makerdao.com/",
     "socials": {
@@ -700,7 +700,7 @@
     "description": "mETH Protocol, formerly known as Mantle LSP, is a permissionless, vertically integrated protocol for ETH liquid staking and liquid restaking. It offers mETH, a value-accumulating receipt token for ETH staking, and cmETH, a unified receipt token for a portfolio of restaking positions.",
     "icon": "/protocol/meth_protocol.png",
     "chains": ["ethereum"],
-    "category": ["LIQUID STAKING"],
+    "category": ["STAKING"],
     "website": "https://www.methprotocol.xyz/",
     "docs": "https://docs.mantle.xyz/meth/introduction/overview",
     "socials": {
@@ -768,7 +768,7 @@
     "description": "Origin Protocol is a decentralized finance (DeFi) platform designed to expand economic opportunities through a suite of financial products. These products work together seamlessly, utilizing permissionless and composable smart contracts to deliver an enhanced user experience across multiple blockchain networks.",
     "icon": "/protocol/origin_protocol.png",
     "chains": ["ethereum"],
-    "category": ["DeFi", "Yield Farming"],
+    "category": ["DEFI", "YIELD"],
     "website": "https://www.originprotocol.com/",
     "docs": "https://docs.originprotocol.com/",
     "socials": {
@@ -836,7 +836,7 @@
     "description": "Peapods is a decentralized, permissionless, and trustless on-chain volatility farming protocol with zero dependency on oracles or external price feeds. Peapods enables users to capitalize on the inexhaustible volatility of crypto markets to unlock yield opportunities for any liquid asset. We refer to this model as volatility farming.",
     "icon": "/protocol/peapods.png",
     "chains": ["arbitrum", "base", "ethereum"],
-    "category": ["DeFi", "AMM"],
+    "category": ["DEFI", "AMM"],
     "website": "https://peapods.finance/",
     "docs": "https://docs.peapods.finance/",
     "socials": {
@@ -853,7 +853,7 @@
     "description": "Pendle enables the permissionless tokenization and trading of yield, unlocking various strategies such as obtaining fixed yield, long crypto yields, or trade yields of any assets on Pendle.",
     "icon": "/protocol/pendle.png",
     "chains": ["arbitrum", "bnb", "base", "ethereum", "mantle"],
-    "category": ["DeFi"],
+    "category": ["DEFI"],
     "website": "https://www.pendle.finance/",
     "docs": "https://docs.pendle.finance/",
     "socials": {
@@ -870,7 +870,7 @@
     "description": "A fast, secure preconfirmation service built on EigenLayer, enabling sub-second transaction confirmations and enhancing the scalability of based rollups.",
     "icon": "/protocol/puffer_finance.png",
     "chains": ["ethereum"],
-    "category": ["DeFi"],
+    "category": ["DEFI"],
     "website": "https://www.puffer.fi/",
     "docs": "https://docs.puffer.fi/",
     "socials": {
@@ -904,7 +904,7 @@
     "description": "A decentralized exchange (DEX) on the Blast network, built on the Uniswap V2 model, allowing users to swap assets and provide liquidity with integrated yield mechanisms.",
     "icon": "/protocol/ringprotocol.png",
     "chains": ["blast"],
-    "category": ["DeFi", "DEX"],
+    "category": ["DEFI", "DEX"],
     "website": "https://ring.exchange/",
     "docs": "https://ringprotocol.gitbook.io/ring",
     "socials": {
@@ -938,7 +938,7 @@
     "description": "Designed to transform how liquidity is acquired, distributed, and utilized across blockchain ecosystems, StakeStone's core mission is to deliver efficient and sustainable organic liquidity flows that adapt to the needs of an increasingly modular and multi-chain DeFi ecosystem.",
     "icon": "/protocol/stakestone.png",
     "chains": ["ethereum"],
-    "category": ["LIQUID STAKING"],
+    "category": ["STAKING"],
     "website": "https://stakestone.io/",
     "docs": "https://docs.stakestone.io/stakestone",
     "socials": {
@@ -955,7 +955,7 @@
     "description": "Symbiotic is a restaking protocol that enables users to enhance blockchain network security and capital efficiency by enabling using existing economic security, such as Ethereum Liquid Staking Tokens (LSTs) and ERC-20 tokens, to secure additional networks.",
     "icon": "/protocol/symbiotic.webp",
     "chains": ["ethereum"],
-    "category": ["RESTAKING"],
+    "category": ["STAKING"],
     "website": "https://symbiotic.fi/",
     "docs": "https://docs.symbiotic.fi/",
     "socials": {
@@ -1013,7 +1013,7 @@
     "description": "Treehouse is a comprehensive platform designed for digital asset traders and investors, offering powerful portfolio management and market intelligence tools.",
     "icon": "/protocol/treehouse.png",
     "chains": ["ethereum"],
-    "category": ["WEB3", "DEV TOOL"],
+    "category": ["WEB3", "DEV_TOOL"],
     "website": "https://www.treehouse.finance/",
     "docs": "https://docs.treehouse.finance/protocol",
     "socials": {
@@ -1127,7 +1127,7 @@
     "description": "Stader Network is a non-custodial, multi-chain liquid staking platform that allows users to stake their crypto assets across multiple Proof-of-Stake (PoS) blockchains, offering access to staking and DeFi opportunities.",
     "icon": "/protocol/stader.png",
     "chains": ["ethereum"],
-    "category": ["STAKING", "DeFi"],
+    "category": ["STAKING", "DEFI"],
     "website": "https://staderlabs.com/",
     "docs": "https://www.staderlabs.com/docs/",
     "socials": {
@@ -1178,7 +1178,7 @@
     "description": "Swell Network is a decentralized protocol enabling liquid staking and restaking of Ethereum (ETH) and Bitcoin (BTC) within the DeFi space, offering users a way to earn passive income and participate in the security of the Ethereum network without locking their assets.",
     "icon": "/protocol/swell.png",
     "chains": ["ethereum"],
-    "category": ["Staking"],
+    "category": ["STAKING"],
     "website": "https://www.swellnetwork.io/",
     "docs": "https://docs.swellnetwork.io/",
     "socials": {
@@ -1212,7 +1212,7 @@
     "description": "A secure, decentralized issuer that takes back the value captured by crypto giants—and redistributes it to the community through $USUAL.",
     "icon": "/protocol/usual_protocol.png",
     "chains": ["ethereum"],
-    "category": ["DeFi"],
+    "category": ["DEFI"],
     "website": "https://usual.money/",
     "docs": "https://docs.usual.money/",
     "socials": {
@@ -1229,7 +1229,7 @@
     "description": "UwU Lend is a decentralized non-custodial liquidity market protocol where users can participate as depositors, borrowers or xUwU stakers.",
     "icon": "/protocol/uwu_lend.webp",
     "chains": ["ethereum"],
-    "category": ["DeFi", "LENDING"],
+    "category": ["DEFI", "LENDING"],
     "website": "https://uwulend.fi/",
     "docs": "https://docs.uwulend.fi/",
     "socials": {
@@ -1246,7 +1246,7 @@
     "description": "Valantis is a modular decentralized exchange (DEX) protocol designed to enable developers to build customized on-chain liquidity infrastructures efficiently. By utilizing a modular framework, Valantis allows for the creation of bespoke DEX designs without the traditional limitations of liquidity fragmentation.",
     "icon": "/protocol/valantis.png",
     "chains": ["ethereum"],
-    "category": ["DeFi", "AMM"],
+    "category": ["DEFI", "AMM"],
     "website": "https://www.valantis.xyz/",
     "docs": "https://docs.valantis.xyz/",
     "socials": {
@@ -1297,7 +1297,7 @@
     "description": "Yearn Finance is a multi-chain yield aggregator that automates yield using investment pools and reacts to opportunities in the marketplace. It allows for interest earned on deposited tokens, no withdrawal fees, and offers the ability to build investment strategies to increase yield in Yearn vaults.",
     "icon": "/protocol/yearn_finance.png",
     "chains": ["ethereum"],
-    "category": ["DeFi", "Yield Farming"],
+    "category": ["DEFI", "YIELD"],
     "website": "https://yearn.fi/",
     "docs": "https://docs.yearn.fi/",
     "socials": {
@@ -1339,7 +1339,7 @@
     "description": "0xProject is a suite of infrastructure products that provide APIs to developers which can help them fast-track the creation of decentralized exchanges. Their products include, but not limited to, Swap API, Tx Relay API, Tx History API, Price API, Token Registry API, and Orderbook API.",
     "icon": "/protocol/0xproject.png",
     "chains": ["arbitrum", "base", "ethereum"],
-    "category": ["DEV TOOL"],
+    "category": ["DEV_TOOL"],
     "website": "https://0x.org/",
     "docs": "https://0x.org/docs",
     "socials": {
