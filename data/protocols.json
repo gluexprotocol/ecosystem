@@ -190,7 +190,7 @@
   {
     "identifier": "benqi",
     "name": "BENQI",
-    "description": "BENQI is a suite of DeFi protocols built on Avalanche. It consists of the BENQI Liquidity Market (BLM) and BENQI Liquid Staking (BLS).",
+    "description": "BENQI is a decentralized finance (DeFi) protocol built on the Avalanche blockchain that offers liquid staking and liquidity market services.",
     "icon": "/protocol/benqi.png",
     "chains": ["avalanche"],
     "category": ["LENDING", "STAKING"],
