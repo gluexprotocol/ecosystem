@@ -6,21 +6,17 @@ import Sort from "../components/action/sort";
 import EcosystemFooterCta from "../components/ecosystem/footer-cta";
 import EcosystemHeroSection from "../components/ecosystem/hero-section";
 import ProtocolCard from "../components/protocol/protocol-card";
-import Bubbles from "../components/ui/bubbles";
 import { initialFilterState } from "../store/initial";
 import { filterReducer } from "../store/reducer";
-import { BubblesAnimation } from "../components/ecosystem/BubblesAnimation";
 
 const EcosystemPage: React.FC = () => {
   // Data states for chains and protocols
   const [chains, setChains] = useState<Chain[]>([]);
   const [protocols, setProtocols] = useState<Protocol[]>([]);
   const [protocolsLoading, setProtocolsLoading] = useState<boolean>(true);
-  const [viewMore, setViewMore] = useState(false);
 
   // Filter state handled by a reducer
   const [filters, dispatch] = useReducer(filterReducer, initialFilterState);
-  const [hasFilter, setHasFilter] = useState(false); // WE WANT TO TRACK FILTER STATE SO AS TO HANDLE SHOWING MORE AND LESS STATE
 
   // Fetch chains data
   useEffect(() => {
@@ -80,19 +76,6 @@ const EcosystemPage: React.FC = () => {
 
     fetchProtocols();
   }, []);
-
-  useEffect(() => {
-    if (
-      // WHEN ANY OF THE FOLLOWING FIELDS AREN'T
-      filters.searchTerm ||
-      filters.selectedCategories.length > 0 ||
-      filters.selectedChains.length > 0
-    ) {
-      setHasFilter(true);
-      return;
-    }
-    setHasFilter(false);
-  }, [filters.searchTerm, filters.selectedCategories, filters.selectedChains]);
 
   // compute filtered and sorted protocols based on filter state
   const filteredProtocols = useMemo(() => {
@@ -232,39 +215,22 @@ const EcosystemPage: React.FC = () => {
                 </div>
               ) : (
                 <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                  {filteredProtocols
-                    .slice(0, !viewMore ? 21 : filteredProtocols.length)
-                    .map((protocol) => {
-                      // FETCHING ONLY THE FIRST 20 WITH VIEW MORE BUTTON UNDER TO ALLOW VIEW FOOTER EASILY
-                      return (
-                        <ProtocolCard
-                          key={protocol.identifier}
-                          protocol={protocol}
-                          chains={chains}
-                        />
-                      );
-                    })}
-                </div>
-              )}
-
-              {!hasFilter && ( // WHEN ANY FILTER IS APPLIED, WE WANT TO DISPLAY ALL IT'S RESULTS
-                <div className="flex justify-center my-10">
-                  <button
-                    onClick={() => setViewMore((prev) => !prev)}
-                    className="bg-transparent border border-[#02F994] p-2 px-4 cursor-pointer mx-auto flex md:m-0 mb-8 transition-transform duration-300 hover:scale-105"
-                  >
-                    <span className="">
-                      {viewMore ? "Show Less" : "View More"}
-                    </span>
-                  </button>
+                  {filteredProtocols.map((protocol) => {
+                    return (
+                      <ProtocolCard
+                        key={protocol.identifier}
+                        protocol={protocol}
+                        chains={chains}
+                      />
+                    );
+                  })}
                 </div>
               )}
 
               {!protocolsLoading && filteredProtocols.length > 0 && (
                 <div className="mt-6 text-white/60 text-sm text-center">
-                  Showing{" "}
-                  {!viewMore && !hasFilter ? 21 : filteredProtocols.length} of{" "}
-                  {protocols.length} protocols
+                  Showing {filteredProtocols.length} of {protocols.length}{" "}
+                  protocols
                 </div>
               )}
             </div>

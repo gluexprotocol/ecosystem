@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowUpRight, Github } from "lucide-react";
-import glueXIcons from "../../assets/img/index";
+import { gifs } from "../../assets";
 
 const EcosystemFooterCta = () => {
   return (
@@ -38,7 +38,7 @@ const EcosystemFooterCta = () => {
               </div>
               <img
                 className="w-[40%] object-contain"
-                src={glueXIcons.animate}
+                src={gifs.animate}
                 alt="animateGif"
               />
             </div>
@@ -63,7 +63,7 @@ const EcosystemFooterCta = () => {
               </div>
               <img
                 className="w-[40%] object-contain"
-                src={glueXIcons.animate}
+                src={gifs.animate}
                 alt="animateGif"
               />
             </div>

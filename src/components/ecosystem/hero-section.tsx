@@ -1,20 +1,17 @@
-import glueXIcons from "../../assets/img/index";
-import { Book, FileSpreadsheet, PackageOpen, PlusIcon } from "lucide-react";
-import React from "react";
-import gluexImg from "../../assets/img/index";
-import { BubblesAnimation } from "./BubblesAnimation";
+import { images } from "../../assets";
+import { FileSpreadsheet } from "lucide-react";
+import Bubbles from "../../components/ui/bubbles";
 
 const EcosystemHeroSection = () => {
   return (
     <div className="relative">
-      <BubblesAnimation className="top-0 left-0 w-full h-full" />
+      <Bubbles className="w-full h-full absolute" />
       <section className="relative md:pt-28 pt-20 overflow-hidden md:px-0 px-6 z-10">
         <div className="mb-7 text-center flex flex-col items-center z-10">
           <div className="w-fit self-center flex flex-col items-center justify-center space-y-2">
             <img
-              src={glueXIcons.GlueXMainLogo}
+              src={images.GlueXMainLogo}
               alt="GlueX Isotope Logo"
-              // style={{ width: 200, height: 120 }}
               className={`object-cover w-[80%]`}
             />
             <h1 className="text-[36px] mb-4 md:text-[50px] lg:text-[76px] leading-none transition-all duration-300 font-bold">
