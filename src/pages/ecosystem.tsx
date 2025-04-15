@@ -9,15 +9,18 @@ import ProtocolCard from "../components/protocol/protocol-card";
 import Bubbles from "../components/ui/bubbles";
 import { initialFilterState } from "../store/initial";
 import { filterReducer } from "../store/reducer";
+import { BubblesAnimation } from "../components/ecosystem/BubblesAnimation";
 
 const EcosystemPage: React.FC = () => {
   // Data states for chains and protocols
   const [chains, setChains] = useState<Chain[]>([]);
   const [protocols, setProtocols] = useState<Protocol[]>([]);
   const [protocolsLoading, setProtocolsLoading] = useState<boolean>(true);
+  const [viewMore, setViewMore] = useState(false);
 
   // Filter state handled by a reducer
   const [filters, dispatch] = useReducer(filterReducer, initialFilterState);
+  const [hasFilter, setHasFilter] = useState(false); // WE WANT TO TRACK FILTER STATE SO AS TO HANDLE SHOWING MORE AND LESS STATE
 
   // Fetch chains data
   useEffect(() => {
@@ -78,6 +81,19 @@ const EcosystemPage: React.FC = () => {
     fetchProtocols();
   }, []);
 
+  useEffect(() => {
+    if (
+      // WHEN ANY OF THE FOLLOWING FIELDS AREN'T
+      filters.searchTerm ||
+      filters.selectedCategories.length > 0 ||
+      filters.selectedChains.length > 0
+    ) {
+      setHasFilter(true);
+      return;
+    }
+    setHasFilter(false);
+  }, [filters.searchTerm, filters.selectedCategories, filters.selectedChains]);
+
   // compute filtered and sorted protocols based on filter state
   const filteredProtocols = useMemo(() => {
     const {
@@ -124,120 +140,141 @@ const EcosystemPage: React.FC = () => {
   }, [protocols, filters]);
 
   return (
-    <Bubbles>
-      <div className="z-20 bg-black h-screen overflow-y-auto text-white">
-        {/* Hero Section */}
-        <EcosystemHeroSection />
+    <>
+      <div className="z-10">
+        <div className="z-10 bg-black h-screen overflow-y-auto text-white">
+          {/* Hero Section */}
+          <EcosystemHeroSection />
 
-        {/* Protocols Section */}
-        <section className="relative py-16">
-          <div className="mx-auto px-4 container">
-            <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4 mb-6">
-              <h2 className="font-darker text-3xl">GlueX Ecosystem</h2>
+          {/* Protocols Section */}
+          <section className="relative md:py-16 py-10">
+            <div className="mx-auto px-4 container">
+              <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4 mb-6">
+                <h2 className="font-darker text-3xl">GlueX Ecosystem</h2>
 
-              <div className="flex sm:flex-row flex-col gap-2 w-full sm:w-fit">
-                {/* Filter */}
-                <div className="flex flex-row gap-2">
-                  <div className="relative">
-                    <EcosystemFilter
-                      chains={chains}
-                      selectedChains={filters.selectedChains}
-                      selectedCategories={filters.selectedCategories}
-                      onToggleChain={(chainKey: string) => {
-                        dispatch({ type: "TOGGLE_CHAIN", payload: chainKey });
-                      }}
-                      onToggleCategory={(category: string) => {
-                        dispatch({
-                          type: "TOGGLE_CATEGORY",
-                          payload: category,
-                        });
-                      }}
-                      onReset={() => {
-                        dispatch({ type: "RESET" });
-                      }}
-                    />
+                <div className="flex sm:flex-row flex-col gap-2 w-full sm:w-fit">
+                  {/* Filter */}
+                  <div className="flex flex-row gap-2">
+                    <div className="relative">
+                      <EcosystemFilter
+                        chains={chains}
+                        selectedChains={filters.selectedChains}
+                        selectedCategories={filters.selectedCategories}
+                        onToggleChain={(chainKey: string) => {
+                          dispatch({ type: "TOGGLE_CHAIN", payload: chainKey });
+                        }}
+                        onToggleCategory={(category: string) => {
+                          dispatch({
+                            type: "TOGGLE_CATEGORY",
+                            payload: category,
+                          });
+                        }}
+                        onReset={() => {
+                          dispatch({ type: "RESET" });
+                        }}
+                      />
+                    </div>
+                    {/* Sort */}
+                    <div className="relative">
+                      <Sort
+                        sortOption={filters.sortOption}
+                        sortDirection={filters.sortDirection}
+                        onChangeSort={(
+                          option: string,
+                          direction: "asc" | "desc"
+                        ) => {
+                          dispatch({
+                            type: "SET_SORT_OPTION",
+                            payload: { option, direction },
+                          });
+                        }}
+                      />
+                    </div>
                   </div>
-                  {/* Sort */}
-                  <div className="relative">
-                    <Sort
-                      sortOption={filters.sortOption}
-                      sortDirection={filters.sortDirection}
-                      onChangeSort={(
-                        option: string,
-                        direction: "asc" | "desc"
-                      ) => {
-                        dispatch({
-                          type: "SET_SORT_OPTION",
-                          payload: { option, direction },
-                        });
-                      }}
-                    />
-                  </div>
-                </div>
 
-                {/* Search */}
-                <SearchInput
-                  searchTerm={filters.searchTerm}
-                  onChange={(value: string) =>
-                    dispatch({ type: "SET_SEARCH_TERM", payload: value })
-                  }
-                  onClear={() =>
-                    dispatch({ type: "SET_SEARCH_TERM", payload: "" })
-                  }
-                />
-              </div>
-            </div>
-
-            {protocolsLoading ? (
-              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                {[...Array(6)].map((_, index) => (
-                  <div
-                    key={index}
-                    className="bg-zinc-900/30 p-6 border border-zinc-800 rounded-xl h-[280px] animate-pulse"
+                  {/* Search */}
+                  <SearchInput
+                    searchTerm={filters.searchTerm}
+                    onChange={(value: string) =>
+                      dispatch({ type: "SET_SEARCH_TERM", payload: value })
+                    }
+                    onClear={() =>
+                      dispatch({ type: "SET_SEARCH_TERM", payload: "" })
+                    }
                   />
-                ))}
+                </div>
               </div>
-            ) : filteredProtocols.length === 0 ? (
-              <div className="bg-zinc-900/30 py-16 border border-zinc-800 rounded-xl text-center">
-                <div className="mb-4 text-4xl">🔍</div>
-                <h3 className="mb-2 font-medium text-xl">No protocols found</h3>
-                <p className="mb-4 text-white/60">
-                  Try adjusting your filters or search term
-                </p>
-                <button
-                  onClick={() => dispatch({ type: "RESET" })}
-                  className="bg-[#4ade80] hover:bg-[#4ade80]/90 px-4 py-2 rounded-lg font-medium text-black transition-colors duration-300 cursor-pointer"
-                >
-                  Clear Filters
-                </button>
-              </div>
-            ) : (
-              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                {filteredProtocols.map((protocol) => {
-                  return (
-                    <ProtocolCard
-                      key={protocol.identifier}
-                      protocol={protocol}
-                      chains={chains}
+
+              {protocolsLoading ? (
+                <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                  {[...Array(6)].map((_, index) => (
+                    <div
+                      key={index}
+                      className="bg-zinc-900/30 p-6 border border-zinc-800 rounded-xl h-[280px] animate-pulse"
                     />
-                  );
-                })}
-              </div>
-            )}
+                  ))}
+                </div>
+              ) : filteredProtocols.length === 0 ? (
+                <div className="bg-zinc-900/30 py-16 border border-zinc-800 rounded-xl text-center">
+                  <div className="mb-4 text-4xl">🔍</div>
+                  <h3 className="mb-2 font-medium text-xl">
+                    No protocols found
+                  </h3>
+                  <p className="mb-4 text-white/60">
+                    Try adjusting your filters or search term
+                  </p>
+                  <button
+                    onClick={() => dispatch({ type: "RESET" })}
+                    className="bg-[#4ade80] hover:bg-[#4ade80]/90 px-4 py-2 rounded-lg font-medium text-black transition-colors duration-300 cursor-pointer"
+                  >
+                    Clear Filters
+                  </button>
+                </div>
+              ) : (
+                <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                  {filteredProtocols
+                    .slice(0, !viewMore ? 21 : filteredProtocols.length)
+                    .map((protocol) => {
+                      // FETCHING ONLY THE FIRST 20 WITH VIEW MORE BUTTON UNDER TO ALLOW VIEW FOOTER EASILY
+                      return (
+                        <ProtocolCard
+                          key={protocol.identifier}
+                          protocol={protocol}
+                          chains={chains}
+                        />
+                      );
+                    })}
+                </div>
+              )}
 
-            {!protocolsLoading && filteredProtocols.length > 0 && (
-              <div className="mt-6 text-white/60 text-sm text-center">
-                Showing {filteredProtocols.length} of {protocols.length}{" "}
-                protocols
-              </div>
-            )}
-          </div>
-        </section>
+              {!hasFilter && ( // WHEN ANY FILTER IS APPLIED, WE WANT TO DISPLAY ALL IT'S RESULTS
+                <div className="flex justify-center my-10">
+                  <button
+                    onClick={() => setViewMore((prev) => !prev)}
+                    className="bg-transparent border border-[#02F994] p-2 px-4 cursor-pointer mx-auto flex md:m-0 mb-8 transition-transform duration-300 hover:scale-105"
+                  >
+                    <span className="">
+                      {viewMore ? "Show Less" : "View More"}
+                    </span>
+                  </button>
+                </div>
+              )}
 
-        {/* CTA Section */}
-        <EcosystemFooterCta />
+              {!protocolsLoading && filteredProtocols.length > 0 && (
+                <div className="mt-6 text-white/60 text-sm text-center">
+                  Showing{" "}
+                  {!viewMore && !hasFilter ? 21 : filteredProtocols.length} of{" "}
+                  {protocols.length} protocols
+                </div>
+              )}
+            </div>
+          </section>
+
+          {/* CTA Section */}
+          <EcosystemFooterCta />
+        </div>
       </div>
-    </Bubbles>
+    </>
   );
 };
 

@@ -67,7 +67,7 @@ const EcosystemFilter: React.FC<EcosystemFilterProps> = ({
       </button>
 
       {isFilterOpen && (
-        <div className="top-full sm:right-0 left-0 z-10 absolute bg-zinc-300/20 shadow-xl backdrop-blur-md filter-dropdown mt-2 border border-zinc-700 rounded-lg w-80 overflow-hidden">
+        <div className="top-full sm:right-0 left-0 z-10 absolute border border-zinc-800 bg-black/60 shadow-xl backdrop-blur-md filter-dropdown mt-2 rounded-lg w-80 overflow-hidden">
           <div className="flex justify-between items-center p-3 border-zinc-800 border-b">
             <h3 className="font-semibold text-white text-sm">
               Filter Protocols
@@ -91,7 +91,7 @@ const EcosystemFilter: React.FC<EcosystemFilterProps> = ({
                   const isSelected = selectedChains.includes(chain.key);
                   const chainColorClass = isSelected
                     ? getChainColor(chain.key as any)
-                    : "bg-zinc-800 text-zinc-400";
+                    : "bg-zinc-700 text-zinc-300";
                   return (
                     <button
                       key={chain.key}
@@ -99,7 +99,7 @@ const EcosystemFilter: React.FC<EcosystemFilterProps> = ({
                       className={`${chainColorClass} cursor-pointer px-3 py-1 rounded-full text-xs transition-all duration-200 hover:opacity-90 ${
                         isSelected
                           ? "ring-1 ring-white/20"
-                          : "hover:bg-zinc-700 hover:text-zinc-200"
+                          : "hover:bg-zinc-600 hover:text-zinc-100"
                       }`}
                     >
                       {chain.name}
@@ -142,10 +142,10 @@ const EcosystemFilter: React.FC<EcosystemFilterProps> = ({
                   <button
                     key={category}
                     onClick={() => onToggleCategory(category)}
-                    className={`px-3 py-1 rounded-full text-xs cursor-pointer transition-all duration-200 hover:opacity-90 bg-zinc-800 text-zinc-400 ${
+                    className={`px-3 py-1 rounded-full text-xs cursor-pointer transition-all duration-200 hover:opacity-90 bg-zinc-700 text-zinc-300 ${
                       isSelected
                         ? "ring-1 ring-white/20"
-                        : "hover:bg-zinc-700 hover:text-zinc-200"
+                        : "hover:bg-zinc-600 hover:text-zinc-100"
                     }`}
                   >
                     {category
@@ -168,7 +168,7 @@ const EcosystemFilter: React.FC<EcosystemFilterProps> = ({
           </div>
 
           {/* Apply Button */}
-          <div className="flex justify-end bg-zinc-800/50 p-3">
+          <div className="flex justify-end bg-black/60 p-3">
             <button
               onClick={() => setIsFilterOpen(false)}
               className="bg-[#4ade80] hover:bg-[#4ade80]/90 px-5 py-2 rounded-md font-medium text-black text-sm transition-colors duration-300"

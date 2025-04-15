@@ -69,7 +69,7 @@ const Sort: React.FC<SortProps> = ({
       </button>
 
       {isSortOpen && (
-        <div className="top-full -right-6 sm:right-0 z-10 absolute bg-zinc-900 shadow-xl mt-2 border border-zinc-700 rounded-lg w-64 overflow-hidden">
+        <div className="top-full -right-6 sm:right-0 z-10 absolute border-zinc-800 bg-black/60 shadow-xl mt-2 border backdrop-blur-md filter-dropdown rounded-lg w-64 overflow-hidden">
           <div className="p-3 border-zinc-800 border-b">
             <h3 className="font-semibold text-white text-sm">Sort Protocols</h3>
           </div>
@@ -85,7 +85,7 @@ const Sort: React.FC<SortProps> = ({
                       : "text-white/80 hover:bg-zinc-800/70"
                   }`}
               >
-                <span>{label}</span>
+                <span className="text-start">{label}</span>
                 {sortOption === option && sortDirection === direction && (
                   <Check className="w-4 h-4" />
                 )}
