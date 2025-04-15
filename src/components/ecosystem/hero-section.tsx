@@ -36,23 +36,11 @@ const EcosystemHeroSection = () => {
             </button>
           </div>
           <div className="flex justify-center mb-10">
-            <button
-              className="bg-transparent border p-2 mx-auto flex md:m-0 mb-8 transition-transform duration-300 hover:scale-105 brand-button verde items-center justify-center "
-              style={{ backgroundColor: "transparent", color: "white" }}
-            >
-              <PlusIcon className="mr-1" color="white" /> Add Your Protocol
+            <button className="btn2 verde mx-auto md:m-0">
+              Add Your Protocol
             </button>
           </div>
         </div>
-
-        {/* <div className="flex justify-center md:h-[35vh] h-60">
-        <img
-          src={gluexImg.newBanner}
-          alt="GlueX Isotope Logo"
-          // style={{ width: 200, height: 120 }}
-          className={`md:object-fill object-contain md:w-[80%] w-full`}
-        />
-      </div> */}
       </section>
     </div>
   );
