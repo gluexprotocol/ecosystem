@@ -1,6 +1,7 @@
 import React from "react";
-import { ArrowUpRight, Github } from "lucide-react";
-import glueXIcons from "../../assets/img/index";
+import { Github } from "lucide-react";
+import { gifs } from "../../assets";
+import Queue from "../../components/ui/queue";
 
 const EcosystemFooterCta = () => {
   return (
@@ -15,34 +16,8 @@ const EcosystemFooterCta = () => {
             chains. Our integration process is straightforward and
             well-documented.
           </p>
-          <div className="w-full flex flex-row space-x-10 md:space-y-0 space-y-10 items-center md:flex-nowrap flex-wrap">
-            <div className=" bg-zinc-900/30 backdrop-blur-sm border-zinc-800 p-4 rounded-lg flex items-center border md:flex-row flex-col-reverse md:w-auto w-full md:shrink-1 shrink-0">
-              <div className="w-full flex flex-col space-y-10 px-6">
-                <div className="text-[#4ade80] font-medium md:text-3xl text-xl whitespace-nowrap mb-6 md:text-start text-center">
-                  Gluing Queue
-                </div>
-                <p className="text-white/60 md:text-xl text-base w-full md:text-start text-center">
-                  A prioritized pipeline for integrating protocols into GlueX.
-                </p>
-                <div className="flex flex-wrap gap-4 md:self-start self-center">
-                  <a
-                    href="https://gluex.xyz/#/gluing-queue"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex flex-row justify-center items-center md:m-0 sm:mx-auto sm:mb-8 hover:scale-105 transition-transform duration-300 brand-button verde"
-                  >
-                    View Queue
-                    <ArrowUpRight className="ml-1 w-3 h-3" />
-                  </a>
-                </div>
-              </div>
-              <img
-                className="w-[40%] object-contain"
-                src={glueXIcons.animate}
-                alt="animateGif"
-              />
-            </div>
-            <div className=" bg-zinc-900/30 backdrop-blur-sm border-zinc-800 p-4 rounded-lg flex items-center border md:flex-row flex-col-reverse md:w-auto w-full md:shrink-1 shrink-0">
+          <div className="w-full flex md:flex-row flex-col md:space-x-10 space-x-0 md:space-y-0 space-y-10 items-center md:flex-nowrap flex-wrap">
+            <div className=" bg-zinc-900/30 backdrop-blur-sm border-zinc-800 p-7 rounded-lg flex items-center border md:flex-row flex-col-reverse md:w-[55%] w-full h-full">
               <div className="w-full flex flex-col space-y-10 px-6">
                 <div className="text-[#4ade80] font-medium md:text-3xl text-xl whitespace-nowrap mb-6 md:text-start text-center">
                   Join Us
@@ -50,23 +25,34 @@ const EcosystemFooterCta = () => {
                 <p className="text-white/60 md:text-xl text-base w-full md:text-start text-center">
                   Looking to be part of our ecosystem? Self integrate now!
                 </p>
-                <div className="flex flex-wrap gap-4 md:self-start self-center">
+                <div className="flex gap-4 md:self-start self-center md:flex-row flex-col">
                   <a
                     href="https://gluex.xyz/#/gluing-queue"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex flex-row justify-center items-center md:m-0 sm:mx-auto sm:mb-8 hover:scale-105 transition-transform duration-300 brand-button verde"
                   >
-                    Self Integrate <Github className="ml-2 w-4 h-4" />
+                    Earn Bounties
+                    {/* <Github className="ml-2 w-4 h-4" /> */}
+                  </a>
+                  <a
+                    href="https://github.com/gluexprotocol/ecosystem"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-row justify-center items-center md:m-0 sm:mx-auto sm:mb-8 hover:scale-105 transition-transform duration-300 brand-button outline"
+                  >
+                    Integrate Now
+                    <Github className="ml-2 w-4 h-4" />
                   </a>
                 </div>
               </div>
               <img
-                className="w-[40%] object-contain"
-                src={glueXIcons.animate}
+                className="md:w-[35%] w-1/2 object-contain"
+                src={gifs.animate}
                 alt="animateGif"
               />
             </div>
+            <Queue />
           </div>
         </div>
       </div>

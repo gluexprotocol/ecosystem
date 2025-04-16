@@ -12,7 +12,7 @@
       rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0.75) 100%
     ),
-    url(/src/assets/img/noise2.svg);
+    url(/src/assets/images/noise2.svg);
 }
 
 /* 
@@ -30,8 +30,8 @@
   /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(/src/assets/img/textura-luces.gif); */
   /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(/src/assets/img/textura-luces.jpg); */
   /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url(/src/assets/img/textura-calada.png); */
-  background-image: url(/src/assets/img/textura-calada.png);
-  background-image: url(/src/assets/img/textura-calada2.png);
+  background-image: url(/src/assets/images/textura-calada.png);
+  background-image: url(/src/assets/images/textura-calada2.png);
   /* background-color: rgba(0, 0, 0, 0.65); */
   /* background-blend-mode: darken; */
 }
@@ -52,7 +52,7 @@
       rgba(0, 0, 0, 1) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url(/src/assets/img/noise2.svg);
+    url(/src/assets/images/noise2.svg);
 }
 
 .bg-texture {
@@ -61,7 +61,7 @@
       rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0.75) 100%
     ),
-    url(/src/assets/img/noise2.jpeg);
+    url(/src/assets/images/noise2.jpeg);
 }
 
 @theme {
