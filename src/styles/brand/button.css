@@ -1,0 +1,72 @@
+.brand-button {
+  font-family: "Aux Mono";
+  font-size: 13px;
+  font-weight: 400;
+  max-width: 300px;
+  min-width: 205px;
+  padding: 12px 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+@media screen and (min-width: 768px) {
+  .brand-button {
+    padding: 10px 15px;
+  }
+}
+
+.brand-button {
+  background-color: #fc6977;
+  border: 1px solid #fc6977;
+  color: black;
+}
+
+.brand-button.verde {
+  background-color: #02f994;
+  border: 1px solid #02f994;
+}
+
+.brand-button.outline {
+  background-color: transparent;
+  border: 1px solid #02f99450;
+  color: #02f994;
+}
+
+.brand-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.brand-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.brand-button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.brand-button:not(.outline):after {
+  background-color: #fc6977;
+}
+
+.brand-button.verde::after {
+  background-color: #02f994;
+}
+
+.brand-button:not(.outline):hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
