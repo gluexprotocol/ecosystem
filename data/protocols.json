@@ -1332,22 +1332,5 @@
       "github": "https://github.com/zerolend"
     },
     "reference": ["zerolend"]
-  },
-  {
-    "identifier": "0xproject",
-    "name": "0xProject",
-    "description": "0xProject is a suite of infrastructure products that provide APIs to developers which can help them fast-track the creation of decentralized exchanges. Their products include, but not limited to, Swap API, Tx Relay API, Tx History API, Price API, Token Registry API, and Orderbook API.",
-    "icon": "/protocol/0xproject.png",
-    "chains": ["arbitrum", "base", "ethereum"],
-    "category": ["DEX"],
-    "website": "https://0x.org/",
-    "docs": "https://0x.org/docs",
-    "socials": {
-      "twitter": "https://x.com/0xproject",
-      "discord": "",
-      "telegram": "",
-      "github": "https://github.com/0xProject"
-    },
-    "reference": ["zerox_v2_fok", "zeroex_pf_lob"]
   }
 ]
