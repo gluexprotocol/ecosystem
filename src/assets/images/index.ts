@@ -1,7 +1,3 @@
-import GlueXMainLogo from "./logo.svg";
-
-const images = {
-  GlueXMainLogo,
-};
+const images = {};
 
 export default images;

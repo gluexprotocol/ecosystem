@@ -8,6 +8,7 @@ import EcosystemHeroSection from "../components/ecosystem/hero-section";
 import ProtocolCard from "../components/protocol/protocol-card";
 import { initialFilterState } from "../store/initial";
 import { filterReducer } from "../store/reducer";
+import Bubbles from "../components/ui/bubbles";
 
 const EcosystemPage: React.FC = () => {
   // Data states for chains and protocols
@@ -96,10 +97,9 @@ const EcosystemPage: React.FC = () => {
             !searchTerm ||
             protocol.name.toLowerCase().includes(lowerSearch) ||
             protocol.description.toLowerCase().includes(lowerSearch);
-
           const matchesCategory =
             selectedCategories.length === 0 ||
-            selectedCategories.includes(protocol.category as any);
+            protocol.category.some((cat) => selectedCategories.includes(cat));
 
           const matchesChain =
             selectedChains.length === 0 ||
@@ -123,7 +123,7 @@ const EcosystemPage: React.FC = () => {
   }, [protocols, filters]);
 
   return (
-    <>
+    <Bubbles>
       <div className="z-10">
         <div className="z-10 bg-black h-screen overflow-y-auto text-white">
           {/* Hero Section */}
@@ -133,11 +133,10 @@ const EcosystemPage: React.FC = () => {
           <section className="relative md:py-16 py-10">
             <div className="mx-auto px-4 container">
               <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4 mb-6">
-                <h2 className="font-darker text-3xl">GlueX Ecosystem</h2>
 
-                <div className="flex sm:flex-row flex-col gap-2 w-full sm:w-fit">
+                <div className="flex sm:flex-row flex-col gap-2 w-full sm:w-fit self-end ml-auto">
                   {/* Filter */}
-                  <div className="flex flex-row gap-2">
+                  <div className="flex flex-row gap-2 self-end">
                     <div className="relative">
                       <EcosystemFilter
                         chains={chains}
@@ -240,7 +239,7 @@ const EcosystemPage: React.FC = () => {
           <EcosystemFooterCta />
         </div>
       </div>
-    </>
+    </Bubbles>
   );
 };
 

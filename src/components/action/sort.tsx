@@ -17,9 +17,9 @@ const SORT_OPTIONS: SortOption[] = [
   { label: "Default", option: "default", direction: "asc" },
   { label: "Name (A to Z)", option: "name", direction: "asc" },
   { label: "Name (Z to A)", option: "name", direction: "desc" },
-  { label: "Number of Chains (Ascending)", option: "chains", direction: "asc" },
+  { label: "Number of Chains (Asc)", option: "chains", direction: "asc" },
   {
-    label: "Number of Chains (Descending)",
+    label: "Number of Chains (Des)",
     option: "chains",
     direction: "desc",
   },
