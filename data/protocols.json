@@ -148,7 +148,7 @@
     "identifier": "bebop",
     "name": "Bebop",
     "description": "Bebop is a decentralized trading platform. We are on a mission to make superior trading products with efficient execution available to anyone.",
-    "icon": "/protocol/bebop.webp",
+    "icon": "/protocol/bebop.png",
     "chains": ["arbitrum", "bnb", "base", "ethereum", "optimism", "taiko"],
     "category": ["DEX", "AMM"],
     "website": "https://bebop.xyz/",
@@ -174,7 +174,7 @@
       "twitter": "https://x.com/beets_fi",
       "discord": "https://beets.fi/discord",
       "telegram": "",
-      "github": ""
+      "github": "https://github.com/beethovenxfi/"
     },
     "reference": [
       "beets_v2_composable_stable_v4",
@@ -190,7 +190,7 @@
   {
     "identifier": "benqi",
     "name": "BENQI",
-    "description": "BENQI is a suite of DeFi protocols built on Avalanche. It consists of the BENQI Liquidity Market (BLM) and BENQI Liquid Staking (BLS).",
+    "description": "BENQI is a decentralized finance (DeFi) protocol built on the Avalanche blockchain that offers liquid staking and liquidity market services.",
     "icon": "/protocol/benqi.png",
     "chains": ["avalanche"],
     "category": ["LENDING", "STAKING"],
@@ -482,7 +482,7 @@
   {
     "identifier": "hashflow",
     "name": "Hashflow",
-    "description": "a multichain decentralized exchange (DEX) that enables users to trade digital assets on leading blockchains.",
+    "description": "Hashflow is a decentralized exchange (DEX) protocol that aims to provide a seamless, interoperable, and MEV-protected trading experience for users, especially in the DeFi space.",
     "icon": "/protocol/hashflow.png",
     "chains": [
       "arbitrum",
@@ -541,7 +541,7 @@
   {
     "identifier": "kelp_dao",
     "name": "Kelp Dao",
-    "description": "a multichain decentralized exchange (DEX) that enables users to trade digital assets on leading blockchains.",
+    "description": "Kelp DAO is a decentralized autonomous organization (DAO) that focuses on liquid restaking solutions, particularly for Ethereum. It allows users to stake their Ethereum-based assets and receive a Liquid Restaked Token (LRT) called rsETH, which provides liquidity and enables participation in DeFi markets.",
     "icon": "/protocol/kelpdao.png",
     "chains": [
       "arbitrum",
@@ -816,7 +816,7 @@
   {
     "identifier": "pangolin",
     "name": "Pangolin",
-    "description": "Pangolin (PNG) is the native token of a decentralized exchange (DEX) built on the Avalanche blockchain. The primary use case of PNG tokens is governance, allowing holders to vote on various decisions and participate in the platform's development.",
+    "description": "Pangolin is a decentralized exchange (DEX) built on the Avalanche blockchain. It offers a range of features, including token swaps, liquidity pools, and yield farming, alongside tools for traders and projects.",
     "icon": "/protocol/pangolin.png",
     "chains": ["avalanche"],
     "category": ["DEX", "AMM"],
@@ -950,10 +950,10 @@
     "reference": ["stakestone_stone_eth"]
   },
   {
-    "identifier": "Symbiotic",
-    "name": "symbiotic",
+    "identifier": "symbiotic",
+    "name": "Symbiotic",
     "description": "Symbiotic is a restaking protocol that enables users to enhance blockchain network security and capital efficiency by enabling using existing economic security, such as Ethereum Liquid Staking Tokens (LSTs) and ERC-20 tokens, to secure additional networks.",
-    "icon": "/protocol/symbiotic.webp",
+    "icon": "/protocol/symbiotic.png",
     "chains": ["ethereum"],
     "category": ["RESTAKING"],
     "website": "https://symbiotic.fi/",
@@ -1048,7 +1048,7 @@
     "socials": {
       "twitter": "https://x.com/Uniswap",
       "discord": "https://discord.com/invite/FCfyBSbCU5",
-      "telegram": "https://t.me/balancerdefi",
+      "telegram": "",
       "github": "https://github.com/Uniswap"
     },
     "reference": ["uniswap_v2", "uniswap_v3"]
@@ -1192,7 +1192,7 @@
   {
     "identifier": "quickswap",
     "name": "Quickswap",
-    "description": "A decentralized exchange on the Binance Smart Chain.",
+    "description": "QuickSwap is a decentralized exchange (DEX) that operates on the Polygon network, built as a fork of Uniswap. It allows users to swap ERC-20 tokens with lower transaction fees and faster speeds than on Ethereum.",
     "icon": "/protocol/quickswap.png",
     "chains": ["ethereum", "polygon"],
     "category": ["DEX"],
@@ -1227,7 +1227,7 @@
     "identifier": "uwu_lend",
     "name": "UwU Lend",
     "description": "UwU Lend is a decentralized non-custodial liquidity market protocol where users can participate as depositors, borrowers or xUwU stakers.",
-    "icon": "/protocol/uwu_lend.webp",
+    "icon": "/protocol/uwu_lend.png",
     "chains": ["ethereum"],
     "category": ["LENDING"],
     "website": "https://uwulend.fi/",
