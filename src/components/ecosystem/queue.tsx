@@ -47,45 +47,44 @@ const Queue = () => {
   }, []);
 
   return (
-    <div className="flex-1 relative my-auto md:w-[90%] w-full h-full">
-      <div className="relative border border-zinc-800 bg-black/40 backdrop-blur-sm rounded-lg p-5.5 h-full">
-        <h3 className="text-lg font-medium mb-4 flex items-center">
-          View Gluing Queue
-          <span className="ml-2 px-2 py-0.5 bg-[#4ade80]/20 text-[#4ade80] text-xs rounded-full">
-            Live
-          </span>
+    <div className="relative flex-1 my-auto w-full h-full">
+      <div className="relative bg-black/40 backdrop-blur-sm p-5.5 border border-zinc-800 rounded-lg h-full">
+        <h3 className="flex items-center mb-4 font-medium text-lg">
+          Gluing Queue
         </h3>
 
         {/* Queue items */}
-        <div className="min-h-[260px]">
+        <div className="min-h-[200px]">
           {isLoading
             ? [...Array(4)].map((_, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-between py-3 border-b border-zinc-800 last:border-0 animate-pulse"
+                  className="flex justify-between items-center py-3 border-zinc-800 last:border-0 border-b animate-pulse"
                 >
                   <div className="flex items-center">
-                    <div className="flex flex-1 h-6 items-center justify-center rounded-full aspect-square bg-zinc-700 text-xs mr-3"></div>
+                    <div className="flex flex-1 justify-center items-center bg-zinc-700 mr-3 rounded-full h-6 aspect-square text-xs"></div>
                     <div className="flex flex-col">
-                      <div className="w-32 h-4 bg-zinc-700 rounded mb-2"></div>
-                      <div className="w-24 h-3 bg-zinc-700 rounded"></div>
+                      <div className="bg-zinc-700 mb-2 rounded w-32 h-4"></div>
+                      <div className="bg-zinc-700 rounded w-24 h-3"></div>
                     </div>
                   </div>
-                  <div className="w-16 h-4 bg-zinc-700 rounded"></div>
+                  <div className="bg-zinc-700 rounded w-16 h-4"></div>
                 </div>
               ))
             : queueData?.slice(0, 4)?.map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-between py-3 border-b border-zinc-800 last:border-0"
+                  className="flex justify-between items-center py-3 border-zinc-800 last:border-0 border-b"
                 >
                   <div className="flex items-center">
-                    <div className="flex flex-1 h-6 items-center justify-center rounded-full aspect-square bg-zinc-900 text-xs mr-3">
+                    <div className="flex flex-1 justify-center items-center bg-zinc-900 mr-3 rounded-full h-6 aspect-square text-xs">
                       {index + 1}
                     </div>
                     <div>
-                      <div className="font-medium text-start">{item?.protocol}</div>
-                      <div className="text-xs text-white/50 flex items-center">
+                      <div className="font-medium text-start">
+                        {item?.protocol}
+                      </div>
+                      <div className="flex items-center text-white/50 text-xs">
                         Score: {item?.score?.toFixed(2)}
                         <span className="mx-2">•</span>
                         Chains: {item?.chains?.length ?? 1}
@@ -99,19 +98,19 @@ const Queue = () => {
 
         <div className="mt-4 text-center">
           <a
-            href="/gluing-queue"
+            href="https://gluex.xyz/#/gluing-queue"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#4ade80]/70 w-min whitespace-nowrap hover:text-[#4ade80] text-sm flex items-center mx-auto transition-colors duration-300"
+            className="flex items-center mx-auto w-min text-[#4ade80]/70 hover:text-[#4ade80] text-sm whitespace-nowrap transition-colors duration-300"
           >
-            View all protocols <ArrowUpRight className="ml-1 w-3 h-3" />
+            Learn more <ArrowUpRight className="ml-1 w-3 h-3" />
           </a>
         </div>
       </div>
 
       {/* Decorative elements */}
-      <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#4ade80]/10 rounded-full blur-xl"></div>
-      <div className="absolute -top-4 -left-4 w-16 h-16 bg-[#4ade80]/5 rounded-full blur-lg"></div>
+      <div className="-right-4 -bottom-4 absolute bg-[#4ade80]/10 blur-xl rounded-full w-24 h-24"></div>
+      <div className="-top-4 -left-4 absolute bg-[#4ade80]/5 blur-lg rounded-full w-16 h-16"></div>
     </div>
   );
 };
