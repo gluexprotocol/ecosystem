@@ -17,7 +17,7 @@ const EcosystemFooterCta = () => {
             well-documented.
           </p>
           <div className="w-full flex md:flex-row flex-col md:space-x-10 space-x-0 md:space-y-0 space-y-10 items-center md:flex-nowrap flex-wrap">
-            <div className=" bg-zinc-900/30 backdrop-blur-sm border-zinc-800 p-7 rounded-lg flex items-center border md:flex-row flex-col-reverse md:w-[55%] w-full h-full">
+            <div className=" bg-zinc-900/30 backdrop-blur-sm border-zinc-800 xl:p-7 p-4 rounded-lg flex items-center border md:flex-row flex-col-reverse md:w-[58%] w-full h-full">
               <div className="w-full flex flex-col space-y-10 px-6">
                 <div className="text-[#4ade80] font-medium md:text-3xl text-xl whitespace-nowrap mb-6 md:text-start text-center">
                   Join Us
@@ -25,7 +25,7 @@ const EcosystemFooterCta = () => {
                 <p className="text-white/60 md:text-xl text-base w-full md:text-start text-center">
                   Looking to be part of our ecosystem? Self integrate now!
                 </p>
-                <div className="flex gap-4 md:self-start self-center md:flex-row flex-col">
+                <div className="flex gap-4 md:self-start self-center xl:flex-row flex-col">
                   <a
                     href="https://gluex.xyz/#/gluing-queue"
                     target="_blank"
@@ -47,7 +47,7 @@ const EcosystemFooterCta = () => {
                 </div>
               </div>
               <img
-                className="md:w-[35%] w-1/2 object-contain"
+                className="md:w-[25%] w-1/2 object-contain"
                 src={gifs.animate}
                 alt="animateGif"
               />
