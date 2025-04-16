@@ -40,7 +40,7 @@ const Bubbles: React.FC<React.HTMLAttributes<HTMLElement>> = ({
 
   return (
     <section className={clsx("top-0 left-0 fixed w-full h-svh", className)}>
-      <div className="z-0 fixed bg-texture-etapa2-luces w-full min-h-screen pointer-events-none" />
+      <div className="z-10 fixed bg-texture-etapa2-luces w-full min-h-screen pointer-events-none" />
       {children}
       <div className="z-0 pointer-events-none bubble-gradient-background">
         <svg xmlns="http://www.w3.org/2000/svg">
