@@ -5,7 +5,7 @@ import JoinUs from "./join-us";
 
 const EcosystemFooterCta = () => {
   return (
-    <section className="relative py-20">
+    <section className="relative py-20 z-10">
       <div className="mx-auto px-6 md:px-4 w-full container">
         <div className="mx-auto text-center">
           <h2 className="mb-6 font-darker text-3xl md:text-4xl">

@@ -130,7 +130,7 @@ const EcosystemPage: React.FC = () => {
           <EcosystemHeroSection />
 
           {/* Protocols Section */}
-          <section className="relative md:py-16 py-10">
+          <section className="relative md:py-16 py-10 z-10">
             <div className="mx-auto px-4 container">
               <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4 mb-6">
 
