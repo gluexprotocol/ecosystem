@@ -615,6 +615,23 @@
     "reference": ["kyberswap_classic"]
   },
   {
+    "identifier": "lendle",
+    "name": "Lendle",
+    "description": "Lendle is a decentralized, non-custodial lending market built on the Mantle Network, optimized to provide an efficient, secure, and innovative experience for users engaged in lending and borrowing activities.",
+    "icon": "/protocol/lendle.png",
+    "chains": ["mantle"],
+    "category": ["LENDING"],
+    "website": "https://www.lendle.xyz/",
+    "docs": "https://docs.lendle.xyz/",
+    "socials": {
+      "twitter": "https://x.com/lendlexyz",
+      "discord": "https://discord.com/invite/wWNbcMnjSE",
+      "telegram": "",
+      "github": "https://github.com/lendle-xyz"
+    },
+    "reference": []
+  },
+  {
     "identifier": "lido",
     "name": "Lido",
     "description": "Lido is a leading liquid staking platform that allows users to earn interest on their cryptocurrencies across multiple blockchains. Lido issues staked tokens (e.g. stETH) in return for the original assets, which can used across the DeFi ecosystem for trading, lending, and other activities to earn more rewards.",
