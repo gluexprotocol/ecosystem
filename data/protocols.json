@@ -10,7 +10,9 @@
       "ethereum",
       "polygon",
       "gnosis",
-      "optimism"
+      "optimism",
+      "sonic",
+      "scroll"
     ],
     "category": ["LENDING"],
     "website": "https://aave.com/",
@@ -145,6 +147,23 @@
     ]
   },
   {
+    "identifier": "baseswap",
+    "name": "BaseSwap",
+    "description": "BaseSwap is a decentralized exchange (DEX) operating on the Base Chain. It's built on the Base Network, which is a Layer 2 Ethereum solution incubated by Coinbase.",
+    "icon": "/protocol/baseswap.png",
+    "chains": ["base"],
+    "category": ["DEX"],
+    "website": "https://baseswap.fi/",
+    "docs": "https://docs.baseswap.fi/baseswap",
+    "socials": {
+      "twitter": "https://x.com/BaseSwapDex",
+      "discord": "https://discord.com/invite/baseswapdex",
+      "telegram": "https://t.me/BaseswapFi",
+      "github": ""
+    },
+    "reference": ["baseswap_v2"]
+  },
+  {
     "identifier": "bebop",
     "name": "Bebop",
     "description": "Bebop is a decentralized trading platform. We are on a mission to make superior trading products with efficient execution available to anyone.",
@@ -166,7 +185,7 @@
     "name": "Beets",
     "description": "Beets is the flagship hub for liquid staking and AMM innovation on Sonic. The Beets tech stack currently includes a decentralized exchange (DEX) for seamless asset trading and innovative yield generation, along with a Liquid Staking Token protocol that offers the easiest way for users to access native Sonic blockchain staking rewards.",
     "icon": "/protocol/beets.png",
-    "chains": ["optimism"],
+    "chains": ["optimism", "sonic"],
     "category": ["DEX", "YIELD"],
     "website": "https://beets.fi/",
     "docs": "https://docs.beets.fi/",
@@ -450,7 +469,7 @@
     "name": "Fluid",
     "description": "Fluid is the next-generation lending market with the highest LTVs and lowest liquidation penalties in the industry.",
     "icon": "/protocol/fluid.png",
-    "chains": ["arbitrum", "base", "ethereum"],
+    "chains": ["arbitrum", "base", "ethereum", "polygon"],
     "category": ["LENDING"],
     "website": "https://fluid.io/",
     "docs": "https://docs.fluid.instadapp.io/",
@@ -522,6 +541,40 @@
     "reference": ["hyperlend"]
   },
   {
+    "identifier": "hyperswap",
+    "name": "Hyperswap",
+    "description": "HyperSwap is a decentralized interoperable cross-chain infrastructure aimed at empowering traders and liquidity providers to participate in a robust and secure financial marketplace.",
+    "icon": "/protocol/hyperswap.png",
+    "chains": ["hyperevm"],
+    "category": ["DEX"],
+    "website": "https://hyperswap.exchange/",
+    "docs": "https://docs.hyperswap.exchange/hyperswap",
+    "socials": {
+      "twitter": "https://x.com/hyperswapx",
+      "discord": "https://discord.com/invite/hyperswap",
+      "telegram": "",
+      "github": "http://github.com/HyperSwapX"
+    },
+    "reference": ["hyperswap_v2", "hyperswap_v3"]
+  },
+  {
+    "identifier": "hypurrfi",
+    "name": "HypurrFi",
+    "description": "HypurrFi provides decentralized, non-custodial lending pool smart contracts where anyone can supply liquidity to earn yield.",
+    "icon": "/protocol/hypurrfi.png",
+    "chains": ["hyperevm"],
+    "category": ["LENDING"],
+    "website": "http://hypurr.fi/",
+    "docs": "http://docs.hypurr.fi/introduction/hypurrfi",
+    "socials": {
+      "twitter": "https://x.com/hypurrfi",
+      "discord": "",
+      "telegram": "https://t.me/+YvsBvSxlQrVhNDkx",
+      "github": "https://github.com/hypurrfi"
+    },
+    "reference": ["hypurrfi"]
+  },
+  {
     "identifier": "integral",
     "name": "Integral",
     "description": "Integral is a decentralized exchange (DEX) designed for executing large cryptocurrency trades with zero price impact. It introduces a novel exchange platform tailored to accommodate large trades on blockchain networks such as Ethereum Mainnet and Arbitrum. Integral supports execution methods like Time-Weighted Average Price (TWAP), instant atomic orders, and limit orders to minimize price impact and secure better pricing.",
@@ -562,6 +615,23 @@
       "github": "https://github.com/Kelp-DAO"
     },
     "reference": ["kelp_wrseth_eth", "kelp_rseth_eth"]
+  },
+  {
+    "identifier": "kittenswap",
+    "name": "Kittenswap",
+    "description": "KittenSwap is a decentralized exchange (DEX) built on the HyperEVM blockchain, implementing the ve(3,3) tokenomics model to enhance liquidity and trading efficiency. The platform offers features such as low slippage trading, deep liquidity, and optimized routing for better trades.",
+    "icon": "/protocol/kittenswap.png",
+    "chains": ["hyperevm"],
+    "category": ["DEX"],
+    "website": "https://kittenswap.finance/",
+    "docs": "https://docs.kittenswap.finance/introduction",
+    "socials": {
+      "twitter": "https://x.com/kittenswaphype",
+      "discord": "https://discord.com/invite/rRkWCYPeas",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": ["kittenswap", "kittenswap_v3"]
   },
   {
     "identifier": "kinza_finance",
@@ -613,6 +683,40 @@
       "github": "https://github.com/kybernetwork"
     },
     "reference": ["kyberswap_classic"]
+  },
+  {
+    "identifier": "laminar",
+    "name": "Laminar",
+    "description": "Laminar is a community-owned liquidity engine built on HyperEVM. Working to provide canonical DEX infra and make HyperCore orderbooks atomically accessible to LP's, users and protocols on HyperEVM.",
+    "icon": "/protocol/laminar.png",
+    "chains": ["hyperevm"],
+    "category": ["DEX"],
+    "website": "https://laminar.xyz/",
+    "docs": "",
+    "socials": {
+      "twitter": "https://x.com/laminar_xyz",
+      "discord": "https://discord.com/invite/laminar",
+      "telegram": "https://t.me/laminarxyz",
+      "github": "https://github.com/laminar-xyz"
+    },
+    "reference": ["laminar_v3"]
+  },
+  {
+    "identifier": "lendle",
+    "name": "Lendle",
+    "description": "Lendle is a decentralized, non-custodial lending market built on the Mantle Network, optimized to provide an efficient, secure, and innovative experience for users engaged in lending and borrowing activities.",
+    "icon": "/protocol/lendle.png",
+    "chains": ["mantle"],
+    "category": ["LENDING"],
+    "website": "https://www.lendle.xyz/",
+    "docs": "https://docs.lendle.xyz/",
+    "socials": {
+      "twitter": "https://x.com/lendlexyz",
+      "discord": "https://discord.com/invite/wWNbcMnjSE",
+      "telegram": "",
+      "github": "https://github.com/lendle-xyz"
+    },
+    "reference": []
   },
   {
     "identifier": "lido",
@@ -865,6 +969,23 @@
     "reference": ["pendle", "pendle_v3", "pendle_v4", "pendle_v5"]
   },
   {
+    "identifier": "pharaoh_exchange",
+    "name": "Pharaoh Exchange",
+    "description": "Pharaoh Exchange is a non-custodial exchange protocol built on the Avalanche blockchain. It's designed as a next-generation concentrated liquidity platform, optimizing for high-frequency liquidity providers and delivering a user-friendly experience for traders.",
+    "icon": "/protocol/pharaoh_exchange.png",
+    "chains": ["avalanche"],
+    "category": ["AMM"],
+    "website": "https://pharaoh.exchange/",
+    "docs": "https://docs.pharaoh.exchange/",
+    "socials": {
+      "twitter": "https://x.com/PharaohExchange",
+      "discord": "https://discord.com/invite/pharaoh",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": ["pharaoh_cl", "pharaoh_legacy"]
+  },
+  {
     "identifier": "puffer_finance",
     "name": "Puffer Finance",
     "description": "A fast, secure preconfirmation service built on EigenLayer, enabling sub-second transaction confirmations and enhancing the scalability of based rollups.",
@@ -916,6 +1037,40 @@
     "reference": ["ring_v2"]
   },
   {
+    "identifier": "royco",
+    "name": "Royco",
+    "description": "Royco Protocol allows anyone to create a market to incentivize any onchain transaction or series of transactions.",
+    "icon": "/protocol/royco.png",
+    "chains": ["ethereum", "sonic", "base", "arbitrum"],
+    "category": ["DEX"],
+    "website": "https://www.royco.org/",
+    "docs": "https://docs.royco.org/",
+    "socials": {
+      "twitter": "https://x.com/roycoprotocol",
+      "discord": "",
+      "telegram": "https://t.me/roycopub",
+      "github": "https://github.com/roycoprotocol"
+    },
+    "reference": ["royco"]
+  },
+  {
+    "identifier": "shadow",
+    "name": "Shadow",
+    "description": "A concentrated liquidity layer built on Sonic, powered by x(3,3)—a more fluid and accessible exchange model.",
+    "icon": "/protocol/shadow.png",
+    "chains": ["sonic"],
+    "category": ["DEX"],
+    "website": "https://www.shadow.so/",
+    "docs": "https://docs.shadow.so/",
+    "socials": {
+      "twitter": "https://x.com/ShadowOnSonic",
+      "discord": "https://discord.com/invite/shadowexchange",
+      "telegram": "",
+      "github": "https://github.com/Shadow-Exchange"
+    },
+    "reference": ["shadow_cl", "shadow_legacy"]
+  },
+  {
     "identifier": "shibaswap",
     "name": "Shibaswap",
     "description": "ShibaSwap is a decentralized exchange (DEX) for seamless token swaps, liquidity, and staking within the Shiba Inu ecosystem.",
@@ -948,6 +1103,23 @@
       "github": ""
     },
     "reference": ["stakestone_stone_eth"]
+  },
+  {
+    "identifier": "swapx",
+    "name": "SwapX",
+    "description": "SwapX is a decentralized exchange (DEX) running on the Sonic L1 blockchain, focusing on providing an optimized trading experience with a focus on concentrated liquidity.",
+    "icon": "/protocol/swapx.png",
+    "chains": ["sonic"],
+    "category": ["DEX"],
+    "website": "https://swapx.fi/",
+    "docs": "https://swapxfi.gitbook.io/swapx-docs",
+    "socials": {
+      "twitter": "https://x.com/swapxfi",
+      "discord": "",
+      "telegram": "https://t.me/swapxfi",
+      "github": "https://github.com/Shadow-Exchange"
+    },
+    "reference": ["swapx_cl", "swapx_v2"]
   },
   {
     "identifier": "symbiotic",
@@ -1105,6 +1277,23 @@
     "reference": ["solidly_v3"]
   },
   {
+    "identifier": "silverswap",
+    "name": "Silverswap",
+    "description": "A decentralized exchange (DEX) on the Sonic blockchain, designed for trading and swapping cryptocurrencies. It offers a platform for trading, farming, recurring investments, and earning rewards.",
+    "icon": "/protocol/silverswap.png",
+    "chains": ["sonic"],
+    "category": ["DEX"],
+    "website": "https://silverswap.io/",
+    "docs": "https://docs.silverswap.io/silverswap",
+    "socials": {
+      "twitter": "https://x.com/silverswapdex",
+      "discord": "https://discord.com/invite/spiritswap-828379914074980423",
+      "telegram": "https://t.me/Silver_Swap",
+      "github": "https://github.com/Spirit-DAO/"
+    },
+    "reference": ["silverswap_cl"]
+  },
+  {
     "identifier": "sparklend",
     "name": "Sparklend",
     "description": "SparkLend is a decentralized finance (DeFi) platform within the DAI ecosystem, created by the MakerDAO community, allowing users to deposit DAI to earn rewards, borrow DAI using crypto assets as collateral, and access other financial services.",
@@ -1245,7 +1434,7 @@
     "name": "Valantis",
     "description": "Valantis is a modular decentralized exchange (DEX) protocol designed to enable developers to build customized on-chain liquidity infrastructures efficiently. By utilizing a modular framework, Valantis allows for the creation of bespoke DEX designs without the traditional limitations of liquidity fragmentation.",
     "icon": "/protocol/valantis.png",
-    "chains": ["ethereum"],
+    "chains": ["ethereum", "hyperevm"],
     "category": ["DEX", "AMM"],
     "website": "https://www.valantis.xyz/",
     "docs": "https://docs.valantis.xyz/",
@@ -1255,7 +1444,11 @@
       "telegram": "",
       "github": "https://github.com/ValantisLabs"
     },
-    "reference": ["valantis_hot_amm", "valantis_hot_fok_usdc_weth"]
+    "reference": [
+      "valantis_hot_amm",
+      "valantis_hot_fok_usdc_weth",
+      "valantis_stex_amm"
+    ]
   },
   {
     "identifier": "velodrome",
@@ -1296,7 +1489,7 @@
     "name": "Yearn Finance",
     "description": "Yearn Finance is a multi-chain yield aggregator that automates yield using investment pools and reacts to opportunities in the marketplace. It allows for interest earned on deposited tokens, no withdrawal fees, and offers the ability to build investment strategies to increase yield in Yearn vaults.",
     "icon": "/protocol/yearn_finance.png",
-    "chains": ["ethereum"],
+    "chains": ["ethereum", "polygon"],
     "category": ["YIELD"],
     "website": "https://yearn.fi/",
     "docs": "https://docs.yearn.fi/",
