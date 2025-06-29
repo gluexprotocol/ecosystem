@@ -556,6 +556,29 @@
     ]
   },
   {
+    "identifier": "equalizer",
+    "name": "Equalizer Exchange",
+    "description": "Equalizer's twin AMM design unites StableSwap pools with standard liquidity pools. All the trading fees go to Vote Escrowers of emission token $EQUAL which has to be Locked to earn triple 'Bribes' from candidate pools via trade fee, internal bribes and external bribes",
+    "icon": "/protocol/equalizer.png",
+    "chains": [
+      "sonic"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://equalizer.exchange/",
+    "docs": "",
+    "socials": {
+      "twitter": "https://x.com/Equalizer0x",
+      "discord": "https://discord.com/invite/6ubHeztmYV",
+      "telegram": "",
+      "github": "https://github.com/Equalizer-Exchange"
+    },
+    "reference": [
+      "equalizer_exchange"
+    ]
+  },
+  {
     "identifier": "ether.fi",
     "name": "Ether.Fi",
     "description": "Ether.fi is a decentralized liquid restaking platform focused on non-custodial Ethereum staking.",
@@ -628,6 +651,31 @@
       "frxeth_eth",
       "sfrax_frax",
       "sfrxeth_frxeth"
+    ]
+  },
+  {
+    "identifier": "gearbox",
+    "name": "gearbox",
+    "description": "",
+    "icon": "/protocol/gearbox.png",
+    "chains": [
+      "ethereum",
+      "optimism",
+      "arbitrum"
+    ],
+    "category": [
+      "LENDING"
+    ],
+    "website": "https://gearbox.fi/",
+    "docs": "https://docs.gearbox.finance/",
+    "socials": {
+      "twitter": "https://x.com/GearboxProtocol",
+      "discord": "https://discord.com/invite/gearbox",
+      "telegram": "https://t.me/GearboxProtocol",
+      "github": "https://github.com/Gearbox-protocol"
+    },
+    "reference": [
+      "gearbox"
     ]
   },
   {
@@ -712,6 +760,54 @@
     ]
   },
   {
+    "identifier": "honeyswap",
+    "name": "HoneySwap",
+    "description": "A decentralized exchange that enables users to experience fast and secure transactions with incredibly low fees (fork of Uniswap-V2 adapted to fit for the xDai Chain and the 1hive ecosystem)",
+    "icon": "/protocol/honeyswap.png",
+    "chains": [
+      "gnosis"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://honeyswap.org/",
+    "docs": "https://wiki.1hive.org/projects/honeyswap",
+    "socials": {
+      "twitter": "https://x.com/honeyswap",
+      "discord": "",
+      "telegram": "https://t.me/honeyswapDEX",
+      "github": "https://github.com/1Hive"
+    },
+    "reference": [
+      "honeyswap"
+    ]
+  },
+  {
+    "identifier": "hybra_finance",
+    "name": "Hybra Finance",
+    "description": "A gasless, concentrated liquidity DEX layer on Hyperliquid, leveraging ve(3,3) economic mechanisms to power its tokenomics and yield structure. It's positioned as a modern, UX-focused trading and liquidity protocol within the Hyperliquid ecosystem",
+    "icon": "/protocol/hybra_finance.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [
+      "YIELD",
+      "DEX"
+    ],
+    "website": "https://www.hybra.finance/",
+    "docs": "https://hybra-foundation.gitbook.io/hybra-foundation",
+    "socials": {
+      "twitter": "https://x.com/HybraFinance",
+      "discord": "https://discord.com/invite/KabeSxHcMb",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "hybra_finance_v2",
+      "hybra_finance_v3"
+    ]
+  },
+  {
     "identifier": "hyperlend",
     "name": "Hyperlend",
     "description": "HyperLend is a decentralized finance (DeFi) platform focused on lending and borrowing digital assets. It operates on the Hyperliquid EVM blockchain, offering efficient and secure money-market services.",
@@ -756,6 +852,29 @@
     "reference": [
       "hyperswap_v2",
       "hyperswap_v3"
+    ]
+  },
+  {
+    "identifier": "hyperwave",
+    "name": "Hyperwave",
+    "description": "Hyperwave is a DeFi super app on HyperEVM, designed to democratize liquidity provision and yield through its flagship product, hwHLP the first liquid token that accumulates yield from the Hyperliquidity Provider vault (HLP)",
+    "icon": "/protocol/hyperwave.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [
+      "YIELD"
+    ],
+    "website": "https://www.hyperwavefi.xyz/",
+    "docs": "https://docs.hyperwavefi.xyz/",
+    "socials": {
+      "twitter": "https://x.com/hyperwavefi",
+      "discord": "https://discord.com/invite/hyperwave",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "hyperwave"
     ]
   },
   {
@@ -2024,6 +2143,35 @@
     ]
   },
   {
+    "identifier": "venus_protocol",
+    "name": "Venus Protocol",
+    "description": "A Decentralized Marketplace for Lenders and Borrowers with Borderless Stablecoins",
+    "icon": "/protocol/venus_protocol.png",
+    "chains": [
+      "ethereum",
+      "arbitrum",
+      "bnb",
+      "optimism"
+    ],
+    "category": [
+      "LENDING"
+    ],
+    "website": "https://venus.io/",
+    "docs": "https://docs-v4.venus.io/",
+    "socials": {
+      "twitter": "https://x.com/venusprotocol",
+      "discord": "https://discord.com/invite/venus-protocol-912811548651708448",
+      "telegram": "https://t.me/venusprotocol",
+      "github": "https://github.com/VenusProtocol"
+    },
+    "reference": [
+      "venus_arb_core_pools",
+      "venus_bnb_core_pools",
+      "venus_eth_core_pools",
+      "venus_op_core_pools"
+    ]
+  },
+  {
     "identifier": "wagmi",
     "name": "Wagmi",
     "description": "WAGMI protocol is a decentralized exchange on various blockchains, focuses on maximizing liquidity efficiency. It employs advanced strategies and GMI mechanics for liquidity management and diversification, ensuring optimal yields through an auto-rebalancing mechanism responsive to market conditions. GMI, a pool of multi-pools, allows holders to earn from diverse liquidity sources, emphasizing WAGMI's commitment to innovation, user rewards, and expansion across blockchains for enhanced decentralization and accessibility.",
@@ -2078,6 +2226,29 @@
       "yearn_v3_0_3",
       "yearn_v3_0_4",
       "yearn_yeth_styeth"
+    ]
+  },
+  {
+    "identifier": "yo_protocol",
+    "name": "Yield Optimizer",
+    "description": "YO is a DeFi protocol that helps users boost the crypto earnings without the hassle by automatically moving funds across the best performing pools no matter the blockchain, with the highest risk adjusted yield",
+    "icon": "/protocol/yo_protocol.png",
+    "chains": [
+      "base"
+    ],
+    "category": [
+      "YIELD"
+    ],
+    "website": "https://yo.xyz/",
+    "docs": "https://docs.yo.xyz/",
+    "socials": {
+      "twitter": "https://x.com/yield",
+      "discord": "https://discord.com/invite/yoprotocol",
+      "telegram": "https://t.me/yo_protocol",
+      "github": "https://github.com/yoprotocol"
+    },
+    "reference": [
+      "yo_protocol"
     ]
   },
   {
