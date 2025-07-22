@@ -2,7 +2,7 @@
   {
     "identifier": "aave",
     "name": "Aave",
-    "description": "Aave is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.",
+    "description": "Aave is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion",
     "icon": "/protocol/aave.png",
     "chains": [
       "arbitrum",
@@ -36,7 +36,7 @@
   {
     "identifier": "aerodrome",
     "name": "Aerodrome",
-    "description": "Aerodrome is a decentralized exchange where you can execute low-fee swaps, deposit tokens to earn rewards, and actively participate in the onchain economy.",
+    "description": "Aerodrome is a decentralized exchange where you can execute low-fee swaps, deposit tokens to earn rewards, and actively participate in the onchain economy",
     "icon": "/protocol/aerodrome.png",
     "chains": [
       "base"
@@ -62,7 +62,7 @@
   {
     "identifier": "affine",
     "name": "Affine",
-    "description": "Affine DeFi is a platform focused on building DeFi products, particularly in the liquid restaking and yield generation markets, aiming to make DeFi simpler for users and extend the security of Ethereum to other decentralized services.",
+    "description": "Affine DeFi is a platform focused on building DeFi products, particularly in the liquid restaking and yield generation markets, aiming to make DeFi simpler for users and extend the security of Ethereum to other decentralized services",
     "icon": "/protocol/affine.png",
     "chains": [
       "ethereum"
@@ -86,7 +86,7 @@
   {
     "identifier": "alien_base",
     "name": "Alien Base",
-    "description": "A next-generation decentralized exchange and yield farming platform.",
+    "description": "A next-generation decentralized exchange and yield farming platform",
     "icon": "/protocol/alienbase.png",
     "chains": [
       "base"
@@ -110,7 +110,7 @@
   {
     "identifier": "aura_finance",
     "name": "Aura Finance",
-    "description": "Aura Finance is a protocol built on top of the Balancer system to provide maximum incentives to Balancer liquidity providers and BAL stakers (into veBAL) through social aggregation of BAL deposits and Aura's native token.",
+    "description": "Aura Finance is a protocol built on top of the Balancer system to provide maximum incentives to Balancer liquidity providers and BAL stakers (into veBAL) through social aggregation of BAL deposits and Aura's native token",
     "icon": "/protocol/aura.png",
     "chains": [
       "arbitrum",
@@ -135,7 +135,7 @@
   {
     "identifier": "apeswap",
     "name": "ApeSwap",
-    "description": "ApeSwap is a multichain DeFi Hub offering an accessible, transparent, and secure experience for everyone.",
+    "description": "ApeSwap is a multichain DeFi Hub offering an accessible, transparent, and secure experience for everyone",
     "icon": "/protocol/apeswap.png",
     "chains": [
       "ethereum"
@@ -181,7 +181,7 @@
   {
     "identifier": "balancer",
     "name": "Balancer",
-    "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum that represents a flexible building block for programmable liquidity. By separating the AMM curve logic and math from the core swapping functionality, Balancer becomes an extensible AMM that can incorporate any number of swap curves and pool types.",
+    "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum that represents a flexible building block for programmable liquidity. By separating the AMM curve logic and math from the core swapping functionality, Balancer becomes an extensible AMM that can incorporate any number of swap curves and pool types",
     "icon": "/protocol/balancer.png",
     "chains": [
       "arbitrum",
@@ -226,7 +226,7 @@
   {
     "identifier": "baseswap",
     "name": "BaseSwap",
-    "description": "BaseSwap is a decentralized exchange (DEX) operating on the Base Chain. It's built on the Base Network, which is a Layer 2 Ethereum solution incubated by Coinbase.",
+    "description": "BaseSwap is a decentralized exchange (DEX) operating on the Base Chain. It's built on the Base Network, which is a Layer 2 Ethereum solution incubated by Coinbase",
     "icon": "/protocol/baseswap.png",
     "chains": [
       "base"
@@ -249,7 +249,7 @@
   {
     "identifier": "bebop",
     "name": "Bebop",
-    "description": "Bebop is a decentralized trading platform. We are on a mission to make superior trading products with efficient execution available to anyone.",
+    "description": "Bebop is a decentralized trading platform. We are on a mission to make superior trading products with efficient execution available to anyone",
     "icon": "/protocol/bebop.png",
     "chains": [
       "arbitrum",
@@ -279,7 +279,7 @@
   {
     "identifier": "beets",
     "name": "Beets",
-    "description": "Beets is the flagship hub for liquid staking and AMM innovation on Sonic. The Beets tech stack currently includes a decentralized exchange (DEX) for seamless asset trading and innovative yield generation, along with a Liquid Staking Token protocol that offers the easiest way for users to access native Sonic blockchain staking rewards.",
+    "description": "Beets is the flagship hub for liquid staking and AMM innovation on Sonic. The Beets tech stack currently includes a decentralized exchange (DEX) for seamless asset trading and innovative yield generation, along with a Liquid Staking Token protocol that offers the easiest way for users to access native Sonic blockchain staking rewards",
     "icon": "/protocol/beets.png",
     "chains": [
       "optimism",
@@ -315,7 +315,7 @@
   {
     "identifier": "benqi",
     "name": "BENQI",
-    "description": "BENQI is a decentralized finance (DeFi) protocol built on the Avalanche blockchain that offers liquid staking and liquidity market services.",
+    "description": "BENQI is a decentralized finance (DeFi) protocol built on the Avalanche blockchain that offers liquid staking and liquidity market services",
     "icon": "/protocol/benqi.png",
     "chains": [
       "avalanche"
@@ -340,7 +340,7 @@
   {
     "identifier": "bex",
     "name": "Bex",
-    "description": "Berachain's native decentralized exchange (DEX), BEX, allows trading of any arbitrary pair of crypto assets via swapping and providing liquidity into liquidity pools.",
+    "description": "Berachain's native decentralized exchange (DEX), BEX, allows trading of any arbitrary pair of crypto assets via swapping and providing liquidity into liquidity pools",
     "icon": "/protocol/bex.png",
     "chains": [
       "berachain"
@@ -364,7 +364,7 @@
   {
     "identifier": "camelot",
     "name": "Camelot",
-    "description": "Camelot DEX is an innovative and highly flexible DEX built to support the Arbitrum ecosystem. Community driven and capital efficient.",
+    "description": "Camelot DEX is an innovative and highly flexible DEX built to support the Arbitrum ecosystem. Community driven and capital efficient",
     "icon": "/protocol/camelot.png",
     "chains": [
       "arbitrum",
@@ -390,14 +390,14 @@
   {
     "identifier": "convex_finance",
     "name": "Convex Finance",
-    "description": "Convex Finance is a DeFi platform that enhances the experience and rewards for users who stake and provide liquidity on Curve Finance. It offers boosted staking rewards without locking tokens, simplifying user participation in liquidity provision.",
+    "description": "Convex Finance is a DeFi platform that enhances the experience and rewards for users who stake and provide liquidity on Curve Finance. It offers boosted staking rewards without locking tokens, simplifying user participation in liquidity provision",
     "icon": "/protocol/convex_finance.png",
     "chains": [
       "ethereum"
     ],
     "category": [
-      "DEX",
-      "AMM"
+      "YIELD",
+      "DERIVATIVES"
     ],
     "website": "https://www.convexfinance.com/",
     "docs": "https://docs.convexfinance.com/convexfinance",
@@ -417,7 +417,7 @@
   {
     "identifier": "compound",
     "name": "Compound",
-    "description": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.",
+    "description": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications",
     "icon": "/protocol/compound.png",
     "chains": [
       "ethereum",
@@ -459,7 +459,7 @@
   {
     "identifier": "beefy",
     "name": "Beefy",
-    "description": "Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings.",
+    "description": "Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings",
     "icon": "/protocol/beefy.png",
     "chains": [
       "arbitrum",
@@ -490,7 +490,7 @@
   {
     "identifier": "curve",
     "name": "Curve Finance",
-    "description": "Curve is DeFi's leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve's factory and incentivized by Curve's DAO. Users rely on Curve's proprietary formulas to provide high liquidity, low slippage, and low fee transactions among ERC-20 tokens.",
+    "description": "Curve is DeFi's leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve's factory and incentivized by Curve's DAO. Users rely on Curve's proprietary formulas to provide high liquidity, low slippage, and low fee transactions among ERC-20 tokens",
     "icon": "/protocol/curve.png",
     "chains": [
       "base",
@@ -536,7 +536,9 @@
     "chains": [
       "ethereum"
     ],
-    "category": [],
+    "category": [
+      "STABLECOIN"
+    ],
     "website": "https://deuro.com/",
     "docs": "https://docs.deuro.com/",
     "socials": {
@@ -552,7 +554,7 @@
   {
     "identifier": "defiswap",
     "name": "Defiswap",
-    "description": "DeFiSwap.io is a decentralized exchange (DEX) that allows users to swap or trade cryptocurrency and other digital assets, focusing on DeFi (decentralized finance) tokens and aiming to provide a platform for direct peer-to-peer value exchange without intermediaries.",
+    "description": "DeFiSwap.io is a decentralized exchange (DEX) that allows users to swap or trade cryptocurrency and other digital assets, focusing on DeFi (decentralized finance) tokens and aiming to provide a platform for direct peer-to-peer value exchange without intermediaries",
     "icon": "/protocol/defiswap.png",
     "chains": [
       "ethereum"
@@ -575,7 +577,7 @@
   {
     "identifier": "dodo",
     "name": "DODO",
-    "description": "DODO is an On-Chain Liquidity Provider for everyone. DODO Aims to be the Best Decentralize Exchange (DEX) Ranking based on trading volumes, market share of DeFi markets.",
+    "description": "DODO is an On-Chain Liquidity Provider for everyone. DODO Aims to be the Best Decentralize Exchange (DEX) Ranking based on trading volumes, market share of DeFi markets",
     "icon": "/protocol/dodo.png",
     "chains": [
       "ethereum",
@@ -648,7 +650,7 @@
   {
     "identifier": "ether.fi",
     "name": "Ether.Fi",
-    "description": "Ether.fi is a decentralized liquid restaking platform focused on non-custodial Ethereum staking.",
+    "description": "Ether.fi is a decentralized liquid restaking platform focused on non-custodial Ethereum staking",
     "icon": "/protocol/etherfi.png",
     "chains": [
       "ethereum"
@@ -673,7 +675,7 @@
   {
     "identifier": "euler_finance",
     "name": "Euler Finance",
-    "description": "Euler Finance is a DeFi lending protocol for permissionless lending and borrowing of crypto assets with smaller markets.",
+    "description": "Euler Finance is a DeFi lending protocol for permissionless lending and borrowing of crypto assets with smaller markets",
     "icon": "/protocol/euler_finance.png",
     "chains": [
       "ethereum"
@@ -696,7 +698,7 @@
   {
     "identifier": "fraxswap",
     "name": "FraxSwap",
-    "description": "Fraxswap is the first constant product automated market maker with an embedded time-weighted average market maker (TWAMM) for conducting large trades over long periods of time trustlessly.",
+    "description": "Fraxswap is the first constant product automated market maker with an embedded time-weighted average market maker (TWAMM) for conducting large trades over long periods of time trustlessly",
     "icon": "/protocol/fraxswap.png",
     "chains": [
       "ethereum",
@@ -753,7 +755,10 @@
     "chains": [
       "hyperevm"
     ],
-    "category": [],
+    "category": [
+      "DEX",
+      "AMM"
+    ],
     "website": "https://www.gliquid.xyz/swap",
     "docs": "https://gliquids-organization.gitbook.io/gliquid/",
     "socials": {
@@ -769,7 +774,7 @@
   {
     "identifier": "fluid",
     "name": "Fluid",
-    "description": "Fluid is the next-generation lending market with the highest LTVs and lowest liquidation penalties in the industry.",
+    "description": "Fluid is the next-generation lending market with the highest LTVs and lowest liquidation penalties in the industry",
     "icon": "/protocol/fluid.png",
     "chains": [
       "arbitrum",
@@ -797,7 +802,7 @@
   {
     "identifier": "flux_finance",
     "name": "Flux Finance",
-    "description": "Flux Finance is a decentralized, secure, non-custodial digital asset lending protocol. It allows users to deposit assets to earn interest and borrow assets by collateralizing their holdings. Flux is a fork of Compound V2 with additional functionality to support both permissionless and permissioned tokens.",
+    "description": "Flux Finance is a decentralized, secure, non-custodial digital asset lending protocol. It allows users to deposit assets to earn interest and borrow assets by collateralizing their holdings. Flux is a fork of Compound V2 with additional functionality to support both permissionless and permissioned tokens",
     "icon": "/protocol/flux_finance.png",
     "chains": [
       "ethereum"
@@ -820,7 +825,7 @@
   {
     "identifier": "hashflow",
     "name": "Hashflow",
-    "description": "Hashflow is a decentralized exchange (DEX) protocol that aims to provide a seamless, interoperable, and MEV-protected trading experience for users, especially in the DeFi space.",
+    "description": "Hashflow is a decentralized exchange (DEX) protocol that aims to provide a seamless, interoperable, and MEV-protected trading experience for users, especially in the DeFi space",
     "icon": "/protocol/hashflow.png",
     "chains": [
       "arbitrum",
@@ -919,7 +924,7 @@
   {
     "identifier": "hyperlend",
     "name": "Hyperlend",
-    "description": "HyperLend is a decentralized finance (DeFi) platform focused on lending and borrowing digital assets. It operates on the Hyperliquid EVM blockchain, offering efficient and secure money-market services.",
+    "description": "HyperLend is a decentralized finance (DeFi) platform focused on lending and borrowing digital assets. It operates on the Hyperliquid EVM blockchain, offering efficient and secure money-market services",
     "icon": "/protocol/hyperlend.png",
     "chains": [
       "hyperevm"
@@ -943,7 +948,7 @@
   {
     "identifier": "hyperswap",
     "name": "Hyperswap",
-    "description": "HyperSwap is a decentralized interoperable cross-chain infrastructure aimed at empowering traders and liquidity providers to participate in a robust and secure financial marketplace.",
+    "description": "HyperSwap is a decentralized interoperable cross-chain infrastructure aimed at empowering traders and liquidity providers to participate in a robust and secure financial marketplace",
     "icon": "/protocol/hyperswap.png",
     "chains": [
       "hyperevm"
@@ -990,7 +995,7 @@
   {
     "identifier": "hypurrfi",
     "name": "HypurrFi",
-    "description": "HypurrFi provides decentralized, non-custodial lending pool smart contracts where anyone can supply liquidity to earn yield.",
+    "description": "HypurrFi provides decentralized, non-custodial lending pool smart contracts where anyone can supply liquidity to earn yield",
     "icon": "/protocol/hypurrfi.png",
     "chains": [
       "hyperevm"
@@ -1013,7 +1018,7 @@
   {
     "identifier": "integral",
     "name": "Integral",
-    "description": "Integral is a decentralized exchange (DEX) designed for executing large cryptocurrency trades with zero price impact. It introduces a novel exchange platform tailored to accommodate large trades on blockchain networks such as Ethereum Mainnet and Arbitrum. Integral supports execution methods like Time-Weighted Average Price (TWAP), instant atomic orders, and limit orders to minimize price impact and secure better pricing.",
+    "description": "Integral is a decentralized exchange (DEX) designed for executing large cryptocurrency trades with zero price impact. It introduces a novel exchange platform tailored to accommodate large trades on blockchain networks such as Ethereum Mainnet and Arbitrum. Integral supports execution methods like Time-Weighted Average Price (TWAP), instant atomic orders, and limit orders to minimize price impact and secure better pricing",
     "icon": "/protocol/integral.png",
     "chains": [
       "ethereum",
@@ -1037,7 +1042,7 @@
   {
     "identifier": "kelp_dao",
     "name": "Kelp Dao",
-    "description": "Kelp DAO is a decentralized autonomous organization (DAO) that focuses on liquid restaking solutions, particularly for Ethereum. It allows users to stake their Ethereum-based assets and receive a Liquid Restaked Token (LRT) called rsETH, which provides liquidity and enables participation in DeFi markets.",
+    "description": "Kelp DAO is a decentralized autonomous organization (DAO) that focuses on liquid restaking solutions, particularly for Ethereum. It allows users to stake their Ethereum-based assets and receive a Liquid Restaked Token (LRT) called rsETH, which provides liquidity and enables participation in DeFi markets",
     "icon": "/protocol/kelpdao.png",
     "chains": [
       "arbitrum",
@@ -1049,7 +1054,7 @@
       "scroll"
     ],
     "category": [
-      "DEX",
+      "RESTAKING",
       "STAKING"
     ],
     "website": "https://kerneldao.com/kelp/",
@@ -1068,7 +1073,7 @@
   {
     "identifier": "kittenswap",
     "name": "Kittenswap",
-    "description": "KittenSwap is a decentralized exchange (DEX) built on the HyperEVM blockchain, implementing the ve(3,3) tokenomics model to enhance liquidity and trading efficiency. The platform offers features such as low slippage trading, deep liquidity, and optimized routing for better trades.",
+    "description": "KittenSwap is a decentralized exchange (DEX) built on the HyperEVM blockchain, implementing the ve(3,3) tokenomics model to enhance liquidity and trading efficiency. The platform offers features such as low slippage trading, deep liquidity, and optimized routing for better trades",
     "icon": "/protocol/kittenswap.png",
     "chains": [
       "hyperevm"
@@ -1115,7 +1120,7 @@
   {
     "identifier": "kinza_finance",
     "name": "Kinza Finance",
-    "description": "Kinza Finance is a next-generation decentralized lending protocol built on the BNB Chain. It emphasizes security and aims to connect the demand and supply of liquidity to create an efficient on-chain money market.",
+    "description": "Kinza Finance is a next-generation decentralized lending protocol built on the BNB Chain. It emphasizes security and aims to connect the demand and supply of liquidity to create an efficient on-chain money market",
     "icon": "/protocol/kinza.png",
     "chains": [
       "bsc",
@@ -1140,7 +1145,7 @@
   {
     "identifier": "kodiak",
     "name": "Kodiak",
-    "description": "Kodiak is a decentralized exchange (DEX) on the Berachain blockchain that provides centralized liquidity and automated liquidity management, offering traders deep liquidity and best trade execution, while giving protocols and liquidity providers flexibility and control.",
+    "description": "Kodiak is a decentralized exchange (DEX) on the Berachain blockchain that provides centralized liquidity and automated liquidity management, offering traders deep liquidity and best trade execution, while giving protocols and liquidity providers flexibility and control",
     "icon": "/protocol/kodiak.png",
     "chains": [
       "berachain"
@@ -1164,7 +1169,7 @@
   {
     "identifier": "kyberswap",
     "name": "KyberSwap",
-    "description": "KyberSwap is a multi-chain aggregator and DeFi hub that empowers users with the insights and tools to achieve financial autonomy.",
+    "description": "KyberSwap is a multi-chain aggregator and DeFi hub that empowers users with the insights and tools to achieve financial autonomy",
     "icon": "/protocol/kyberswap.png",
     "chains": [
       "ethereum"
@@ -1187,7 +1192,7 @@
   {
     "identifier": "laminar",
     "name": "Laminar",
-    "description": "Laminar is a community-owned liquidity engine built on HyperEVM. Working to provide canonical DEX infra and make HyperCore orderbooks atomically accessible to LP's, users and protocols on HyperEVM.",
+    "description": "Laminar is a community-owned liquidity engine built on HyperEVM. Working to provide canonical DEX infra and make HyperCore orderbooks atomically accessible to LP's, users and protocols on HyperEVM",
     "icon": "/protocol/laminar.png",
     "chains": [
       "hyperevm"
@@ -1210,7 +1215,7 @@
   {
     "identifier": "lendle",
     "name": "Lendle",
-    "description": "Lendle is a decentralized, non-custodial lending market built on the Mantle Network, optimized to provide an efficient, secure, and innovative experience for users engaged in lending and borrowing activities.",
+    "description": "Lendle is a decentralized, non-custodial lending market built on the Mantle Network, optimized to provide an efficient, secure, and innovative experience for users engaged in lending and borrowing activities",
     "icon": "/protocol/lendle.png",
     "chains": [
       "mantle"
@@ -1233,7 +1238,7 @@
   {
     "identifier": "lido",
     "name": "Lido",
-    "description": "Lido is a leading liquid staking platform that allows users to earn interest on their cryptocurrencies across multiple blockchains. Lido issues staked tokens (e.g. stETH) in return for the original assets, which can used across the DeFi ecosystem for trading, lending, and other activities to earn more rewards.",
+    "description": "Lido is a leading liquid staking platform that allows users to earn interest on their cryptocurrencies across multiple blockchains. Lido issues staked tokens (e.g. stETH) in return for the original assets, which can used across the DeFi ecosystem for trading, lending, and other activities to earn more rewards",
     "icon": "/protocol/lido.png",
     "chains": [
       "ethereum"
@@ -1257,7 +1262,7 @@
   {
     "identifier": "lfj",
     "name": "LFJ",
-    "description": "A decentralized cryptocurrency exchange established in 2021. Currently, there are 203 coins and 263 trading pairs available on the exchange.",
+    "description": "A decentralized cryptocurrency exchange established in 2021. Currently, there are 203 coins and 263 trading pairs available on the exchange",
     "icon": "/protocol/lfg.png",
     "chains": [
       "avalanche",
@@ -1266,7 +1271,8 @@
       "arbitrum"
     ],
     "category": [
-      "DEX"
+      "DEX",
+      "AGGREGATOR"
     ],
     "website": "https://lfj.gg/",
     "docs": "https://docs.lfj.gg/",
@@ -1284,7 +1290,7 @@
   {
     "identifier": "makerdao",
     "name": "MakerDAO",
-    "description": "MakerDAO operates as a decentralized organization on the Ethereum blockchain, aiming to stabilize the value of its cryptocurrency, DAI, against the US dollar. This aims to minimize price fluctuations often associated with cryptocurrencies.",
+    "description": "MakerDAO operates as a decentralized organization on the Ethereum blockchain, aiming to stabilize the value of its cryptocurrency, DAI, against the US dollar. This aims to minimize price fluctuations often associated with cryptocurrencies",
     "icon": "/protocol/makerdao.png",
     "chains": [
       "ethereum"
@@ -1312,7 +1318,7 @@
   {
     "identifier": "mendi_finance",
     "name": "Mendi Finance",
-    "description": "Mendi Finance is a decentralized lending protocol for individuals, institutions and protocols to access financial services. It is a permissionless, open source protocol serving users on Linea.",
+    "description": "Mendi Finance is a decentralized lending protocol for individuals, institutions and protocols to access financial services. It is a permissionless, open source protocol serving users on Linea",
     "icon": "/protocol/mendi_finance.png",
     "chains": [
       "linea"
@@ -1338,7 +1344,7 @@
   {
     "identifier": "meth_protocol",
     "name": "mETH Protocol",
-    "description": "mETH Protocol, formerly known as Mantle LSP, is a permissionless, vertically integrated protocol for ETH liquid staking and liquid restaking. It offers mETH, a value-accumulating receipt token for ETH staking, and cmETH, a unified receipt token for a portfolio of restaking positions.",
+    "description": "mETH Protocol, formerly known as Mantle LSP, is a permissionless, vertically integrated protocol for ETH liquid staking and liquid restaking. It offers mETH, a value-accumulating receipt token for ETH staking, and cmETH, a unified receipt token for a portfolio of restaking positions",
     "icon": "/protocol/meth_protocol.png",
     "chains": [
       "ethereum"
@@ -1361,7 +1367,7 @@
   {
     "identifier": "maverick_protocol",
     "name": "Maverick Protocol",
-    "description": "Maverick Protocol is DeFi's Liquidity Operating System, offering one-stop liquidity solutions for token projects, liquidity providers, and blockchain ecosystems to bootstrap efficient markets with optimized liquidity and reduced budget spending.",
+    "description": "Maverick Protocol is DeFi's Liquidity Operating System, offering one-stop liquidity solutions for token projects, liquidity providers, and blockchain ecosystems to bootstrap efficient markets with optimized liquidity and reduced budget spending",
     "icon": "/protocol/maverick.png",
     "chains": [
       "base",
@@ -1413,7 +1419,7 @@
   {
     "identifier": "morpho",
     "name": "Morpho",
-    "description": "A permissionless and non-custodial lending protocol. Earn interest on over-collateralized lending and borrow digital assets using immutable infrastructure.",
+    "description": "A permissionless and non-custodial lending protocol. Earn interest on over-collateralized lending and borrow digital assets using immutable infrastructure",
     "icon": "/protocol/morpho.png",
     "chains": [
       "base",
@@ -1436,9 +1442,9 @@
     ]
   },
   {
-    "identifier": "origin_protocol ",
+    "identifier": "origin_protocol",
     "name": "Origin Protocol",
-    "description": "Origin Protocol is a decentralized finance (DeFi) platform designed to expand economic opportunities through a suite of financial products. These products work together seamlessly, utilizing permissionless and composable smart contracts to deliver an enhanced user experience across multiple blockchain networks.",
+    "description": "Origin Protocol is a decentralized finance (DeFi) platform designed to expand economic opportunities through a suite of financial products. These products work together seamlessly, utilizing permissionless and composable smart contracts to deliver an enhanced user experience across multiple blockchain networks",
     "icon": "/protocol/origin_protocol.png",
     "chains": [
       "ethereum"
@@ -1461,7 +1467,7 @@
   {
     "identifier": "pac_finance",
     "name": "Pac Finance",
-    "description": "Pac Finance is a decentralized finance (DeFi) protocol operating on the Blast Layer 2 network. It introduces a self-repaying and hybrid lending model, allowing users to borrow assets that automatically repay over time through integrated yield mechanisms.",
+    "description": "Pac Finance is a decentralized finance (DeFi) protocol operating on the Blast Layer 2 network. It introduces a self-repaying and hybrid lending model, allowing users to borrow assets that automatically repay over time through integrated yield mechanisms",
     "icon": "/protocol/pac_finance.png",
     "chains": [
       "blast"
@@ -1484,7 +1490,7 @@
   {
     "identifier": "pancakeswap",
     "name": "PancakeSwap",
-    "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to trade tokens, provide liquidity, and earn rewards through staking and farming, using an automated market maker (AMM) model.",
+    "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to trade tokens, provide liquidity, and earn rewards through staking and farming, using an automated market maker (AMM) model",
     "icon": "/protocol/pancakeswap.png",
     "chains": [
       "arbitrum",
@@ -1512,7 +1518,7 @@
   {
     "identifier": "pangolin",
     "name": "Pangolin",
-    "description": "Pangolin is a decentralized exchange (DEX) built on the Avalanche blockchain. It offers a range of features, including token swaps, liquidity pools, and yield farming, alongside tools for traders and projects.",
+    "description": "Pangolin is a decentralized exchange (DEX) built on the Avalanche blockchain. It offers a range of features, including token swaps, liquidity pools, and yield farming, alongside tools for traders and projects",
     "icon": "/protocol/pangolin.png",
     "chains": [
       "avalanche"
@@ -1536,7 +1542,7 @@
   {
     "identifier": "peapods_finance",
     "name": "Peapods Finance",
-    "description": "Peapods is a decentralized, permissionless, and trustless on-chain volatility farming protocol with zero dependency on oracles or external price feeds. Peapods enables users to capitalize on the inexhaustible volatility of crypto markets to unlock yield opportunities for any liquid asset. We refer to this model as volatility farming.",
+    "description": "Peapods is a decentralized, permissionless, and trustless on-chain volatility farming protocol with zero dependency on oracles or external price feeds. Peapods enables users to capitalize on the inexhaustible volatility of crypto markets to unlock yield opportunities for any liquid asset. We refer to this model as volatility farming",
     "icon": "/protocol/peapods.png",
     "chains": [
       "arbitrum",
@@ -1546,7 +1552,8 @@
       "sonic"
     ],
     "category": [
-      "AMM"
+      "DERIVATIVES",
+      "YIELD"
     ],
     "website": "https://peapods.finance/",
     "docs": "https://docs.peapods.finance/",
@@ -1565,7 +1572,7 @@
   {
     "identifier": "pendle",
     "name": "Pendle",
-    "description": "Pendle enables the permissionless tokenization and trading of yield, unlocking various strategies such as obtaining fixed yield, long crypto yields, or trade yields of any assets on Pendle.",
+    "description": "Pendle enables the permissionless tokenization and trading of yield, unlocking various strategies such as obtaining fixed yield, long crypto yields, or trade yields of any assets on Pendle",
     "icon": "/protocol/pendle.png",
     "chains": [
       "arbitrum",
@@ -1595,7 +1602,7 @@
   {
     "identifier": "pharaoh_exchange",
     "name": "Pharaoh Exchange",
-    "description": "Pharaoh Exchange is a non-custodial exchange protocol built on the Avalanche blockchain. It's designed as a next-generation concentrated liquidity platform, optimizing for high-frequency liquidity providers and delivering a user-friendly experience for traders.",
+    "description": "Pharaoh Exchange is a non-custodial exchange protocol built on the Avalanche blockchain. It's designed as a next-generation concentrated liquidity platform, optimizing for high-frequency liquidity providers and delivering a user-friendly experience for traders",
     "icon": "/protocol/pharaoh_exchange.png",
     "chains": [
       "avalanche"
@@ -1640,7 +1647,7 @@
   {
     "identifier": "puffer_finance",
     "name": "Puffer Finance",
-    "description": "A fast, secure preconfirmation service built on EigenLayer, enabling sub-second transaction confirmations and enhancing the scalability of based rollups.",
+    "description": "A fast, secure preconfirmation service built on EigenLayer, enabling sub-second transaction confirmations and enhancing the scalability of based rollups",
     "icon": "/protocol/puffer_finance.png",
     "chains": [
       "ethereum"
@@ -1663,7 +1670,7 @@
   {
     "identifier": "ramses_legacy",
     "name": "Ramses Legacy",
-    "description": "Ramses Legacy is a decentralized exchange (DEX) protocol built on the Arbitrum blockchain. It serves as a next-generation automated market maker (AMM), combining the secure and battle-tested features of Uniswap v3 with a custom incentive engine, vote-lock governance model, and streamlined user experience.",
+    "description": "Ramses Legacy is a decentralized exchange (DEX) protocol built on the Arbitrum blockchain. It serves as a next-generation automated market maker (AMM), combining the secure and battle-tested features of Uniswap v3 with a custom incentive engine, vote-lock governance model, and streamlined user experience",
     "icon": "/protocol/ramses_legacy.png",
     "chains": [
       "arbitrum"
@@ -1687,7 +1694,7 @@
   {
     "identifier": "ring_protocol",
     "name": "Ring Protocol",
-    "description": "A decentralized exchange (DEX) on the Blast network, built on the Uniswap V2 model, allowing users to swap assets and provide liquidity with integrated yield mechanisms.",
+    "description": "A decentralized exchange (DEX) on the Blast network, built on the Uniswap V2 model, allowing users to swap assets and provide liquidity with integrated yield mechanisms",
     "icon": "/protocol/ringprotocol.png",
     "chains": [
       "blast"
@@ -1710,7 +1717,7 @@
   {
     "identifier": "royco",
     "name": "Royco",
-    "description": "Royco Protocol allows anyone to create a market to incentivize any onchain transaction or series of transactions.",
+    "description": "Royco Protocol allows anyone to create a market to incentivize any onchain transaction or series of transactions",
     "icon": "/protocol/royco.png",
     "chains": [
       "ethereum",
@@ -1736,7 +1743,7 @@
   {
     "identifier": "shadow",
     "name": "Shadow",
-    "description": "A concentrated liquidity layer built on Sonic, powered by x(3,3)—a more fluid and accessible exchange model.",
+    "description": "A concentrated liquidity layer built on Sonic, powered by x(3,3)—a more fluid and accessible exchange model",
     "icon": "/protocol/shadow.png",
     "chains": [
       "sonic"
@@ -1760,7 +1767,7 @@
   {
     "identifier": "shibaswap",
     "name": "Shibaswap",
-    "description": "ShibaSwap is a decentralized exchange (DEX) for seamless token swaps, liquidity, and staking within the Shiba Inu ecosystem.",
+    "description": "ShibaSwap is a decentralized exchange (DEX) for seamless token swaps, liquidity, and staking within the Shiba Inu ecosystem",
     "icon": "/protocol/shibaswap.png",
     "chains": [
       "ethereum"
@@ -1783,7 +1790,7 @@
   {
     "identifier": "stakestone",
     "name": "Stakestone",
-    "description": "Designed to transform how liquidity is acquired, distributed, and utilized across blockchain ecosystems, StakeStone's core mission is to deliver efficient and sustainable organic liquidity flows that adapt to the needs of an increasingly modular and multi-chain DeFi ecosystem.",
+    "description": "Designed to transform how liquidity is acquired, distributed, and utilized across blockchain ecosystems, StakeStone's core mission is to deliver efficient and sustainable organic liquidity flows that adapt to the needs of an increasingly modular and multi-chain DeFi ecosystem",
     "icon": "/protocol/stakestone.png",
     "chains": [
       "ethereum"
@@ -1806,7 +1813,7 @@
   {
     "identifier": "swapx",
     "name": "SwapX",
-    "description": "SwapX is a decentralized exchange (DEX) running on the Sonic L1 blockchain, focusing on providing an optimized trading experience with a focus on concentrated liquidity.",
+    "description": "SwapX is a decentralized exchange (DEX) running on the Sonic L1 blockchain, focusing on providing an optimized trading experience with a focus on concentrated liquidity",
     "icon": "/protocol/swapx.png",
     "chains": [
       "sonic"
@@ -1830,7 +1837,7 @@
   {
     "identifier": "symbiotic",
     "name": "Symbiotic",
-    "description": "Symbiotic is a restaking protocol that enables users to enhance blockchain network security and capital efficiency by enabling using existing economic security, such as Ethereum Liquid Staking Tokens (LSTs) and ERC-20 tokens, to secure additional networks.",
+    "description": "Symbiotic is a restaking protocol that enables users to enhance blockchain network security and capital efficiency by enabling using existing economic security, such as Ethereum Liquid Staking Tokens (LSTs) and ERC-20 tokens, to secure additional networks",
     "icon": "/protocol/symbiotic.png",
     "chains": [
       "ethereum"
@@ -1853,7 +1860,7 @@
   {
     "identifier": "tenderswap",
     "name": "Tenderswap",
-    "description": "Instantly unstake your LSTs for a small fee, no more unstaking periods! It is a novel decentralised exchange, specifically tailored for LSTs and LRTs, that unifies liquidity for various derivatives of the same base token.",
+    "description": "Instantly unstake your LSTs for a small fee, no more unstaking periods! It is a novel decentralised exchange, specifically tailored for LSTs and LRTs, that unifies liquidity for various derivatives of the same base token",
     "icon": "/protocol/tenderize.png",
     "chains": [
       "ethereum"
@@ -1881,7 +1888,7 @@
   {
     "identifier": "thruster",
     "name": "Thruster",
-    "description": "Thruster is a Blast-native DEX for the best Blast-native teams and tokens to build on. Thruster is deeply integrated across the Blast ecosystem.",
+    "description": "Thruster is a Blast-native DEX for the best Blast-native teams and tokens to build on. Thruster is deeply integrated across the Blast ecosystem",
     "icon": "/protocol/thruster.png",
     "chains": [
       "blast"
@@ -1906,7 +1913,7 @@
   {
     "identifier": "treehouse",
     "name": "Treehouse",
-    "description": "Treehouse is a comprehensive platform designed for digital asset traders and investors, offering powerful portfolio management and market intelligence tools.",
+    "description": "Treehouse is a comprehensive platform designed for digital asset traders and investors, offering powerful portfolio management and market intelligence tools",
     "icon": "/protocol/treehouse.png",
     "chains": [
       "ethereum"
@@ -1929,7 +1936,7 @@
   {
     "identifier": "uniswap",
     "name": "Uniswap",
-    "description": "The largest onchain marketplace. Buy and sell crypto on Ethereum and 11+ other chains.",
+    "description": "The largest onchain marketplace. Buy and sell crypto on Ethereum and 11+ other chains",
     "icon": "/protocol/uniswap.png",
     "chains": [
       "arbitrum",
@@ -1963,7 +1970,7 @@
   {
     "identifier": "sakeswap",
     "name": "Sakeswap",
-    "description": "SakeSwap is an Automated Market Maker protocol that brings trading slippage capture and a more efficient incentive mechanism. The SAKE token is the native coin on SakeSwap's platform and has two primary functions: Provide users with governance rights and a portion of the fees paid to the protocol.",
+    "description": "SakeSwap is an Automated Market Maker protocol that brings trading slippage capture and a more efficient incentive mechanism. The SAKE token is the native coin on SakeSwap's platform and has two primary functions: Provide users with governance rights and a portion of the fees paid to the protocol",
     "icon": "/protocol/sakeswap.png",
     "chains": [
       "ethereum"
@@ -1987,7 +1994,7 @@
   {
     "identifier": "seamless_protocol",
     "name": "Seamless Protocol",
-    "description": "Seamless Protocol is a decentralized, community-governed lending and borrowing platform native to the Base blockchain, offering users a way to supply, borrow, and manage their assets, with a focus on capital efficiency and a user-friendly experience.",
+    "description": "Seamless Protocol is a decentralized, community-governed lending and borrowing platform native to the Base blockchain, offering users a way to supply, borrow, and manage their assets, with a focus on capital efficiency and a user-friendly experience",
     "icon": "/protocol/seamless.png",
     "chains": [
       "base"
@@ -2012,7 +2019,7 @@
   {
     "identifier": "solidly",
     "name": "Solidly",
-    "description": "Solidly is a fully audited omnichain-DEX with up to 50% gas savings compared to Uniswap. It offers state-of-the-art IL & JIT-Protection.",
+    "description": "Solidly is a fully audited omnichain-DEX with up to 50% gas savings compared to Uniswap. It offers state-of-the-art IL & JIT-Protection",
     "icon": "/protocol/solidly.png",
     "chains": [
       "optimism",
@@ -2037,7 +2044,7 @@
   {
     "identifier": "silverswap",
     "name": "Silverswap",
-    "description": "A decentralized exchange (DEX) on the Sonic blockchain, designed for trading and swapping cryptocurrencies. It offers a platform for trading, farming, recurring investments, and earning rewards.",
+    "description": "A decentralized exchange (DEX) on the Sonic blockchain, designed for trading and swapping cryptocurrencies. It offers a platform for trading, farming, recurring investments, and earning rewards",
     "icon": "/protocol/silverswap.png",
     "chains": [
       "sonic"
@@ -2060,7 +2067,7 @@
   {
     "identifier": "sparklend",
     "name": "Sparklend",
-    "description": "SparkLend is a decentralized finance (DeFi) platform within the DAI ecosystem, created by the MakerDAO community, allowing users to deposit DAI to earn rewards, borrow DAI using crypto assets as collateral, and access other financial services.",
+    "description": "SparkLend is a decentralized finance (DeFi) platform within the DAI ecosystem, created by the MakerDAO community, allowing users to deposit DAI to earn rewards, borrow DAI using crypto assets as collateral, and access other financial services",
     "icon": "/protocol/sparklend.png",
     "chains": [
       "ethereum",
@@ -2084,7 +2091,7 @@
   {
     "identifier": "stader",
     "name": "Stader",
-    "description": "Stader Network is a non-custodial, multi-chain liquid staking platform that allows users to stake their crypto assets across multiple Proof-of-Stake (PoS) blockchains, offering access to staking and DeFi opportunities.",
+    "description": "Stader Network is a non-custodial, multi-chain liquid staking platform that allows users to stake their crypto assets across multiple Proof-of-Stake (PoS) blockchains, offering access to staking and DeFi opportunities",
     "icon": "/protocol/stader.png",
     "chains": [
       "ethereum"
@@ -2107,7 +2114,7 @@
   {
     "identifier": "sushiswap",
     "name": "SushiSwap",
-    "description": "A leading multi-chain decentralized exchange (DEX) deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need.",
+    "description": "A leading multi-chain decentralized exchange (DEX) deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need",
     "icon": "/protocol/sushiswap.png",
     "chains": [
       "arbitrum",
@@ -2134,7 +2141,7 @@
   {
     "identifier": "swapr",
     "name": "Swapr",
-    "description": "Swapr is a multi-chain AMM with a suite of unique features including LP governance, DIY farming, and much more. Swapr is the first automated market maker (AMM) to allow for adjustable swap fees through governance and has been organically developed within the DXdao community.",
+    "description": "Swapr is a multi-chain AMM with a suite of unique features including LP governance, DIY farming, and much more. Swapr is the first automated market maker (AMM) to allow for adjustable swap fees through governance and has been organically developed within the DXdao community",
     "icon": "/protocol/swapr.png",
     "chains": [
       "ethereum",
@@ -2159,7 +2166,7 @@
   {
     "identifier": "swell_network",
     "name": "Swell Network",
-    "description": "Swell Network is a decentralized protocol enabling liquid staking and restaking of Ethereum (ETH) and Bitcoin (BTC) within the DeFi space, offering users a way to earn passive income and participate in the security of the Ethereum network without locking their assets.",
+    "description": "Swell Network is a decentralized protocol enabling liquid staking and restaking of Ethereum (ETH) and Bitcoin (BTC) within the DeFi space, offering users a way to earn passive income and participate in the security of the Ethereum network without locking their assets",
     "icon": "/protocol/swell.png",
     "chains": [
       "ethereum"
@@ -2182,7 +2189,7 @@
   {
     "identifier": "quickswap",
     "name": "Quickswap",
-    "description": "QuickSwap is a decentralized exchange (DEX) that operates on the Polygon network, built as a fork of Uniswap. It allows users to swap ERC-20 tokens with lower transaction fees and faster speeds than on Ethereum.",
+    "description": "QuickSwap is a decentralized exchange (DEX) that operates on the Polygon network, built as a fork of Uniswap. It allows users to swap ERC-20 tokens with lower transaction fees and faster speeds than on Ethereum",
     "icon": "/protocol/quickswap.png",
     "chains": [
       "ethereum",
@@ -2232,7 +2239,7 @@
   {
     "identifier": "usual_protocol",
     "name": "Usual Protocol",
-    "description": "A secure, decentralized issuer that takes back the value captured by crypto giants—and redistributes it to the community through $USUAL.",
+    "description": "A secure, decentralized issuer that takes back the value captured by crypto giants—and redistributes it to the community through $USUAL",
     "icon": "/protocol/usual_protocol.png",
     "chains": [
       "ethereum"
@@ -2256,7 +2263,7 @@
   {
     "identifier": "uwu_lend",
     "name": "UwU Lend",
-    "description": "UwU Lend is a decentralized non-custodial liquidity market protocol where users can participate as depositors, borrowers or xUwU stakers.",
+    "description": "UwU Lend is a decentralized non-custodial liquidity market protocol where users can participate as depositors, borrowers or xUwU stakers",
     "icon": "/protocol/uwu_lend.png",
     "chains": [
       "ethereum"
@@ -2279,7 +2286,7 @@
   {
     "identifier": "valantis",
     "name": "Valantis",
-    "description": "Valantis is a modular decentralized exchange (DEX) protocol designed to enable developers to build customized on-chain liquidity infrastructures efficiently. By utilizing a modular framework, Valantis allows for the creation of bespoke DEX designs without the traditional limitations of liquidity fragmentation.",
+    "description": "Valantis is a modular decentralized exchange (DEX) protocol designed to enable developers to build customized on-chain liquidity infrastructures efficiently. By utilizing a modular framework, Valantis allows for the creation of bespoke DEX designs without the traditional limitations of liquidity fragmentation",
     "icon": "/protocol/valantis.png",
     "chains": [
       "ethereum",
@@ -2307,7 +2314,7 @@
   {
     "identifier": "velodrome",
     "name": "Velodrome",
-    "description": "A decentralized exchange with a unique incentive structure for liquidity providers.",
+    "description": "A decentralized exchange with a unique incentive structure for liquidity providers",
     "icon": "/protocol/velodrome.png",
     "chains": [
       "optimism"
@@ -2361,7 +2368,7 @@
   {
     "identifier": "wagmi",
     "name": "Wagmi",
-    "description": "WAGMI protocol is a decentralized exchange on various blockchains, focuses on maximizing liquidity efficiency. It employs advanced strategies and GMI mechanics for liquidity management and diversification, ensuring optimal yields through an auto-rebalancing mechanism responsive to market conditions. GMI, a pool of multi-pools, allows holders to earn from diverse liquidity sources, emphasizing WAGMI's commitment to innovation, user rewards, and expansion across blockchains for enhanced decentralization and accessibility.",
+    "description": "WAGMI protocol is a decentralized exchange on various blockchains, focuses on maximizing liquidity efficiency. It employs advanced strategies and GMI mechanics for liquidity management and diversification, ensuring optimal yields through an auto-rebalancing mechanism responsive to market conditions. GMI, a pool of multi-pools, allows holders to earn from diverse liquidity sources, emphasizing WAGMI's commitment to innovation, user rewards, and expansion across blockchains for enhanced decentralization and accessibility",
     "icon": "/protocol/wagmi.png",
     "chains": [
       "base",
@@ -2387,7 +2394,7 @@
   {
     "identifier": "yearn_finance",
     "name": "Yearn Finance",
-    "description": "Yearn Finance is a multi-chain yield aggregator that automates yield using investment pools and reacts to opportunities in the marketplace. It allows for interest earned on deposited tokens, no withdrawal fees, and offers the ability to build investment strategies to increase yield in Yearn vaults.",
+    "description": "Yearn Finance is a multi-chain yield aggregator that automates yield using investment pools and reacts to opportunities in the marketplace. It allows for interest earned on deposited tokens, no withdrawal fees, and offers the ability to build investment strategies to increase yield in Yearn vaults",
     "icon": "/protocol/yearn_finance.png",
     "chains": [
       "ethereum",
@@ -2441,7 +2448,7 @@
   {
     "identifier": "zerolend",
     "name": "ZeroLend",
-    "description": "ZeroLend presents itself as a multi-chain DeFi protocol offering borrowing and lending functionalities for various assets. It has its own native stablecoin ($ONEZ) and emphasizes features like account abstraction for potential future benefits. It incorporates a governance model through $ZERO token, supports account abstraction for user-friendly features like gas-less transactions, and plans to integrate real-world assets and a privacy layer to maintain transaction confidentiality.",
+    "description": "ZeroLend presents itself as a multi-chain DeFi protocol offering borrowing and lending functionalities for various assets. It has its own native stablecoin ($ONEZ) and emphasizes features like account abstraction for potential future benefits. It incorporates a governance model through $ZERO token, supports account abstraction for user-friendly features like gas-less transactions, and plans to integrate real-world assets and a privacy layer to maintain transaction confidentiality",
     "icon": "/protocol/zerolend.png",
     "chains": [
       "base",
