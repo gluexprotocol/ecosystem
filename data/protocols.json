@@ -156,6 +156,29 @@
     ]
   },
   {
+    "identifier": "arena",
+    "name": "Arena Trade",
+    "description": "The Arena is a next gen SocialFi app redefining how creators connect, engage, and monetize their content",
+    "icon": "/protocol/arena.png",
+    "chains": [
+      "avalanche"
+    ],
+    "category": [
+      "SOCIALFI"
+    ],
+    "website": "https://arena.social/",
+    "docs": "",
+    "socials": {
+      "twitter": "https://x.com/TheArenaApp",
+      "discord": "",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "arena_trade"
+    ]
+  },
+  {
     "identifier": "balancer",
     "name": "Balancer",
     "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum that represents a flexible building block for programmable liquidity. By separating the AMM curve logic and math from the core swapping functionality, Balancer becomes an extensible AMM that can incorporate any number of swap curves and pool types.",
@@ -506,6 +529,27 @@
     ]
   },
   {
+    "identifier": "decentralized-euro",
+    "name": "Decentralized Euro",
+    "description": "A fully decentralized, collateralized stablecoin pegged to the Euro — secure, versatile, and censorship-resistant without having to rely on oracles. 1 decentralized EURO = 1 Euro",
+    "icon": "/protocol/decentralized-euro.png",
+    "chains": [
+      "ethereum"
+    ],
+    "category": [],
+    "website": "https://deuro.com/",
+    "docs": "https://docs.deuro.com/",
+    "socials": {
+      "twitter": "",
+      "discord": "",
+      "telegram": "https://t.me/dEURO_DecentralizedEuro",
+      "github": "https://github.com/d-EURO"
+    },
+    "reference": [
+      "eurc_deuro"
+    ]
+  },
+  {
     "identifier": "defiswap",
     "name": "Defiswap",
     "description": "DeFiSwap.io is a decentralized exchange (DEX) that allows users to swap or trade cryptocurrency and other digital assets, focusing on DeFi (decentralized finance) tokens and aiming to provide a platform for direct peer-to-peer value exchange without intermediaries.",
@@ -553,6 +597,29 @@
       "dodo_v2_dpp",
       "dodo_v2_dsp",
       "dodo_v2_dvm"
+    ]
+  },
+  {
+    "identifier": "eliteness",
+    "name": "Eliteness Network",
+    "description": "Thick introduces the concept of Protocol-Agnostic Concentrated Liquidity into DeFi, empowering it to Distribute shared, Flywheeled self-incentivising, Concentrated Liquidity across a multitude of plugged-in protocols",
+    "icon": "/protocol/eliteness.png",
+    "chains": [
+      "sonic"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://ftm.guru",
+    "docs": "https://ftm.guru/docs/thick",
+    "socials": {
+      "twitter": "",
+      "discord": "",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "thick2_cl"
     ]
   },
   {
@@ -655,7 +722,7 @@
   },
   {
     "identifier": "gearbox",
-    "name": "gearbox",
+    "name": "Gearbox",
     "description": "",
     "icon": "/protocol/gearbox.png",
     "chains": [
@@ -676,6 +743,27 @@
     },
     "reference": [
       "gearbox"
+    ]
+  },
+  {
+    "identifier": "gliquid",
+    "name": "Gliquid",
+    "description": "Next-generation V4 Automated Market Maker (AMM) platform designed to unlock hyper-efficient liquidity. Our technological infrastructure is powered by the CryptoAlgebra stack",
+    "icon": "/protocol/gliquid.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [],
+    "website": "https://www.gliquid.xyz/swap",
+    "docs": "https://gliquids-organization.gitbook.io/gliquid/",
+    "socials": {
+      "twitter": "https://x.com/gliquidx",
+      "discord": "https://discord.com/invite/dZhxqR6yF2",
+      "telegram": "https://t.me/gliquidxyz",
+      "github": ""
+    },
+    "reference": [
+      "glquid"
     ]
   },
   {
@@ -808,6 +896,27 @@
     ]
   },
   {
+    "identifier": "hypercat",
+    "name": "Hypercat",
+    "description": "HyperCat is a decentralized exchange (DEX) built on the Algebra Integral smart contracts enabling flexible trading and liquidity management through the use of plugins, with support for custom hooks that will be available to extend on-chain functionality even further",
+    "icon": "/protocol/hypercat.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [],
+    "website": "https://hypercat.exchange/",
+    "docs": "https://docs.hypercat.exchange/",
+    "socials": {
+      "twitter": "https://x.com/hypercatex",
+      "discord": "https://discord.com/invite/hypercat",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "hypercat"
+    ]
+  },
+  {
     "identifier": "hyperlend",
     "name": "Hyperlend",
     "description": "HyperLend is a decentralized finance (DeFi) platform focused on lending and borrowing digital assets. It operates on the Hyperliquid EVM blockchain, offering efficient and secure money-market services.",
@@ -827,7 +936,8 @@
       "github": "https://github.com/hyperlendx"
     },
     "reference": [
-      "hyperlend"
+      "hyperlend",
+      "hyperlend_whlp"
     ]
   },
   {
@@ -977,6 +1087,29 @@
     "reference": [
       "kittenswap",
       "kittenswap_v3"
+    ]
+  },
+  {
+    "identifier": "kinetiq",
+    "name": "Kinetiq",
+    "description": "Kinetiq is a liquid staking protocol built natively on Hyperliquid, enabling users to stake the native token of the Hyperliquid blockchain (HYPE) and receive Kinetiq Staked HYPE (kHYPE) in return",
+    "icon": "/protocol/kinetiq.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [
+      "STAKING"
+    ],
+    "website": "https://kinetiq.xyz/",
+    "docs": "https://docs.kinetiq.xyz/",
+    "socials": {
+      "twitter": "https://x.com/kinetiq_xyz",
+      "discord": "https://discord.com/invite/kinetiq",
+      "telegram": "https://t.me/kinetiq_announcements",
+      "github": "https://github.com/kinetiq-research"
+    },
+    "reference": [
+      "hype_khype"
     ]
   },
   {
@@ -1143,7 +1276,10 @@
       "telegram": "https://t.me/lfj_gg",
       "github": "https://github.com/traderjoe-xyz/"
     },
-    "reference": []
+    "reference": [
+      "lfj_v21",
+      "lfj_v22"
+    ]
   },
   {
     "identifier": "makerdao",
@@ -1405,7 +1541,9 @@
     "chains": [
       "arbitrum",
       "base",
-      "ethereum"
+      "berachain",
+      "ethereum",
+      "sonic"
     ],
     "category": [
       "AMM"
@@ -1419,7 +1557,9 @@
       "github": ""
     },
     "reference": [
-      "peapods"
+      "peapods",
+      "peapods_lend",
+      "peapods_wrap"
     ]
   },
   {
@@ -1474,6 +1614,27 @@
     "reference": [
       "pharaoh_cl",
       "pharaoh_legacy"
+    ]
+  },
+  {
+    "identifier": "projectx",
+    "name": "ProjectX",
+    "description": "Project X is built on the belief that tech is becoming increasingly commoditized and the next era of DeFi will be won by innovating on distribution, incentive design and UX",
+    "icon": "/protocol/prjx.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [],
+    "website": "https://www.prjx.com/",
+    "docs": "https://prjxdocs.notion.site/",
+    "socials": {
+      "twitter": "https://x.com/prjx_hl",
+      "discord": "",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "projectx"
     ]
   },
   {
@@ -2044,6 +2205,31 @@
     ]
   },
   {
+    "identifier": "usdx_money",
+    "name": "USDX Money",
+    "description": "USDX is a synthetic USD stablecoin built for the crypto ecosystem. It offers a crypto-native stablecoin solution that does not rely on traditional banking infrastructure which is censorship-resistant, scalable, and highly stable",
+    "icon": "/protocol/usdx_money.png",
+    "chains": [
+      "arbitrum",
+      "bnb",
+      "ethereum"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://usdx.money/",
+    "docs": "https://docs.usdx.money/",
+    "socials": {
+      "twitter": "https://x.com/StablesLabs",
+      "discord": "https://discord.com/invite/tempusual",
+      "telegram": "https://t.me/StablesLabsTG",
+      "github": ""
+    },
+    "reference": [
+      "usdx_susdx"
+    ]
+  },
+  {
     "identifier": "usual_protocol",
     "name": "Usual Protocol",
     "description": "A secure, decentralized issuer that takes back the value captured by crypto giants—and redistributes it to the community through $USUAL.",
@@ -2113,6 +2299,7 @@
     },
     "reference": [
       "valantis_hot_amm",
+      "valantis_khype_stex_amm",
       "valantis_hot_fok_usdc_weth",
       "valantis_stex_amm"
     ]
