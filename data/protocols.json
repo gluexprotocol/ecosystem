@@ -910,7 +910,7 @@
   },
   {
     "identifier": "hyperbeat",
-    "name": "Hyperbear",
+    "name": "Hyperbeat",
     "description": "Hyperbeat is a Hyperliquid native protocol that exists to scale Hyperliquid and the broader Hyperliquid Ecosystem",
     "icon": "/protocol/hyperbeat.png",
     "chains": [
@@ -979,7 +979,7 @@
     "identifier": "hyperchonk",
     "name": "Hyperchonk",
     "description": "HyperChonk is a stablecoin-centric decentralized exchange (DEX) built on HyperEVM, designed to optimize capital efficiency and yield generation across various asset types",
-    "icon": "/protocol/hyperchonk.png",
+    "icon": "/protocol/hyperchonk.jpg",
     "chains": [
       "hyperevm"
     ],
