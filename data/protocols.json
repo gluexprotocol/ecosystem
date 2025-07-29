@@ -185,8 +185,12 @@
     "icon": "/protocol/balancer.png",
     "chains": [
       "arbitrum",
+      "avalanche",
+      "base",
       "berachain",
       "ethereum",
+      "hyperevm",
+      "optimism",
       "polygon",
       "gnosis"
     ],
@@ -220,7 +224,11 @@
       "bex_composable_stable_v6",
       "bex_weighted_v5",
       "burrbear_composable_stable_v6",
-      "burrbear_weighted_v4"
+      "burrbear_weighted_v4",
+      "balancer_v3_gyro_2clp",
+      "balancer_v3_gyro_eclp",
+      "balancer_v3_reclamm",
+      "balancer_v3_stable_surge"
     ]
   },
   {
@@ -901,6 +909,52 @@
     ]
   },
   {
+    "identifier": "hyperbeat",
+    "name": "Hyperbear",
+    "description": "Hyperbeat is a Hyperliquid native protocol that exists to scale Hyperliquid and the broader Hyperliquid Ecosystem",
+    "icon": "/protocol/hyperbeat.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [],
+    "website": "https://www.hyperbeat.org",
+    "docs": "https://docs.hyperbeat.org",
+    "socials": {
+      "twitter": "https://x.com/0xHyperBeat",
+      "discord": "https://discord.com/invite/0xhyperbeat",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "hyperbeat_hbxaut",
+      "hyperbeat_lsthype",
+      "hbbtc_ubtc",
+      "hbhype_hype",
+      "hbusdt"
+    ]
+  },
+  {
+    "identifier": "hyperbrick",
+    "name": "Hyperbrick",
+    "description": "HyperBrick is an AMM offering low-cost trading, higher fee potential for providers, and requires less capital. It features zero slippage, surge pricing, and high efficiency",
+    "icon": "/protocol/hyperbrick.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [],
+    "website": "https://hyperbrick.xyz",
+    "docs": "https://docs.hyperbrick.xyz",
+    "socials": {
+      "twitter": "https://x.com/HyperBrickX",
+      "discord": "",
+      "telegram": "https://x.com/HyperBrickX",
+      "github": "https://github.com/hyperbricklabs"
+    },
+    "reference": [
+      "hyperbrick"
+    ]
+  },
+  {
     "identifier": "hypercat",
     "name": "Hypercat",
     "description": "HyperCat is a decentralized exchange (DEX) built on the Algebra Integral smart contracts enabling flexible trading and liquidity management through the use of plugins, with support for custom hooks that will be available to extend on-chain functionality even further",
@@ -919,6 +973,32 @@
     },
     "reference": [
       "hypercat"
+    ]
+  },
+  {
+    "identifier": "hyperchonk",
+    "name": "Hyperchonk",
+    "description": "HyperChonk is a stablecoin-centric decentralized exchange (DEX) built on HyperEVM, designed to optimize capital efficiency and yield generation across various asset types",
+    "icon": "/protocol/hyperchonk.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [],
+    "website": "https://app.hyperchonk.com/pools",
+    "docs": "https://docs.hyperchonk.com",
+    "socials": {
+      "twitter": "https://x.com/HyperChonk",
+      "discord": "https://discord.com/invite/aVfd8zhCWD",
+      "telegram": "",
+      "github": "https://github.com/hyperchonk"
+    },
+    "reference": [
+      "hyperchonk_gyro_2clp",
+      "hyperchonk_gyro_eclp",
+      "hyperchonk_reclamm",
+      "hyperchonk_stable_pool",
+      "hyperchonk_stable_surge",
+      "hyperchonk_weighted"
     ]
   },
   {
@@ -1012,7 +1092,8 @@
       "github": "https://github.com/hypurrfi"
     },
     "reference": [
-      "hypurrfi"
+      "hypurrfi",
+      "hypurrfi_isolated"
     ]
   },
   {
