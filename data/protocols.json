@@ -228,7 +228,8 @@
       "balancer_v3_gyro_2clp",
       "balancer_v3_gyro_eclp",
       "balancer_v3_reclamm",
-      "balancer_v3_stable_surge"
+      "balancer_v3_stable_surge",
+      "balancer_v3_liquidity_bootstrapping"
     ]
   },
   {
@@ -610,6 +611,29 @@
     ]
   },
   {
+    "identifier": "dyorswap",
+    "name": "Dyorswap",
+    "description": "",
+    "icon": "/protocol/dyorswap.png",
+    "chains": [
+      "plasma"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://dyorswap.finance/",
+    "docs": "",
+    "socials": {
+      "twitter": "https://x.com/DYORSWAPDEX",
+      "discord": "",
+      "telegram": "https://t.me/Dyorswapfinance",
+      "github": ""
+    },
+    "reference": [
+      "dyorswap_v2"
+    ]
+  },
+  {
     "identifier": "eliteness",
     "name": "Eliteness Network",
     "description": "Thick introduces the concept of Protocol-Agnostic Concentrated Liquidity into DeFi, empowering it to Distribute shared, Flywheeled self-incentivising, Concentrated Liquidity across a multitude of plugged-in protocols",
@@ -728,6 +752,29 @@
       "frxeth_eth",
       "sfrax_frax",
       "sfrxeth_frxeth"
+    ]
+  },
+  {
+    "identifier": "fuseon_finance",
+    "name": "Fuseon Finance",
+    "description": "Fuseon is the pioneering next generation automated market maker (AMM) drawing inspiration from leading DeFi protocols such as Curve, Solidly and Velodrome, our protocol has been meticulously crafted to serve as the liquidity hub of the Plasma ecosystem",
+    "icon": "/protocol/fuseon_finance.png",
+    "chains": [
+      "plasma"
+    ],
+    "category": [
+      "AMM"
+    ],
+    "website": "https://fuseon.finance/",
+    "docs": "https://docs.fuseon.finance/",
+    "socials": {
+      "twitter": "https://x.com/fuseon_finance",
+      "discord": "",
+      "telegram": "",
+      "github": "https://github.com/Fuseon-finance"
+    },
+    "reference": [
+      "fuseon_finance"
     ]
   },
   {
@@ -930,7 +977,9 @@
       "hyperbeat_lsthype",
       "hbbtc_ubtc",
       "hbhype_hype",
-      "hbusdt"
+      "hbusdt",
+      "hyperbeat_dnhype",
+      "hyperbeat_dnpump"
     ]
   },
   {
@@ -1069,7 +1118,9 @@
       "github": ""
     },
     "reference": [
-      "hyperwave"
+      "hyperwave",
+      "hyperwave_hwhype",
+      "hyperwave_hwusd"
     ]
   },
   {
@@ -1118,6 +1169,29 @@
     },
     "reference": [
       "integral"
+    ]
+  },
+  {
+    "identifier": "ionex",
+    "name": "Ionex",
+    "description": "Trade USDT with zero gas fees on Plasma. Unified spot and perps, deep liquidity, and institutional-grade execution, built for stablecoins",
+    "icon": "/protocol/ionex.png",
+    "chains": [
+      "plasma"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://www.ionex.trade/",
+    "docs": "https://docs.ionex.trade/",
+    "socials": {
+      "twitter": "https://x.com/IonexTrade",
+      "discord": "https://discord.com/invite/QzWsSXT4JW",
+      "telegram": "https://t.me/IonexTrade",
+      "github": ""
+    },
+    "reference": [
+      "ionex_v2"
     ]
   },
   {
@@ -1339,6 +1413,29 @@
     "reference": [
       "lido_steth_weth",
       "lido_steth_wsteth"
+    ]
+  },
+  {
+    "identifier": "lithos",
+    "name": "Lithos",
+    "description": "Lithos is a 3,3 DEX designed to serve as the central liquidity layer for Plasma, providing traders, liquidity providers and governance participants with a sustainable platform that grows alongside the ecosystem",
+    "icon": "/protocol/lithos.png",
+    "chains": [
+      "plasma"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://lithos.to/",
+    "docs": "https://docs.lithos.to/",
+    "socials": {
+      "twitter": "https://x.com/lithos_to",
+      "discord": "https://discord.com/invite/lithos",
+      "telegram": "https://t.me/lithos_official",
+      "github": "https://github.com/LithosDex"
+    },
+    "reference": [
+      "lithos_v2"
     ]
   },
   {
@@ -2046,7 +2143,8 @@
     },
     "reference": [
       "uniswap_v2",
-      "uniswap_v3"
+      "uniswap_v3",
+      "uniswap_v4"
     ]
   },
   {
