@@ -30,7 +30,8 @@
       "aave_v3",
       "gho_stkgho",
       "gho_usdc",
-      "gho_usdt"
+      "gho_usdt",
+      "aave_wrap"
     ]
   },
   {
@@ -710,7 +711,8 @@
     "description": "Euler Finance is a DeFi lending protocol for permissionless lending and borrowing of crypto assets with smaller markets",
     "icon": "/protocol/euler_finance.png",
     "chains": [
-      "ethereum"
+      "ethereum",
+      "plasma"
     ],
     "category": [
       "LENDING"
@@ -724,7 +726,8 @@
       "github": "https://github.com/euler-xyz"
     },
     "reference": [
-      "euler_v2"
+      "euler_v2",
+      "euler_swap"
     ]
   },
   {
@@ -752,6 +755,29 @@
       "frxeth_eth",
       "sfrax_frax",
       "sfrxeth_frxeth"
+    ]
+  },
+  {
+    "identifier": "funnel",
+    "name": "Funnel",
+    "description": "Funnel Markets is a decentralized exchange built for the HyperEVM ecosystem, offering fast token discovery, onchain analytics and trading across all HyperEVM based DEXs and launchpads with a unified terminal for traders to analyze token health and execute trades efficiently",
+    "icon": "/protocol/funnel.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://funnel.markets/",
+    "docs": "https://docs.funnel.markets/",
+    "socials": {
+      "twitter": "https://x.com/funnel_markets",
+      "discord": "https://discord.com/invite/RvSFFfUdvX",
+      "telegram": "https://t.me/funnelmarkets",
+      "github": ""
+    },
+    "reference": [
+      "funnel"
     ]
   },
   {
@@ -908,6 +934,29 @@
     ]
   },
   {
+    "identifier": "hx_finance",
+    "name": "HX Finance (HyperExchange)",
+    "description": "HX Finance (HyperExchange) is a next generation decentralized exchange built on HyperEVM, offering efficient token swaps, dynamic fees and concentrated liquidity",
+    "icon": "/protocol/hx_finance.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://app.hx.finance/",
+    "docs": "https://docs.hx.finance/",
+    "socials": {
+      "twitter": "https://x.com/hx_finance",
+      "discord": "https://discord.com/invite/hV54GbXm",
+      "telegram": "",
+      "github": "https://github.com/hxfinance"
+    },
+    "reference": [
+      "hx_finance"
+    ]
+  },
+  {
     "identifier": "honeyswap",
     "name": "HoneySwap",
     "description": "A decentralized exchange that enables users to experience fast and secure transactions with incredibly low fees (fork of Uniswap-V2 adapted to fit for the xDai Chain and the 1hive ecosystem)",
@@ -952,7 +1001,8 @@
     },
     "reference": [
       "hybra_finance_v2",
-      "hybra_finance_v3"
+      "hybra_finance_v3",
+      "hybra_finance_v4"
     ]
   },
   {
@@ -1204,6 +1254,7 @@
       "blast",
       "base",
       "linea",
+      "plasma",
       "ethereum",
       "optimism",
       "scroll"
@@ -1221,6 +1272,7 @@
       "github": "https://github.com/Kelp-DAO"
     },
     "reference": [
+      "kelp",
       "kelp_wrseth_eth",
       "kelp_rseth_eth"
     ]
@@ -2113,6 +2165,52 @@
     ]
   },
   {
+    "identifier": "trillionswap",
+    "name": "TrillionSwap",
+    "description": "TrillionSwap is a decentralized exchange (DEX) built on the Plasma Mainnet, enabling fast and low-fee token swaps within the Plasma ecosystem",
+    "icon": "/protocol/trillionswap.png",
+    "chains": [
+      "plasma"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://www.trillionswap.com",
+    "docs": "https://www.trillionswap.com",
+    "socials": {
+      "twitter": "https://x.com/trillionswap",
+      "discord": "https://discord.com/invite/77pt8hJrVX",
+      "telegram": "https://t.me/trillionswap",
+      "github": ""
+    },
+    "reference": [
+      "trillionswap_v2"
+    ]
+  },
+  {
+    "identifier": "ultrasolid",
+    "name": "UltraSolid",
+    "description": "UltraSolid is a cross chain DeFi platform that connects HyperEVM and Core, offering seamless trading and yield opportunities with a top tier user experience. It serves as a gateway for decentralized finance within the Hyperliquid ecosystem",
+    "icon": "/protocol/ultrasolid.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://ultrasolid.xyz/",
+    "docs": "https://ultrasolid.notion.site/",
+    "socials": {
+      "twitter": "https://x.com/ultrasolid_hl",
+      "discord": "https://discord.com/invite/77pt8hJrVX",
+      "telegram": "",
+      "github": ""
+    },
+    "reference": [
+      "ultrasolid"
+    ]
+  },
+  {
     "identifier": "uniswap",
     "name": "Uniswap",
     "description": "The largest onchain marketplace. Buy and sell crypto on Ethereum and 11+ other chains",
@@ -2145,6 +2243,29 @@
       "uniswap_v2",
       "uniswap_v3",
       "uniswap_v4"
+    ]
+  },
+  {
+    "identifier": "upheaval",
+    "name": "Upheaval",
+    "description": "Upheaval DEX is a decentralized exchange built on HyperEVM, designed to become the launchpad, liquidity hub, and gateway for the Hyperliquid ecosystem",
+    "icon": "/protocol/upheaval.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [
+      "DEX"
+    ],
+    "website": "https://upheaval.fi/",
+    "docs": "https://docs.upheaval.fi/",
+    "socials": {
+      "twitter": "https://x.com/Upheavalfi",
+      "discord": "https://discord.com/invite/77pt8hJrVX",
+      "telegram": "https://t.me/upheavalgrp",
+      "github": ""
+    },
+    "reference": [
+      "upheaval"
     ]
   },
   {
