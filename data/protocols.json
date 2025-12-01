@@ -1719,6 +1719,30 @@
     ]
   },
   {
+    "identifier": "nest",
+    "name": "Nest",
+    "description": "Nest is the MetaDEX on HyperEVM that transforms trading fees into amplified $HYPE exposure through an innovative dual rewards system.",
+    "icon": "/protocol/nest.png",
+    "chains": [
+      "hyperevm"
+    ],
+    "category": [
+      "DEX"
+    ],  
+    "website": "",
+    "docs": "https://docs.usenest.xyz/",
+    "socials": {
+      "twitter": "https://x.com/NestExchange",
+      "discord": "https://discord.gg/nestexchange",
+      "telegram": "https://t.me/NestExchangeHL",
+      "github": ""
+    },
+    "reference": [
+      "nest_exchange_v2",
+      "nest_exchange_v3"
+    ]
+  },
+  {
     "identifier": "origin_protocol",
     "name": "Origin Protocol",
     "description": "Origin Protocol is a decentralized finance (DeFi) platform designed to expand economic opportunities through a suite of financial products. These products work together seamlessly, utilizing permissionless and composable smart contracts to deliver an enhanced user experience across multiple blockchain networks",
