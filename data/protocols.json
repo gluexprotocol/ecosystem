@@ -2047,7 +2047,7 @@
     "description": "Rumour.app provides a dedicated space to share the unhinged, speculative alpha that actually moves crypto markets. It empowers an anonymous community to share, vote on, and track the validity of rumors, to collectively gauge market sentiment.",
     "icon": "/protocol/rumour.png",
     "chains": [
-      "Hyperliquid"
+      "hyperevm"
     ],
     "category": [
       "INFOFI"
