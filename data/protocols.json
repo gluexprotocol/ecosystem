@@ -2042,6 +2042,27 @@
     ]
   },
   {
+    "identifier": "rumour",
+    "name": "Rumour",
+    "description": "Rumour.app provides a dedicated space to share the unhinged, speculative alpha that actually moves crypto markets. It empowers an anonymous community to share, vote on, and track the validity of rumors, to collectively gauge market sentiment.",
+    "icon": "/protocol/rumour.png",
+    "chains": [
+      "Hyperliquid"
+    ],
+    "category": [
+      "INFOFI"
+    ],
+    "website": "https://www.rumour.app/rumours",
+    "docs": "https://docs.rumour.app/",
+    "socials": {
+      "twitter": "https://x.com/trade_rumour",
+      "telegram": "https://t.me/trade_rumour"
+    },
+    "reference": [
+      ""
+    ]
+  },
+  {
     "identifier": "shadow",
     "name": "Shadow",
     "description": "A concentrated liquidity layer built on Sonic, powered by x(3,3)—a more fluid and accessible exchange model",
